@@ -16,7 +16,7 @@
 <meta property="og:site_name" content="辉章的个人博客">
 <meta property="og:description" content="Hexo博客多台电脑设备同步管理环境配置相关环境  安装Node.js 安装git 安装hexo  创建分支hexo生成的静态博客文件都是上传到GitHub上的, 且默认放在master分支上, 而一些相关的配置文件都在本地  hexo的源文件（部署环境文件）可以都放在hexo分支上（可以新创建一个hexo分支），换新电脑时，直接git clone hexo分支">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2019-02-22T13:07:35.938Z">
+<meta property="og:updated_time" content="2019-02-22T13:22:26.869Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Hexo博客多台电脑设备同步管理">
 <meta name="twitter:description" content="Hexo博客多台电脑设备同步管理环境配置相关环境  安装Node.js 安装git 安装hexo  创建分支hexo生成的静态博客文件都是上传到GitHub上的, 且默认放在master分支上, 而一些相关的配置文件都在本地  hexo的源文件（部署环境文件）可以都放在hexo分支上（可以新创建一个hexo分支），换新电脑时，直接git clone hexo分支">
@@ -196,15 +196,20 @@
 <li><p>克隆hexo分支(创建博客是的电脑平台)</p>
 <ul>
 <li>将上述新建的hexo分支克隆到本地, 在终端中cd进入该username.github.io文件目录</li>
-<li>在当前目录使用Git Bash执行git branch命令查看当前所在分支，应为新建的分支hexo</li>
-<li>如果用Sourcetree软件管理代码的话, 克隆到本地的项目可能没有username.github.io层级, 所有文件都在根目录下, 操作上都不影响, 只需要记住操作要在文件的根目录下即可</li>
+<li><p>在当前目录使用Git Bash执行git branch命令查看当前所在分支，应为新建的分支hexo</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git branch</span><br><span class="line">*hexo</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>如果用Sourcetree软件管理代码的话, 克隆到本地的项目可能没有username.github.io层级, 所有文件都在根目录下, 操作上都不影响, 只需要记住操作要在文件的根目录下即可</p>
+</li>
+</ul>
+</li>
+<li>上传部署文件<ul>
+<li>先将本地博客的部署文件（Hexo目录下的全部文件）全部拷贝进username.github.io文件目录中去</li>
+<li>然后安装要用到的一些插件, 有的可能不需要, 但都安装了貌似没有任何影响</li>
 </ul>
 </li>
 </ul>
-<p>objc$ git branch*hexo复制代码3-2. 上传部署文件</p>
-<pre><code>* 先将本地博客的部署文件（Hexo目录下的全部文件）全部拷贝进username.github.io文件目录中去
-* 然后安装要用到的一些插件, 有的可能不需要, 但都安装了貌似没有任何影响
-</code></pre><blockquote>
+<blockquote>
 <p>npm install hexo-generator-index –save<br>npm install hexo-generator-archive –save<br>npm install hexo-generator-category –save<br>npm install hexo-generator-tag –save<br>npm install hexo-server –save<br>npm install hexo-deployer-git –save<br>npm install hexo-deployer-heroku –save<br>npm install hexo-deployer-rsync –save<br>npm install hexo-deployer-openshift –save<br>npm install <a href="mailto:hexo-renderer-marked@0.2" target="_blank" rel="noopener">hexo-renderer-marked@0.2</a> –save<br>npm install <a href="mailto:hexo-renderer-stylus@0.2" target="_blank" rel="noopener">hexo-renderer-stylus@0.2</a> –save<br>npm install hexo-generator-feed@1 –save<br>npm install hexo-generator-sitemap@1 –save<br>npm install hexo-generator-search –save<br>npm install hexo-generator-searchdb –save复制代码</p>
 </blockquote>
 <ul>
