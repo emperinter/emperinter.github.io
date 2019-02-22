@@ -1,6 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[关于博客无法被收录的问题]]></title>
+    <url>%2F2019%2F02%2F23%2F%E5%85%B3%E4%BA%8E%E5%8D%9A%E5%AE%A2%E6%97%A0%E6%B3%95%E8%A2%AB%E6%94%B6%E5%BD%95%E7%9A%84%E9%97%AE%E9%A2%98%2F</url>
+    <content type="text"><![CDATA[缘由：我建立博客不久后发现在百度和谷歌并不能搜到我的博客，甚至是输入网站都无法搜索到，最后查阅了相关资料发现要自己主动提交链接给百度和google; 百度：1.进入百度搜索资源平台，登录自己的百度帐号;2.依次点击链接-&gt;网站支持-&gt;链接提交;3.按说明操作即可 注：1.我不是很了解具体过程，我当时是手动提交，要下载文件然后传到网页服务器根目录&lt;我不清楚怎么上传，就按下载文件的名字和内容自己Vim了一个&gt;2.在站长工具里面能抓取，但在百度上搜索不到;可能是未填备案，也可能是博客帖子数量和质量不行而未被收录;我在弄博客很久以后会在试试的; Google1.进入Google Search Console;2.输入网站;3.下载文件;4.自己在服务器端个人主网页根目录按下载文件名称和内容建立文件即可;5.建立好后点击验证即可在一段时间后被Google收录; 注：1,收录后搜自己网站有显示;2,seo可以优化搜索;3,还是内容为王，没有好的文章都是白说;最后希望大家能从中收获到一点东西！]]></content>
+      <categories>
+        <category>IT</category>
+      </categories>
+  </entry>
+  <entry>
+    <title><![CDATA[让wordpress支持markdown]]></title>
+    <url>%2F2019%2F02%2F23%2F%E8%AE%A9wordpress%E6%94%AF%E6%8C%81markdown%2F</url>
+    <content type="text"><![CDATA[缘由几天前，我朋友看了我的博客说道，你的代码在博客里面排版一点也不美观，也不能高亮，于是向我推荐了markdown，我搜了相关与markdown和代码高亮的资料，并不断尝试找到了以下方法。 方法使用插件(可直接在插件里面搜到) Disable Gutenberg插件wordpress5.0（5.0一下版本未测试过）需要禁用原版编辑器，否则会在代码框中出现 乱码 的问题（比如在C++文件中会把 &lt;&lt; 转换掉 ) WP Editor.mdmarkdown编辑器插件，我使用这几天感觉还不错！ 使用体验 可实时在编辑框右侧看到文章的排版布局; 效率极高这得益于markdown的语法，不过让人头疼的是要背一些语法，不过很简单！语法学习一个网站语法学习一个博客 注重文章本身的书写不用去按鼠标即可操作。可以随时随地完成文章的书写和排版，排版只要在文章中插入语法即可。比如我在记事本里面写好这个，复制粘帖到编辑器里面，然后检查是否有排版写错了的地方，即可发表; 功能强大按语法可以在文章中甘特图，流程图，表格等等:123456graph TDA[NO.1]--&gt;B(No.2)B --&gt; C&#123;think&#125;C --&gt;|是| C1[No.3]C --&gt;|否| C2[No.4]C --&gt;|随机|D[No.4] 序号 Value Qty 1 PDF阅读器 正版 2 有道云笔记 正版 3 百度网盘 正版 4 MS office 盗版 可全屏编辑文章 支持代码高亮我的文章示例应该还可以加入什么代码高亮插件支持copy，之前有过，后来不小心删了就搞忘了 可使用tab键程序员常用 添加图片方便插入图片只要网址即可，比如google一个图片,按格式 ![图片地址] 即可; 建议注册一个 cloudinary 来存放自己的图片后，获取地址来添加的blog（可优化主机内存，加快访问速度）;示例如下： 更多功能和体验欢迎大家继续去探索和发现，如有什么值得高兴的欢迎和我交流！]]></content>
+      <categories>
+        <category>IT</category>
+      </categories>
+      <tags>
+        <tag>wordpress</tag>
+        <tag>markdown</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Git]]></title>
+    <url>%2F2019%2F02%2F23%2FGit%2F</url>
+    <content type="text"><![CDATA[我学习参考了一下网站：Git教程 | 廖雪峰的官方网站Git教材 | 菜鸟教程Key配置 | CSDNYOUTUBE | 学习视频教程 下载安装(ubuntu下）我使用的环境是Ubuntu 18.04，其他系统上问题和流程应该类似 可以参照 Git安装配置|菜鸟教程 apt-get install libcurl4-gnutls-dev libexpat1-dev gettext \libz-dev libssl-dev apt-get install git git –versiongit version 1.8.1.2 设置Git的user name和email：(如果是第一次的话) git config –global user.name “你的Github用户名” git config –global user.email “你的Github注册邮箱” 查看个人信息设置 git config –list Git Key配置（我几天都卡在这里了) 参照:GIt KEY 配置 检查是否已经有SSH Key.* cd~/.ssh接着输入ls， ls列出该文件下的文件，看是否存在 id_isa 和 id_isa.pub 文件（也可以是别的文件名，只要 yourName 和 yourName.pub 承兑存在），如果存在的话，证明已经存在 ssh key了，可以直接跳过生成密钥这一步骤， 生成密钥 ssh-keygen -t rsa -C “你的Github邮箱” 连续3个回车。如果不需要密码的话。 最后得到了两个文件：id_rsa和id_rsa.pub。添加密钥到ssh-agent确保 ssh-agent 是可用的。ssh-agent是一种控制用来保存公钥身份验证所使用的私钥的程序，其实ssh-agent就是一个密钥管理器，运行ssh-agent以后，使用ssh-add将私钥交给ssh-agent保管，其他程序需要身份验证的时候可以将验证申请交给ssh-agent来完成整个认证过程。 12#start the ssh-agent in the backgroundeval "$(ssh-agent -s)" 添加生成的 SSH key 到 ssh-agent。 ssh-add ~/.ssh/id_rsa 登陆Github, 添加 ssh打开个人主页 点击个人头像 点击Settings 点击SSH and GPG keys 点击new SSH keys 把id_rsa.pub文件里的内容复制到key里面去（Title 随便填） 测试： ssh -T git@github.com 你将会看到： Hi 你的Github用户名! You’ve successfully authenticated,but GitHub does not provide shell access. Git 管理远程仓库上传本地仓库 * 创建文件夹（必须和Github远程仓库同名） * 打开文件夹 * 初始化(会生成一个.git文件夹) git init 创建/修改好自己的文件 添加到暂存区 git add 文件名 添加到本地仓库 git commit -m ‘描述’ 添加远程仓库链接 git remote add origin 远程仓库链接 推送至Github git push -u origin master 克隆远端仓库 git clone 远程仓库链接]]></content>
+      <categories>
+        <category>IT</category>
+      </categories>
+      <tags>
+        <tag>Git</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[Hexo博客多台电脑设备同步管理]]></title>
     <url>%2F2019%2F02%2F22%2FHexo%E5%8D%9A%E5%AE%A2%E5%A4%9A%E5%8F%B0%E7%94%B5%E8%84%91%E8%AE%BE%E5%A4%87%E5%90%8C%E6%AD%A5%E7%AE%A1%E7%90%86%2F</url>
     <content type="text"><![CDATA[环境配置相关环境 安装Node.js 安装git 安装hexo 创建分支hexo生成的静态博客文件都是上传到GitHub上的, 且默认放在master分支上, 而一些相关的配置文件都在本地 hexo的源文件（部署环境文件）可以都放在hexo分支上（可以新创建一个hexo分支），换新电脑时，直接git clone hexo分支 对username.github.io仓库新建hexo分支 在Github的username.github.io仓库上新建一个hexo(分支名字可自定义)分支, 在下图箭头位置输入分支名字,回车即可创建成功 设置默认分支切换到该hexo分支， 并在该仓库-&gt;Settings-&gt;Branches-&gt;Default branch中将默认分支设为hexo，save保存 配置文件上传导Github该步骤需要在搭建博客的电脑上操作(博客配置文件和主题配置文件所在的电脑上操作) 克隆hexo分支(创建博客是的电脑平台) 将上述新建的hexo分支克隆到本地, 在终端中cd进入该username.github.io文件目录 在当前目录使用Git Bash执行git branch命令查看当前所在分支，应为新建的分支hexo 12git branch*hexo 如果用Sourcetree软件管理代码的话, 克隆到本地的项目可能没有username.github.io层级, 所有文件都在根目录下, 操作上都不影响, 只需要记住操作要在文件的根目录下即可 上传部署文件 先将本地博客的部署文件（Hexo目录下的全部文件）全部拷贝进username.github.io文件目录中去 然后安装要用到的一些插件, 有的可能不需要, 但都安装了貌似没有任何影响 npm install hexo-generator-index –savenpm install hexo-generator-archive –savenpm install hexo-generator-category –savenpm install hexo-generator-tag –savenpm install hexo-server –savenpm install hexo-deployer-git –savenpm install hexo-deployer-heroku –savenpm install hexo-deployer-rsync –savenpm install hexo-deployer-openshift –savenpm install hexo-renderer-marked@0.2 –savenpm install hexo-renderer-stylus@0.2 –savenpm install hexo-generator-feed@1 –savenpm install hexo-generator-sitemap@1 –savenpm install hexo-generator-search –savenpm install hexo-generator-searchdb –save复制代码 最后就是讲所有的文件都提交到hexo分支 提交时考虑以下注意事项 将themes目录以内中的主题的.git目录删除（如果有），因为一个git仓库中不能包含另一个git仓库，否则提交主题文件夹会失败 后期需要更新主题时在另一个地方git clone下来该主题的最新版本，然后将内容拷到当前主题目录即可 最后用终端或者管理工具将所有文件提交到hexo分支 master分支和hexo分支各自保存着一个版本，master分支用于保存博客静态资源，提供博客页面供人访问；hexo分支用于备份博客部署文件，供自己维护更新，两者在一个GitHub仓库内也不会有任何冲突 同步到其他电脑* 将新电脑的生成的ssh key添加到GitHub账户上 * 克隆username.github.io库的hexo分支到本地，此时本地git仓库处于hexo分支 * 切换到username.github.io目录，执行npm install(由于仓库有一个.gitignore文件，里面默认是忽略掉node_modules文件夹的，也就是说仓库的hexo分支并没有存储该目录，所以需要install下) 如果node_modules文件没有丢失, 可不执行该操作 * 到这里了就可以开始在自己的电脑上写博客了！ * 需要注意的是每次更新博客之后, 都要把相关修改上传到hexo分支 * 每次换电脑更新博客的时候, 在修改之前最好也要git pull拉取一下最新的更新]]></content>
@@ -21,5 +52,21 @@
       <tags>
         <tag>V2ray</tag>
       </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[对Ubuntu18的调侃]]></title>
+    <url>%2F2018%2F11%2F23%2F%E5%AF%B9Ubuntu18%E7%9A%84%E8%B0%83%E4%BE%83%2F</url>
+    <content type="text"><![CDATA[我已经用了18版本一段时间了，我来说说我不好的感受吧，好的我就不说了。1.安装不合理：我是1T移动硬盘里面分了36G来安装系统，可每次直接从18版本安装都会在最后一步提示/target………读写错误，无法安装。弄得我只有从16.04版本升级到18。升级可慢了。原谅我电脑不强的配置和辣鸡网速。2.总是卡住，运行不了任何程序。不清楚是哪里出了错误。前几天用着用着就直接黑屏进入类似命令行的窗口进行某种活动，有显示说什么什么／sdb6/………错误。3.两次无缘无故的开机后进不去系统:A.第一次显示什么加载错误，我感觉是之前一次系统提示什么的驱动升级搞挂了;B.第二次是玩DOTA时卡住了，强制关机后直接开不了机，显示什么utlma什么玩意的;让输入help，输入后输出什么硬盘错误之类的就没反应了。进不了recovery模式。 最后建议：18如果适合那些喜欢新鲜的人玩玩吧！如果追求稳定性还是算了，刚出来bug太多。总是要不断更新，经常出错挂机。过一段稳定后再转吧！我还是换回16吧！心酸]]></content>
+      <categories>
+        <category>闲杂</category>
+      </categories>
+  </entry>
+  <entry>
+    <title><![CDATA[Xmind破解]]></title>
+    <url>%2F2018%2F11%2F20%2FXmind%E7%A0%B4%E8%A7%A3%2F</url>
+    <content type="text"><![CDATA[##缘由: Xmind是一款好的思维导图软件,能进行很好的编辑,易于使用的界面,且平台较多(MAC,Windows,Linux,iphone,安卓),且能进行导出pdf等格式;但对于我们用户来说当然还是免费吸引较大了 经过: 1.刚开始使用是在windows平台,具体就不说了,看网站:XMind破解 2.后来基本使用Ubuntu了,用wine可以使用一些windows软件; 3.最近学习要用就想到了windows版本,以前没有相关资料,但不知道怎么配置具体目录而失败! 4.最后呢!找到了教程:教程来源 步骤: 1.去官网下载软件:XMind下载(或我的网盘:Xmind/百度网盘) 2.下载替换脚本XMindCrack 3.下载好最新XMind压缩包之后解压, 再解压XMind_amd64.tar.gz到XMind_amd64目录下.(我的是64bit的系统, 如果是32bit的系统解压到XMind_i386目录即可) 4.修改host:shell下, 输入以修改host: sudo vi /etc/hosts在文本末尾添加: 127.0.0.1 www.xmind.net 5.回到解压后的文件夹的根目录, 运行 ./setup.sh安装好依赖库之后, 再次进入XMind_amd64, 运行XMind. 6.在XMind主界面依次: Help -&gt; License, 复制以下license key即可, 邮箱随便填: 1XAka34A2rVRYJ4XBIU35UZMUEEF64CMMIYZCK2FZZUQNODEKUHGJLFMSLIQMQUCUBXRENLK6NZL37JXP4PZXQFILMQ2RG5R7G4QNDO3PSOEUBOCDRYSSXZGRARV6MGA33TN2AMUBHEL4FXMWYTTJDEINJXUAV4BAYKBDCZQWVF3LWYXSDCXY546U3NBGOI3ZPAP2SO3CSQFNB7VVIY123456789012345]]></content>
+      <categories>
+        <category>IT</category>
+      </categories>
   </entry>
 </search>

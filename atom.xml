@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-02-22T13:58:48.123Z</updated>
+  <updated>2019-02-22T16:38:25.643Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,78 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>关于博客无法被收录的问题</title>
+    <link href="http://yoursite.com/2019/02/23/%E5%85%B3%E4%BA%8E%E5%8D%9A%E5%AE%A2%E6%97%A0%E6%B3%95%E8%A2%AB%E6%94%B6%E5%BD%95%E7%9A%84%E9%97%AE%E9%A2%98/"/>
+    <id>http://yoursite.com/2019/02/23/关于博客无法被收录的问题/</id>
+    <published>2019-02-22T18:39:07.000Z</published>
+    <updated>2019-02-22T16:38:25.643Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="缘由："><a href="#缘由：" class="headerlink" title="缘由："></a>缘由：</h1><p>我建立博客不久后发现在百度和谷歌并不能搜到我的博客，甚至是输入网站都无法搜索到，最后查阅了相关资料发现要自己主动提交链接给百度和google;</p><h2 id="百度："><a href="#百度：" class="headerlink" title="百度："></a>百度：</h2><p>1.进入<a href="https://ziyuan.baidu.com/" target="_blank" rel="noopener">百度搜索资源平台</a>，登录自己的百度帐号;<br>2.依次点击链接-&gt;网站支持-&gt;链接提交;<br>3.按说明操作即可</p><a id="more"></a><p>注：<br>1.我不是很了解具体过程，我当时是手动提交，要下载文件然后传到网页服务器根目录&lt;我不清楚怎么上传，就按下载文件的名字和内容自己Vim了一个&gt;<br>2.在站长工具里面能抓取，但在百度上搜索不到;可能是未填备案，也可能是博客帖子数量和质量不行而未被收录;我在弄博客很久以后会在试试的;</p><h2 id="Google"><a href="#Google" class="headerlink" title="Google"></a>Google</h2><p>1.进入<a href="https://search.google.com/search-console/welcome" target="_blank" rel="noopener">Google Search Console</a>;<br>2.输入网站;<br>3.下载文件;<br>4.自己在服务器端个人主网页根目录按下载文件名称和内容建立文件即可;<br>5.建立好后点击验证即可在一段时间后被Google收录;</p><p>注：<br>1,收录后搜自己网站有显示;<br>2,seo可以优化搜索;<br>3,还是内容为王，没有好的文章都是白说;<br>最后希望大家能从中收获到一点东西！</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;缘由：&quot;&gt;&lt;a href=&quot;#缘由：&quot; class=&quot;headerlink&quot; title=&quot;缘由：&quot;&gt;&lt;/a&gt;缘由：&lt;/h1&gt;&lt;p&gt;我建立博客不久后发现在百度和谷歌并不能搜到我的博客，甚至是输入网站都无法搜索到，最后查阅了相关资料发现要自己主动提交链接给百度和google;&lt;/p&gt;
+&lt;h2 id=&quot;百度：&quot;&gt;&lt;a href=&quot;#百度：&quot; class=&quot;headerlink&quot; title=&quot;百度：&quot;&gt;&lt;/a&gt;百度：&lt;/h2&gt;&lt;p&gt;1.进入&lt;a href=&quot;https://ziyuan.baidu.com/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;百度搜索资源平台&lt;/a&gt;，登录自己的百度帐号;&lt;br&gt;2.依次点击链接-&amp;gt;网站支持-&amp;gt;链接提交;&lt;br&gt;3.按说明操作即可&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="IT" scheme="http://yoursite.com/categories/IT/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>让wordpress支持markdown</title>
+    <link href="http://yoursite.com/2019/02/23/%E8%AE%A9wordpress%E6%94%AF%E6%8C%81markdown/"/>
+    <id>http://yoursite.com/2019/02/23/让wordpress支持markdown/</id>
+    <published>2019-02-22T17:39:07.000Z</published>
+    <updated>2019-02-22T16:39:50.389Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="缘由"><a href="#缘由" class="headerlink" title="缘由"></a>缘由</h1><p>几天前，我朋友看了我的博客说道，你的代码在博客里面排版一点也不美观，也不能高亮，于是向我推荐了markdown，我搜了相关与markdown和代码高亮的资料，并不断尝试找到了以下方法。</p><h1 id="方法"><a href="#方法" class="headerlink" title="方法"></a>方法</h1><h4 id="使用插件-可直接在插件里面搜到"><a href="#使用插件-可直接在插件里面搜到" class="headerlink" title="使用插件(可直接在插件里面搜到)"></a>使用插件(可直接在插件里面搜到)</h4><ul><li><strong>Disable Gutenberg</strong><br>插件wordpress5.0（5.0一下版本未测试过）需要禁用原版编辑器，<strong>否则</strong>会在代码框中出现 <strong>乱码</strong> 的问题（比如在C++文件中会把 &lt;&lt; 转换掉 )</li><li><strong>WP Editor.md</strong><br>markdown编辑器插件，我使用这几天感觉还不错！</li></ul><a id="more"></a><h1 id="使用体验"><a href="#使用体验" class="headerlink" title="使用体验"></a>使用体验</h1><ul><li><strong>可实时在编辑框右侧看到文章的排版布局;</strong><br><img src="https://res.cloudinary.com/dn6fdfasw/image/upload/v1544521834/2018-12-11_17-48-28_%E7%9A%84%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE.png" alt></li><li><strong>效率极高</strong><br>这得益于markdown的语法，不过让人头疼的是要背一些语法，不过很简单！<br><a href="http://xianbai.me/learn-md/article/about/readme.html" target="_blank" rel="noopener">语法学习一个网站</a><br><a href="https://www.jianshu.com/p/45faddb1526d" target="_blank" rel="noopener">语法学习一个博客</a></li><li><strong>注重文章本身的书写</strong><br>不用去按鼠标即可操作。可以随时随地完成文章的书写和排版，排版只要在文章中插入语法即可。比如我在记事本里面写好这个，复制粘帖到编辑器里面，然后检查是否有排版写错了的地方，即可发表;</li><li><strong>功能强大</strong><br>按语法可以在文章中甘特图，流程图，表格等等:<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">graph TD</span><br><span class="line">A[NO.1]--&gt;B(No.2)</span><br><span class="line">B --&gt; C&#123;think&#125;</span><br><span class="line">C --&gt;|是| C1[No.3]</span><br><span class="line">C --&gt;|否| C2[No.4]</span><br><span class="line">C --&gt;|随机|D[No.4]</span><br></pre></td></tr></table></figure></li></ul><table><thead><tr><th>序号</th><th>Value</th><th>Qty</th></tr></thead><tbody><tr><td>1</td><td>PDF阅读器</td><td>正版</td></tr><tr><td>2</td><td>有道云笔记</td><td>正版</td></tr><tr><td>3</td><td>百度网盘</td><td>正版</td></tr><tr><td>4</td><td>MS office</td><td>盗版</td></tr></tbody></table><ul><li><p><strong>可全屏编辑文章</strong></p></li><li><p><strong>支持代码高亮</strong><br><a href="https://emperinter.tk/2018/10/17/%e7%94%a8-c-%e5%92%8c%e6%a0%88%e5%ae%9e%e7%8e%b0%e6%95%b0%e5%88%b6%e8%bd%ac%e6%8d%a2%e5%92%8c%e8%bf%9b%e5%88%b6%e8%bd%ac%e6%8d%a2/" target="_blank" rel="noopener">我的文章示例</a><br><em>应该还可以加入什么代码高亮插件支持copy，之前有过，后来不小心删了就搞忘了</em><br><img src="https://res.cloudinary.com/dn6fdfasw/image/upload/v1544522348/2018-12-11_17-58-41_%E7%9A%84%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE.png" alt></p></li><li><p><strong>可使用tab键</strong><br>程序员常用</p></li><li><p><strong>添加图片方便</strong><br>插入图片只要网址即可，比如google一个图片,按格式 <strong>![图片地址]</strong> 即可;</p></li></ul><p>建议注册一个 <a href="cloudinary">cloudinary</a> 来存放自己的图片后，获取地址来添加的blog（可优化主机内存，加快访问速度）;<br>示例如下：<br><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Tor-logo-2011-flat.svg/1200px-Tor-logo-2011-flat.svg.png" alt></p><h4 id="更多功能和体验欢迎大家继续去探索和发现，如有什么值得高兴的欢迎和我交流！"><a href="#更多功能和体验欢迎大家继续去探索和发现，如有什么值得高兴的欢迎和我交流！" class="headerlink" title="更多功能和体验欢迎大家继续去探索和发现，如有什么值得高兴的欢迎和我交流！"></a>更多功能和体验欢迎大家继续去探索和发现，如有什么值得高兴的欢迎和我交流！</h4>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;缘由&quot;&gt;&lt;a href=&quot;#缘由&quot; class=&quot;headerlink&quot; title=&quot;缘由&quot;&gt;&lt;/a&gt;缘由&lt;/h1&gt;&lt;p&gt;几天前，我朋友看了我的博客说道，你的代码在博客里面排版一点也不美观，也不能高亮，于是向我推荐了markdown，我搜了相关与markdown和代码高亮的资料，并不断尝试找到了以下方法。&lt;/p&gt;
+&lt;h1 id=&quot;方法&quot;&gt;&lt;a href=&quot;#方法&quot; class=&quot;headerlink&quot; title=&quot;方法&quot;&gt;&lt;/a&gt;方法&lt;/h1&gt;&lt;h4 id=&quot;使用插件-可直接在插件里面搜到&quot;&gt;&lt;a href=&quot;#使用插件-可直接在插件里面搜到&quot; class=&quot;headerlink&quot; title=&quot;使用插件(可直接在插件里面搜到)&quot;&gt;&lt;/a&gt;使用插件(可直接在插件里面搜到)&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Disable Gutenberg&lt;/strong&gt;&lt;br&gt;插件wordpress5.0（5.0一下版本未测试过）需要禁用原版编辑器，&lt;strong&gt;否则&lt;/strong&gt;会在代码框中出现 &lt;strong&gt;乱码&lt;/strong&gt; 的问题（比如在C++文件中会把 &amp;lt;&amp;lt; 转换掉 )&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;WP Editor.md&lt;/strong&gt;&lt;br&gt;markdown编辑器插件，我使用这几天感觉还不错！&lt;/li&gt;
+&lt;/ul&gt;
+    
+    </summary>
+    
+      <category term="IT" scheme="http://yoursite.com/categories/IT/"/>
+    
+    
+      <category term="wordpress" scheme="http://yoursite.com/tags/wordpress/"/>
+    
+      <category term="markdown" scheme="http://yoursite.com/tags/markdown/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Git</title>
+    <link href="http://yoursite.com/2019/02/23/Git/"/>
+    <id>http://yoursite.com/2019/02/23/Git/</id>
+    <published>2019-02-22T17:29:06.000Z</published>
+    <updated>2019-02-22T16:53:05.341Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="我学习参考了一下网站："><a href="#我学习参考了一下网站：" class="headerlink" title="我学习参考了一下网站："></a>我学习参考了一下网站：</h2><p><a href="https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000" target="_blank" rel="noopener">Git教程 | 廖雪峰的官方网站</a><br><a href="http://www.runoob.com/git/git-tutorial.html" target="_blank" rel="noopener">Git教材 | 菜鸟教程</a><br><a href="https://blog.csdn.net/gdutxiaoxu/article/details/53573399" target="_blank" rel="noopener">Key配置 | CSDN</a><br><a href="https://youtu.be/9zfQ0gVp6I4" target="_blank" rel="noopener">YOUTUBE | 学习视频教程</a></p><h2 id="下载安装-ubuntu下）"><a href="#下载安装-ubuntu下）" class="headerlink" title="下载安装(ubuntu下）"></a>下载安装(ubuntu下）</h2><p>我使用的环境是Ubuntu 18.04，其他系统上问题和流程应该类似 可以参照  Git安装配置|菜鸟教程</p><a id="more"></a><blockquote><p>apt-get install libcurl4-gnutls-dev libexpat1-dev gettext \libz-dev libssl-dev</p></blockquote><blockquote><p>apt-get install git</p></blockquote><blockquote><p>git –version<br>git version 1.8.1.2</p></blockquote><h2 id="设置Git的user-name和email：-如果是第一次的话"><a href="#设置Git的user-name和email：-如果是第一次的话" class="headerlink" title="设置Git的user name和email：(如果是第一次的话)"></a>设置Git的user name和email：(如果是第一次的话)</h2><blockquote><p>git config –global user.name “你的Github用户名”</p></blockquote><blockquote><p>git config –global user.email “你的Github注册邮箱”</p></blockquote><h2 id="查看个人信息设置"><a href="#查看个人信息设置" class="headerlink" title="查看个人信息设置"></a>查看个人信息设置</h2><blockquote><p>git config –list</p><ul><li>Git Key配置（我几天都卡在这里了)</li></ul></blockquote><p>参照:<a href="https://blog.csdn.net/gdutxiaoxu/article/details/53573399" target="_blank" rel="noopener">GIt KEY 配置</a></p><ul><li>检查是否已经有SSH Key.*</li></ul><blockquote><p>cd~/.ssh<br>接着输入ls，</p></blockquote><blockquote><p>ls<br>列出该文件下的文件，看是否存在 id_isa 和 id_isa.pub 文件（也可以是别的文件名，只要 yourName 和 yourName.pub 承兑存在），如果存在的话，证明已经存在 ssh key了，可以直接跳过生成密钥这一步骤，</p></blockquote><ul><li>生成密钥</li></ul><blockquote><p>ssh-keygen -t rsa -C “你的Github邮箱”</p></blockquote><p>连续3个回车。如果不需要密码的话。 最后得到了两个文件：id_rsa和id_rsa.pub。<br>添加密钥到ssh-agent<br>确保 ssh-agent 是可用的。ssh-agent是一种控制用来保存公钥身份验证所使用的私钥的程序，其实ssh-agent就是一个密钥管理器，运行ssh-agent以后，使用ssh-add将私钥交给ssh-agent保管，其他程序需要身份验证的时候可以将验证申请交给ssh-agent来完成整个认证过程。</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#start the ssh-agent in the background</span></span><br><span class="line"><span class="built_in">eval</span> <span class="string">"<span class="variable">$(ssh-agent -s)</span>"</span></span><br></pre></td></tr></table></figure><p>添加生成的 SSH key 到 ssh-agent。</p><blockquote><p>ssh-add ~/.ssh/id_rsa</p></blockquote><p>登陆Github, 添加 ssh<br>打开个人主页 点击个人头像 点击Settings 点击SSH and GPG keys 点击new SSH keys 把id_rsa.pub文件里的内容复制到key里面去（Title 随便填）</p><p>测试：</p><blockquote><p>ssh -T <a href="mailto:git@github.com" target="_blank" rel="noopener">git@github.com</a></p></blockquote><p>你将会看到：</p><blockquote><p>Hi 你的Github用户名! You’ve successfully authenticated,but GitHub does not provide shell access.</p></blockquote><p>Git 管理远程仓库上传本地仓库</p><pre><code>* </code></pre><p>创建文件夹（必须和Github远程仓库同名）</p><pre><code>* </code></pre><p>打开文件夹</p><pre><code>* </code></pre><ul><li>初始化(会生成一个.git文件夹)</li></ul><blockquote><p>git init</p></blockquote><ul><li>创建/修改好自己的文件</li><li><p>添加到暂存区</p><blockquote><p>git add 文件名</p></blockquote></li><li><p>添加到本地仓库</p></li></ul><blockquote><p>git commit -m ‘描述’</p></blockquote><ul><li>添加远程仓库链接</li></ul><blockquote><p>git remote add origin 远程仓库链接</p></blockquote><ul><li>推送至Github</li></ul><blockquote><p>git push -u origin master</p></blockquote><ul><li>克隆远端仓库</li></ul><blockquote><p>git clone 远程仓库链接</p></blockquote>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;我学习参考了一下网站：&quot;&gt;&lt;a href=&quot;#我学习参考了一下网站：&quot; class=&quot;headerlink&quot; title=&quot;我学习参考了一下网站：&quot;&gt;&lt;/a&gt;我学习参考了一下网站：&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Git教程 | 廖雪峰的官方网站&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;http://www.runoob.com/git/git-tutorial.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Git教材 | 菜鸟教程&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;https://blog.csdn.net/gdutxiaoxu/article/details/53573399&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Key配置 | CSDN&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;https://youtu.be/9zfQ0gVp6I4&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;YOUTUBE | 学习视频教程&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;下载安装-ubuntu下）&quot;&gt;&lt;a href=&quot;#下载安装-ubuntu下）&quot; class=&quot;headerlink&quot; title=&quot;下载安装(ubuntu下）&quot;&gt;&lt;/a&gt;下载安装(ubuntu下）&lt;/h2&gt;&lt;p&gt;我使用的环境是Ubuntu 18.04，其他系统上问题和流程应该类似 可以参照  Git安装配置|菜鸟教程&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="IT" scheme="http://yoursite.com/categories/IT/"/>
+    
+    
+      <category term="Git" scheme="http://yoursite.com/tags/Git/"/>
+    
+  </entry>
   
   <entry>
     <title>Hexo博客多台电脑设备同步管理</title>
@@ -70,6 +142,54 @@
     
     
       <category term="V2ray" scheme="http://yoursite.com/tags/V2ray/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>对Ubuntu18的调侃</title>
+    <link href="http://yoursite.com/2018/11/23/%E5%AF%B9Ubuntu18%E7%9A%84%E8%B0%83%E4%BE%83/"/>
+    <id>http://yoursite.com/2018/11/23/对Ubuntu18的调侃/</id>
+    <published>2018-11-22T23:00:06.000Z</published>
+    <updated>2019-02-22T16:53:38.084Z</updated>
+    
+    <content type="html"><![CDATA[<p>我已经用了18版本一段时间了，我来说说我不好的感受吧，好的我就不说了。<br><strong>1.安装不合理：</strong><br>我是1T移动硬盘里面分了36G来安装系统，可每次直接从18版本安装都会在最后一步提示/target………读写错误，无法安装。弄得我只有从16.04版本升级到18。升级可慢了。原谅我电脑不强的配置和辣鸡网速。<br><strong>2.总是卡住，运行不了任何程序。</strong><br>不清楚是哪里出了错误。前几天用着用着就直接黑屏进入类似命令行的窗口进行某种活动，有显示说什么什么／sdb6/………错误。<br><strong>3.两次无缘无故的开机后进不去系统:</strong><br>A.第一次显示什么加载错误，我感觉是之前一次系统提示什么的驱动升级搞挂了;<br>B.第二次是玩DOTA时卡住了，强制关机后直接开不了机，显示什么utlma什么玩意的;让输入help，输入后输出什么硬盘错误之类的就没反应了。进不了recovery模式。</p><h3 id="最后建议："><a href="#最后建议：" class="headerlink" title="最后建议："></a>最后建议：</h3><p>18如果适合那些喜欢新鲜的人玩玩吧！如果追求稳定性还是算了，刚出来bug太多。总是要不断更新，经常出错挂机。过一段稳定后再转吧！我还是换回16吧！心酸</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;我已经用了18版本一段时间了，我来说说我不好的感受吧，好的我就不说了。&lt;br&gt;&lt;strong&gt;1.安装不合理：&lt;/strong&gt;&lt;br&gt;我是1T移动硬盘里面分了36G来安装系统，可每次直接从18版本安装都会在最后一步提示/target………读写错误，无法安装。弄得我只有从1
+      
+    
+    </summary>
+    
+      <category term="闲杂" scheme="http://yoursite.com/categories/%E9%97%B2%E6%9D%82/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Xmind破解</title>
+    <link href="http://yoursite.com/2018/11/20/Xmind%E7%A0%B4%E8%A7%A3/"/>
+    <id>http://yoursite.com/2018/11/20/Xmind破解/</id>
+    <published>2018-11-19T23:06:06.000Z</published>
+    <updated>2019-02-22T16:36:35.032Z</updated>
+    
+    <content type="html"><![CDATA[<p>##缘由:</p><p>Xmind是一款好的思维导图软件,能进行很好的编辑,易于使用的界面,且平台较多(MAC,Windows,Linux,iphone,安卓),且能进行导出pdf等格式;但对于我们用户来说当然还是免费吸引较大了</p><h3 id="经过"><a href="#经过" class="headerlink" title="经过:"></a>经过:</h3><ul><li>1.刚开始使用是在windows平台,具体就不说了,看网站:<a href="https://github.com/mounui/Xmind/tree/master/XMindCrack" target="_blank" rel="noopener">XMind破解</a></li><li>2.后来基本使用Ubuntu了,用wine可以使用一些windows软件;</li><li>3.最近学习要用就想到了windows版本,以前没有相关资料,但不知道怎么配置具体目录而失败!</li><li>4.最后呢!找到了教程:<a href="https://www.jianshu.com/p/9d93b1754549" target="_blank" rel="noopener">教程来源</a></li></ul><h3 id="步骤"><a href="#步骤" class="headerlink" title="步骤:"></a>步骤:</h3><ul><li>1.去官网下载软件:<a href="https://www.xmind.cn/download/xmind8/" target="_blank" rel="noopener">XMind下载</a>(或我的网盘:<a href="https://pan.baidu.com/s/1PELdBG2dmDUAOEPZw95BbQ" target="_blank" rel="noopener">Xmind/百度网盘</a>)</li><li>2.下载替换脚本<a href="https://pan.baidu.com/s/1uCaAObP2OFyVPymcyZxIIQ" target="_blank" rel="noopener">XMindCrack</a></li><li>3.下载好最新XMind压缩包之后解压, 再解压XMind_amd64.tar.gz到XMind_amd64目录下.(我的是64bit的系统, 如果是32bit的系统解压到XMind_i386目录即可)</li><li>4.修改host:<br>shell下, 输入以修改host:<blockquote><p>sudo vi /etc/hosts<br>在文本末尾添加: 127.0.0.1 <a href="http://www.xmind.net" target="_blank" rel="noopener">www.xmind.net</a></p></blockquote></li><li><p>5.回到解压后的文件夹的根目录, 运行</p><blockquote><p>./setup.sh<br>安装好依赖库之后, 再次进入XMind_amd64, 运行XMind.</p></blockquote></li><li><p>6.在XMind主界面依次: Help -&gt; License, 复制以下license key即可, 邮箱随便填:</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">XAka34A2rVRYJ4XBIU35UZMUEEF64CMMIYZCK2FZZUQNODEKUHGJLFMSLIQMQUCUBXRENLK6NZL37JXP4PZXQFILMQ2RG5R7G4QNDO3PSOEUBOCDRYSSXZGRARV6MGA33TN2AMUBHEL4FXMWYTTJDEINJXUAV4BAYKBDCZQWVF3LWYXSDCXY546U3NBGOI3ZPAP2SO3CSQFNB7VVIY123456789012345</span><br></pre></td></tr></table></figure></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;##缘由:&lt;/p&gt;
+&lt;p&gt;Xmind是一款好的思维导图软件,能进行很好的编辑,易于使用的界面,且平台较多(MAC,Windows,Linux,iphone,安卓),且能进行导出pdf等格式;但对于我们用户来说当然还是免费吸引较大了&lt;/p&gt;
+&lt;h3 id=&quot;经过&quot;&gt;&lt;a hr
+      
+    
+    </summary>
+    
+      <category term="IT" scheme="http://yoursite.com/categories/IT/"/>
+    
     
   </entry>
   
