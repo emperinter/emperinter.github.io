@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-02-22T13:32:09.108Z</updated>
+  <updated>2019-02-22T13:47:03.984Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,37 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hexo博客多台电脑设备同步管理</title>
+    <link href="http://yoursite.com/2019/02/22/Hexo%E5%8D%9A%E5%AE%A2%E5%A4%9A%E5%8F%B0%E7%94%B5%E8%84%91%E8%AE%BE%E5%A4%87%E5%90%8C%E6%AD%A5%E7%AE%A1%E7%90%86/"/>
+    <id>http://yoursite.com/2019/02/22/Hexo博客多台电脑设备同步管理/</id>
+    <published>2019-02-22T13:39:07.000Z</published>
+    <updated>2019-02-22T13:47:03.984Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Hexo博客多台电脑设备同步管理"><a href="#Hexo博客多台电脑设备同步管理" class="headerlink" title="Hexo博客多台电脑设备同步管理"></a>Hexo博客多台电脑设备同步管理</h1><h2 id="环境配置"><a href="#环境配置" class="headerlink" title="环境配置"></a>环境配置</h2><p>相关环境</p><ul><li>安装Node.js</li><li>安装git</li><li>安装hexo</li></ul><h2 id="创建分支"><a href="#创建分支" class="headerlink" title="创建分支"></a>创建分支</h2><pre><code>hexo生成的静态博客文件都是上传到GitHub上的, 且默认放在master分支上, 而一些相关的配置文件都在本地</code></pre><ul><li>hexo的源文件（部署环境文件）可以都放在hexo分支上（可以新创建一个hexo分支），换新电脑时，直接git clone hexo分支</li></ul><a id="more"></a><ul><li>对username.github.io仓库新建hexo分支</li></ul><p>在Github的username.github.io仓库上新建一个hexo(分支名字可自定义)分支, 在下图箭头位置输入分支名字,回车即可创建成功</p><ul><li>设置默认分支切换到该hexo分支，</li></ul><p>并在该仓库-&gt;Settings-&gt;Branches-&gt;Default branch中将默认分支设为hexo，save保存</p><ul><li><p>配置文件上传导Github该步骤需要在搭建博客的电脑上操作(博客配置文件和主题配置文件所在的电脑上操作)</p></li><li><p>克隆hexo分支(创建博客是的电脑平台)</p><ul><li>将上述新建的hexo分支克隆到本地, 在终端中cd进入该username.github.io文件目录</li><li><p>在当前目录使用Git Bash执行git branch命令查看当前所在分支，应为新建的分支hexo</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git branch</span><br><span class="line">*hexo</span><br></pre></td></tr></table></figure></li><li><p>如果用Sourcetree软件管理代码的话, 克隆到本地的项目可能没有username.github.io层级, 所有文件都在根目录下, 操作上都不影响, 只需要记住操作要在文件的根目录下即可</p></li></ul></li><li>上传部署文件<ul><li>先将本地博客的部署文件（Hexo目录下的全部文件）全部拷贝进username.github.io文件目录中去</li><li>然后安装要用到的一些插件, 有的可能不需要, 但都安装了貌似没有任何影响</li></ul></li></ul><blockquote><p>npm install hexo-generator-index –save<br>npm install hexo-generator-archive –save<br>npm install hexo-generator-category –save<br>npm install hexo-generator-tag –save<br>npm install hexo-server –save<br>npm install hexo-deployer-git –save<br>npm install hexo-deployer-heroku –save<br>npm install hexo-deployer-rsync –save<br>npm install hexo-deployer-openshift –save<br>npm install <a href="mailto:hexo-renderer-marked@0.2" target="_blank" rel="noopener">hexo-renderer-marked@0.2</a> –save<br>npm install <a href="mailto:hexo-renderer-stylus@0.2" target="_blank" rel="noopener">hexo-renderer-stylus@0.2</a> –save<br>npm install hexo-generator-feed@1 –save<br>npm install hexo-generator-sitemap@1 –save<br>npm install hexo-generator-search –save<br>npm install hexo-generator-searchdb –save复制代码</p></blockquote><ul><li><p>最后就是讲所有的文件都提交到hexo分支</p></li><li><p>提交时考虑以下注意事项</p><ul><li>将themes目录以内中的主题的.git目录删除（如果有），因为一个git仓库中不能包含另一个git仓库，否则提交主题文件夹会失败</li><li>后期需要更新主题时在另一个地方git clone下来该主题的最新版本，然后将内容拷到当前主题目录即可</li><li>最后用终端或者管理工具将所有文件提交到hexo分支        master分支和hexo分支各自保存着一个版本，master分支用于保存博客静态资源，提供博客页面供人访问；hexo分支用于备份博客部署文件，供自己维护更新，两者在一个GitHub仓库内也不会有任何冲突</li></ul></li></ul><h2 id="同步到其他电脑"><a href="#同步到其他电脑" class="headerlink" title="同步到其他电脑"></a>同步到其他电脑</h2><pre><code>* 将新电脑的生成的ssh key添加到GitHub账户上* 克隆username.github.io库的hexo分支到本地，此时本地git仓库处于hexo分支* 切换到username.github.io目录，执行npm install(由于仓库有一个.gitignore文件，里面默认是忽略掉node_modules文件夹的，也就是说仓库的hexo分支并没有存储该目录，所以需要install下)</code></pre><blockquote><p>如果node_modules文件没有丢失, 可不执行该操作</p></blockquote><pre><code>* 到这里了就可以开始在自己的电脑上写博客了！* 需要注意的是每次更新博客之后, 都要把相关修改上传到hexo分支* 每次换电脑更新博客的时候, 在修改之前最好也要git pull拉取一下最新的更新</code></pre>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;Hexo博客多台电脑设备同步管理&quot;&gt;&lt;a href=&quot;#Hexo博客多台电脑设备同步管理&quot; class=&quot;headerlink&quot; title=&quot;Hexo博客多台电脑设备同步管理&quot;&gt;&lt;/a&gt;Hexo博客多台电脑设备同步管理&lt;/h1&gt;&lt;h2 id=&quot;环境配置&quot;&gt;&lt;a href=&quot;#环境配置&quot; class=&quot;headerlink&quot; title=&quot;环境配置&quot;&gt;&lt;/a&gt;环境配置&lt;/h2&gt;&lt;p&gt;相关环境&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;安装Node.js&lt;/li&gt;
+&lt;li&gt;安装git&lt;/li&gt;
+&lt;li&gt;安装hexo&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;创建分支&quot;&gt;&lt;a href=&quot;#创建分支&quot; class=&quot;headerlink&quot; title=&quot;创建分支&quot;&gt;&lt;/a&gt;创建分支&lt;/h2&gt;&lt;pre&gt;&lt;code&gt;hexo生成的静态博客文件都是上传到GitHub上的, 且默认放在master分支上, 而一些相关的配置文件都在本地
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;hexo的源文件（部署环境文件）可以都放在hexo分支上（可以新创建一个hexo分支），换新电脑时，直接git clone hexo分支&lt;/li&gt;
+&lt;/ul&gt;
+    
+    </summary>
+    
+      <category term="IT" scheme="http://yoursite.com/categories/IT/"/>
+    
+    
+      <category term="hexo" scheme="http://yoursite.com/tags/hexo/"/>
+    
+  </entry>
   
   <entry>
     <title>V2rayy使用教程</title>
