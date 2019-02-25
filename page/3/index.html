@@ -167,6 +167,106 @@
           <div id="js-content" class="content-ll">
             
   
+    <article id="post-WordPress迁移或重装" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2019/01/23/WordPress迁移或重装/">WordPress 迁移/重装</a>
+    </h1>
+  
+
+        
+        <a href="/2019/01/23/WordPress迁移或重装/" class="archive-article-date">
+  	<time datetime="2019-01-22T22:06:06.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-01-23</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2>缘由：</h2>
+
+<p><strong>1.个人php版本过低（5.5）且有听说Wordpress不再支持php7.2以下版本；2.个人安装的是Centos6版本，之前安装一些功能不支持（Eg：V2ray）；</strong></p>
+<h2>工具：</h2>
+
+<ul><br><li>git + GIthub</li><br><li>phpMyAdmin</li><br></ul>
+
+<h2>步骤：</h2>
+
+<p><strong>1.数据库备份下载（phpMyAdmin）</strong><br>登陆个人服务器ip地址，进入phpMyadmin，登陆数据库。把整个数据库备份下来；</p>
+<p><strong>2.网站整个文件夹备份</strong><br>登陆ssh进入vps，用<a href="https://emperinter.tk/?p=124" target="_blank" rel="noopener">git命令行</a>把整个网站文件夹备份到GIthub里面。<br>现在Github私库不要钱了，如果不考虑隐私，倒是一个很好的“云盘”</p>
+        
+          <a class="article-more-a" href="/2019/01/23/WordPress迁移或重装/#more">Reading More >></a>
+        
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">WordPress</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
+      
+	<div class="article-category tagcloud">
+		<i class="icon-book icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="/categories/IT//" class="article-tag-list-link color3">IT</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
+
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+
+              
+
+
+
+
+
+  
     <article id="post-怪诞行为学" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
@@ -545,95 +645,6 @@
 
 
   
-    <article id="post-对Ubuntu18的调侃" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2018/11/23/对Ubuntu18的调侃/">对Ubuntu18的调侃</a>
-    </h1>
-  
-
-        
-        <a href="/2018/11/23/对Ubuntu18的调侃/" class="archive-article-date">
-  	<time datetime="2018-11-22T22:06:06.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-11-23</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>我已经用了18版本一段时间了，我来说说我不好的感受吧，好的我就不说了。<br><strong>1.安装不合理：</strong><br>我是1T移动硬盘里面分了36G来安装系统，可每次直接从18版本安装都会在最后一步提示/target………读写错误，无法安装。弄得我只有从16.04版本升级到18。升级可慢了。原谅我电脑不强的配置和辣鸡网速。<br><strong>2.总是卡住，运行不了任何程序。</strong><br>不清楚是哪里出了错误。前几天用着用着就直接黑屏进入类似命令行的窗口进行某种活动，有显示说什么什么／sdb6/………错误。<br><strong>3.两次无缘无故的开机后进不去系统:</strong><br>A.第一次显示什么加载错误，我感觉是之前一次系统提示什么的驱动升级搞挂了;<br>B.第二次是玩DOTA时卡住了，强制关机后直接开不了机，显示什么utlma什么玩意的;让输入help，输入后输出什么硬盘错误之类的就没反应了。进不了recovery模式。</p>
-<h3 id="最后建议："><a href="#最后建议：" class="headerlink" title="最后建议："></a>最后建议：</h3><p>18如果适合那些喜欢新鲜的人玩玩吧！如果追求稳定性还是算了，刚出来bug太多。总是要不断更新，经常出错挂机。过一段稳定后再转吧！我还是换回16吧！心酸</p>
-
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">调侃</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-      
-	<div class="article-category tagcloud">
-		<i class="icon-book icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="/categories/闲杂//" class="article-tag-list-link color3">闲杂</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-
-              
-
-
-
-
-
-  
   
     <nav id="page-nav">
       <a class="extend prev" rel="prev" href="/page/2/">&laquo; Prev</a><a class="page-number" href="/">1</a><a class="page-number" href="/page/2/">2</a><span class="page-number current">3</span><a class="page-number" href="/page/4/">4</a><a class="extend next" rel="next" href="/page/4/">Next &raquo;</a>
@@ -735,15 +746,15 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color1">V2ray</a>
-              </li>
-             
-              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color5">WordPress</a>
               </li>
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color5">读书笔记</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color1">V2ray</a>
               </li>
              
               <li class="article-tag-list-item">

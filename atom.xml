@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-02-25T08:55:04.246Z</updated>
+  <updated>2019-02-25T13:15:50.955Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>在Github用Cloudflare解解析个人域名</title>
+    <link href="http://yoursite.com/2019/02/25/%E5%9C%A8Github%E7%94%A8Cloudflare%E8%A7%A3%E8%A7%A3%E6%9E%90%E4%B8%AA%E4%BA%BA%E5%9F%9F%E5%90%8D/"/>
+    <id>http://yoursite.com/2019/02/25/在Github用Cloudflare解解析个人域名/</id>
+    <published>2019-02-25T13:00:22.000Z</published>
+    <updated>2019-02-25T13:15:50.955Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="我是GitHub创建了两个分支（master-hexo）"><a href="#我是GitHub创建了两个分支（master-hexo）" class="headerlink" title="我是GitHub创建了两个分支（master/hexo）"></a>我是GitHub创建了两个分支（master/hexo）</h3><ul><li>Steps:<br>1.在有.git的文件夹里面新建一个<strong>CNAME</strong>文件（<em><strong>无后缀</strong></em>），并写入个人申请的个人域名（像我的则为：emperinter一个<strong>CNAME</strong>文件（<em><strong>无后缀</strong></em>），并写入个人申请的个人域名（像我的则为：emperinter.tk）;<br>2.push更新到Github;<br>3.在Github里面的<em>**</em>github.io里面的设置里面找到GitHub Pages，并在Custom domain里面填入你的域名（格式同上）；<br>4.登陆Cloudflare，添加DNS为如下格式(注意修改为自己的域名)：</li></ul><table><thead><tr><th style="text-align:center">Type</th><th style="text-align:center">Name</th><th style="text-align:center">Domain name</th></tr></thead><tbody><tr><td style="text-align:center">CNAME</td><td style="text-align:center">@</td><td style="text-align:center">emperinter.tk </td></tr></tbody></table>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;我是GitHub创建了两个分支（master-hexo）&quot;&gt;&lt;a href=&quot;#我是GitHub创建了两个分支（master-hexo）&quot; class=&quot;headerlink&quot; title=&quot;我是GitHub创建了两个分支（master/hexo）&quot;&gt;&lt;/a&gt;我是
+      
+    
+    </summary>
+    
+      <category term="IT" scheme="http://yoursite.com/categories/IT/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>几种开源博客体验</title>
