@@ -8,13 +8,16 @@
   <link rel="dns-prefetch" href="http://yoursite.com">
   <title>辉章的个人博客</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
+  <meta name="description" content="Thoughts, stories and ideas.">
+<meta property="og:type" content="website">
 <meta property="og:title" content="辉章的个人博客">
 <meta property="og:url" content="http://yoursite.com/index.html">
 <meta property="og:site_name" content="辉章的个人博客">
-<meta property="og:locale" content="default">
+<meta property="og:description" content="Thoughts, stories and ideas.">
+<meta property="og:locale" content="cn">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="辉章的个人博客">
+<meta name="twitter:description" content="Thoughts, stories and ideas.">
   
     <link rel="alternative" href="/atom.xml" title="辉章的个人博客" type="application/atom+xml">
   
@@ -49,11 +52,17 @@
 		  <h1 class="header-author"><a href="/">辉章</a></h1>
 		</hgroup>
 		
+		<p class="header-subtitle">宁静致远</p>
+		
 
 		<nav class="header-menu">
 			<ul>
 			
 				<li><a href="/">主页</a></li>
+	        
+				<li><a href="/categories/IT">It</a></li>
+	        
+				<li><a href="/categories/闲杂">闲杂</a></li>
 	        
 			</ul>
 		</nav>
@@ -105,7 +114,13 @@
 			  <h1 class="header-author js-header-author">辉章</h1>
 			</hgroup>
 			
+			<p class="header-subtitle"><i class="icon icon-quo-left"></i>宁静致远<i class="icon icon-quo-right"></i></p>
 			
+			
+			
+				
+			
+				
 			
 				
 			
@@ -128,10 +143,14 @@
 			</nav>
 
 			<nav class="header-menu js-header-menu">
-				<ul style="width: 50%">
+				<ul style="width: 70%">
 				
 				
-					<li style="width: 100%"><a href="/">主页</a></li>
+					<li style="width: 33.333333333333336%"><a href="/">主页</a></li>
+		        
+					<li style="width: 33.333333333333336%"><a href="/categories/IT">It</a></li>
+		        
+					<li style="width: 33.333333333333336%"><a href="/categories/闲杂">闲杂</a></li>
 		        
 				</ul>
 			</nav>
@@ -148,31 +167,38 @@
           <div id="js-content" class="content-ll">
             
   
-    <article id="post-new-test" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+    <article id="post-几种开源博客体验" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 itemprop="name">
-      <a class="article-title" href="/2019/02/21/new-test/">new test </a>
+      <a class="article-title" href="/2019/02/25/几种开源博客体验/">几种开源博客体验</a>
     </h1>
   
 
         
-        <a href="/2019/02/21/new-test/" class="archive-article-date">
-  	<time datetime="2019-02-21T13:25:22.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-02-21</time>
+        <a href="/2019/02/25/几种开源博客体验/" class="archive-article-date">
+  	<time datetime="2019-02-25T08:23:59.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-02-25</time>
 </a>
         
       </header>
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h2 id="测试"><a href="#测试" class="headerlink" title="测试"></a>测试</h2><blockquote>
-<p>shit</p>
-</blockquote>
-<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">	<span class="built_in">cout</span> &lt;&lt; <span class="string">" Test "</span> &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
+        <h1 id="起因："><a href="#起因：" class="headerlink" title="起因："></a>起因：</h1><p>那天重装WordPress博客系统不久后又出毛病了，那就是无法编辑文章时无法添加标签。这个很苦恼，自己又搞了搞没有弄好，估计是数据库恢复哪里没有调整好，感觉很失望，就想尝试其它几个博客平台：Typecho、Ghost、hexo；</p>
+<p>我来逐个说说我的感受和体验，以下搭建除hexo外都在自己的512M搬瓦工服务器用过几天；个人能力欠缺，请各位勿喷！</p>
+<h2 id="WordPress（应该应该算是目前最强大的）"><a href="#WordPress（应该应该算是目前最强大的）" class="headerlink" title="WordPress（应该应该算是目前最强大的）"></a>WordPress（应该应该算是目前最强大的）</h2><ul>
+<li>插件和主题多（我感觉一定程度上也是缺点，对系统和美化做了太多功夫）；</li>
+<li>后台管理强大，但比较容易卡顿（特别是编辑文章发送时、安装插件时）；</li>
+<li>有客户端；</li>
+<li>可以看到浏览统计等等；</li>
+<li>最近和Google联合搞了一个简版的平台；</li>
+</ul>
+        
+          <a class="article-more-a" href="/2019/02/25/几种开源博客体验/#more">Reading More >></a>
+        
       
 
       
@@ -185,18 +211,25 @@
 		<ul class="article-tag-list">
 			 
         		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">测试</a>
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">体验</a>
         		</li>
       		
 		</ul>
 	</div>
 
       
+	<div class="article-category tagcloud">
+		<i class="icon-book icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="/categories/IT//" class="article-tag-list-link color3">IT</a>
+        		</li>
+      		
+		</ul>
+	</div>
 
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2019/02/21/new-test/">Continue Reading &gt;&gt;&gt; >></a>
-        </p>
+
       
 
       
@@ -232,29 +265,210 @@
 
 
   
-    <article id="post-test" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+    <article id="post-对互联网个人隐私的看法" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 itemprop="name">
-      <a class="article-title" href="/2019/02/21/test/">test</a>
+      <a class="article-title" href="/2019/02/25/对互联网个人隐私的看法/">对互联网个人隐私的看法</a>
     </h1>
   
 
         
-        <a href="/2019/02/21/test/" class="archive-article-date">
-  	<time datetime="2019-02-21T08:50:18.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-02-21</time>
+        <a href="/2019/02/25/对互联网个人隐私的看法/" class="archive-article-date">
+  	<time datetime="2019-02-25T07:42:45.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-02-25</time>
 </a>
         
       </header>
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h1 id="test"><a href="#test" class="headerlink" title="test"></a>test</h1><blockquote>
-<p>shit<br><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span>&lt;</span></span><br></pre></td></tr></table></figure></p>
-</blockquote>
+        <p></p><h1>对互联网个人隐私的思考</h1><br><img src="http://file.elecfans.com/web1/M00/50/44/o4YBAFrxZzWAV7ncAAFzMaJcjjk082.jpg" alt><p></p>
+<h3>起因</h3>
+
+<p>最近周围发生了许多事，基本都是关于我们在互联网的个人隐私和安全而言，各种言论令人浮躁不安；</p>
+<h3>我的思考</h3>
+
+<p><em><strong>勿喷！每个人都有自己的想法，我尊重你的个人观点。欢迎多多交流，说不定我也会对这个问题会多一种全新的理解角度，毕竟我的思维会随着所见所感会不断成长变化，在未来的某一刻推翻所有的价值观都有可能;</strong></em></p>
+        
+          <a class="article-more-a" href="/2019/02/25/对互联网个人隐私的看法/#more">Reading More >></a>
+        
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+      
+	<div class="article-category tagcloud">
+		<i class="icon-book icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="/categories/闲杂//" class="article-tag-list-link color3">闲杂</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
+
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+
+              
+
+
+
+
+
+  
+    <article id="post-指环王影评" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2019/02/25/指环王影评/">指环王影评</a>
+    </h1>
+  
+
+        
+        <a href="/2019/02/25/指环王影评/" class="archive-article-date">
+  	<time datetime="2019-02-25T07:25:09.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-02-25</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1>指环王影评</h1><br><img src="http://5b0988e595225.cdn.sohucs.com/images/20171114/1ef37694ef014d2b9776784e863896ae.jpeg" alt><br><br>共三部，加起来差不多16小时左右<a href="https://www.zxzjs.com/vodsearch/-------------.html?wd=%E6%8C%87%E7%8E%AF%E7%8E%8B&submit=" target="_blank" rel="noopener"> 观看地址 </a><br><br><h1>简介：</h1>
+
+<p>因一个带有恶力量的指环引起的人，精灵，巫师等等和“邪眼”的较量，主线是以一个少年在伙伴的陪伴和一个随时心存不轨的人为线索而展开；</p>
+        
+          <a class="article-more-a" href="/2019/02/25/指环王影评/#more">Reading More >></a>
+        
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">影视观感</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
+      
+	<div class="article-category tagcloud">
+		<i class="icon-book icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="/categories/闲杂//" class="article-tag-list-link color3">闲杂</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
+
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+
+              
+
+
+
+
+
+  
+    <article id="post-QQ空间的注销" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2019/02/25/QQ空间的注销/">QQ空间的注销</a>
+    </h1>
+  
+
+        
+        <a href="/2019/02/25/QQ空间的注销/" class="archive-article-date">
+  	<time datetime="2019-02-25T07:13:54.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-02-25</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2>QQ空间图片批量导出</h2>
+
+<p>下载软件按按操作运行即可<br><a href="https://pan.baidu.com/s/1rVi5JmAihV3iEUshLMA-Hg\" target="_blank" rel="noopener">百度网盘</a> 提取码：ynbe</p>
+<h2>QQ空间的注销</h2>
+
+<p><a href="https://imgcache.qq.com/qzone/web/qzone_submit_close.html" target="_blank" rel="noopener">QQ空间关闭申请地址</a></p>
+<p><img src="https://i.loli.net/2019/01/18/5c40e79cec11f.jpg" alt></p>
 
       
 
@@ -264,11 +478,18 @@
       
       
       
+	<div class="article-category tagcloud">
+		<i class="icon-book icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="/categories/闲杂//" class="article-tag-list-link color3">闲杂</a>
+        		</li>
+      		
+		</ul>
+	</div>
 
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2019/02/21/test/">Continue Reading &gt;&gt;&gt; >></a>
-        </p>
+
       
 
       
@@ -304,6 +525,90 @@
 
 
   
+    <article id="post-关于博客无法被收录的问题" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2019/02/23/关于博客无法被收录的问题/">关于博客无法被收录的问题</a>
+    </h1>
+  
+
+        
+        <a href="/2019/02/23/关于博客无法被收录的问题/" class="archive-article-date">
+  	<time datetime="2019-02-22T18:39:07.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-02-23</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="缘由："><a href="#缘由：" class="headerlink" title="缘由："></a>缘由：</h1><p>我建立博客不久后发现在百度和谷歌并不能搜到我的博客，甚至是输入网站都无法搜索到，最后查阅了相关资料发现要自己主动提交链接给百度和google;</p>
+<h2 id="百度："><a href="#百度：" class="headerlink" title="百度："></a>百度：</h2><p>1.进入<a href="https://ziyuan.baidu.com/" target="_blank" rel="noopener">百度搜索资源平台</a>，登录自己的百度帐号;<br>2.依次点击链接-&gt;网站支持-&gt;链接提交;<br>3.按说明操作即可</p>
+        
+          <a class="article-more-a" href="/2019/02/23/关于博客无法被收录的问题/#more">Reading More >></a>
+        
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+      
+	<div class="article-category tagcloud">
+		<i class="icon-book icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="/categories/IT//" class="article-tag-list-link color3">IT</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
+
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+
+              
+
+
+
+
+
+  
+  
+    <nav id="page-nav">
+      <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="page-number" href="/page/3/">3</a><a class="page-number" href="/page/4/">4</a><a class="extend next" rel="next" href="/page/2/">Next &raquo;</a>
+    </nav>
   
 
 
@@ -317,7 +622,7 @@
     		&copy; 2019 辉章
     	</div>
       	<div class="footer-right">
-      		<a href="http://hexo.io/" target="_blank">Hexo</a>  Theme <a href="https://github.com/litten/hexo-theme-yilia" target="_blank">Yilia</a> by Litten
+			<a target="_blank">Hope you can learn something from here !</a>
       	</div>
     </div>
   </div>
@@ -393,7 +698,43 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
           <ul class="article-tag-list" q-show="showTags">
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">测试</a>
+                <a href="javascript:void(0)" class="js-tag color4">Git</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color5">hexo</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color5">WordPress</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color1">V2ray</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color5">读书笔记</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">体验</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">调侃</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color5">影视观感</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color5">wordpress</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color4">markdown</a>
               </li>
             
             <div class="clearfix"></div>
@@ -444,7 +785,7 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
     
     	<section class="tools-section tools-section-me" q-show="aboutme">
   	  	
-  	  		<div class="aboutme-wrap" id="js-aboutme">&lt;table border=&#34;8&#34;&gt;&lt;tr&gt;&lt;th&gt;姓名&lt;/th&gt;&lt;th&gt;辉章&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;格言&lt;/th&gt;&lt;th&gt;宁静致远&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;爱好&lt;/th&gt;&lt;th&gt;阅读 | 美食 | 慢跑&lt;/th&gt;&lt;/tr&gt;&lt;/table&gt;</div>
+  	  		<div class="aboutme-wrap" id="js-aboutme">&lt;table border=&#34;5&#34;&gt;&lt;tr&gt;&lt;th&gt;姓名&lt;/th&gt;&lt;th&gt;辉章&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;格言&lt;/th&gt;&lt;th&gt;宁静致远&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;爱好&lt;/th&gt;&lt;th&gt;阅读 | 美食 | 慢跑&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;学校&lt;/th&gt;&lt;th&gt;&lt;a href=&#34;http://lntu.edu.cn&#34;&gt;辽宁工程技术大学&lt;/a&gt;&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;联系方式&lt;/th&gt;&lt;th&gt;&lt;a href=&#34;https://twitter.com/emperinter&#34;&gt;Twitter | &lt;/a&gt;&lt;a href=&#34;https://www.facebook.com/profile.php?id=100009385885603&#34;&gt;Facebook | &lt;/a&gt;&lt;a href=&#34;https://t.me/emperinter&#34;&gt;Telegram   &lt;/a&gt;&lt;a href=&#34;https://www.linkedin.com/in/emperinter/&#34;&gt;Linkedin | &lt;/a&gt;&lt;a href=&#34;https://github.com/emperinter&#34;&gt;Github | &lt;/a&gt;&lt;a href=&#34;mailto:hehiuzhang@gmail.com&#34;&gt;Email&lt;/a&gt;&lt;/th&gt;&lt;/table&gt;</div>
   	  	
     	</section>
     

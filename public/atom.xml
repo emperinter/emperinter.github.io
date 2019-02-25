@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>辉章的个人博客</title>
+  
+  <subtitle>宁静致远</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2019-02-25T08:55:04.246Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>辉章</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>几种开源博客体验</title>
+    <link href="http://yoursite.com/2019/02/25/%E5%87%A0%E7%A7%8D%E5%BC%80%E6%BA%90%E5%8D%9A%E5%AE%A2%E4%BD%93%E9%AA%8C/"/>
+    <id>http://yoursite.com/2019/02/25/几种开源博客体验/</id>
+    <published>2019-02-25T08:23:59.000Z</published>
+    <updated>2019-02-25T08:55:04.246Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="起因："><a href="#起因：" class="headerlink" title="起因："></a>起因：</h1><p>那天重装WordPress博客系统不久后又出毛病了，那就是无法编辑文章时无法添加标签。这个很苦恼，自己又搞了搞没有弄好，估计是数据库恢复哪里没有调整好，感觉很失望，就想尝试其它几个博客平台：Typecho、Ghost、hexo；</p><p>我来逐个说说我的感受和体验，以下搭建除hexo外都在自己的512M搬瓦工服务器用过几天；个人能力欠缺，请各位勿喷！</p><h2 id="WordPress（应该应该算是目前最强大的）"><a href="#WordPress（应该应该算是目前最强大的）" class="headerlink" title="WordPress（应该应该算是目前最强大的）"></a>WordPress（应该应该算是目前最强大的）</h2><ul><li>插件和主题多（我感觉一定程度上也是缺点，对系统和美化做了太多功夫）；</li><li>后台管理强大，但比较容易卡顿（特别是编辑文章发送时、安装插件时）；</li><li>有客户端；</li><li>可以看到浏览统计等等；</li><li>最近和Google联合搞了一个简版的平台；</li></ul><a id="more"></a><h2 id="Ghost（号称要取代臃肿的WordPress）"><a href="#Ghost（号称要取代臃肿的WordPress）" class="headerlink" title="Ghost（号称要取代臃肿的WordPress）"></a>Ghost（号称要取代臃肿的WordPress）</h2><ul><li>搭建平台麻烦，我三天才搞明白；</li><li>插件和主题极少，而且安装麻烦：<br>插件是代码嵌入在头/低部；<br>主题要去下载压缩包，然后上传激活，官方大多数要收费；</li><li>原生态支持markdown写法；</li><li>最新版本后台是英文界面；</li><li>支持一键导出/上传数据库；</li><li>集成较低，不过也可以理解，Ghost的初心是让博主专注于博文而非其它东西；</li></ul><h2 id="typecho"><a href="#typecho" class="headerlink" title="typecho"></a>typecho</h2><ul><li>安装方法和Wordpress及其相似；</li><li>插件和主题与Ghost相似；</li><li>书写非markdown；</li></ul><h2 id="hexo"><a href="#hexo" class="headerlink" title="hexo"></a>hexo</h2><ul><li>静态博客；</li><li>原生态支持markdown写法；</li><li>可以才github上部署（免去租机这一费用，不过想把网站添加到cloudflare却失败了）；</li><li>文字直接以markdown语法储存在相应文件夹中即可；</li><li>主题比较多；</li><li>插件看主题对应说明；</li></ul><h1 id="最后"><a href="#最后" class="headerlink" title="最后"></a>最后</h1><p>我现在选择的是hexo，一个是GitHub部署省去一笔费用，而是备份相比动态博客系统简单（Github分支备份开发文件即可）；</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;起因：&quot;&gt;&lt;a href=&quot;#起因：&quot; class=&quot;headerlink&quot; title=&quot;起因：&quot;&gt;&lt;/a&gt;起因：&lt;/h1&gt;&lt;p&gt;那天重装WordPress博客系统不久后又出毛病了，那就是无法编辑文章时无法添加标签。这个很苦恼，自己又搞了搞没有弄好，估计是数据库恢复哪里没有调整好，感觉很失望，就想尝试其它几个博客平台：Typecho、Ghost、hexo；&lt;/p&gt;
+&lt;p&gt;我来逐个说说我的感受和体验，以下搭建除hexo外都在自己的512M搬瓦工服务器用过几天；个人能力欠缺，请各位勿喷！&lt;/p&gt;
+&lt;h2 id=&quot;WordPress（应该应该算是目前最强大的）&quot;&gt;&lt;a href=&quot;#WordPress（应该应该算是目前最强大的）&quot; class=&quot;headerlink&quot; title=&quot;WordPress（应该应该算是目前最强大的）&quot;&gt;&lt;/a&gt;WordPress（应该应该算是目前最强大的）&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;插件和主题多（我感觉一定程度上也是缺点，对系统和美化做了太多功夫）；&lt;/li&gt;
+&lt;li&gt;后台管理强大，但比较容易卡顿（特别是编辑文章发送时、安装插件时）；&lt;/li&gt;
+&lt;li&gt;有客户端；&lt;/li&gt;
+&lt;li&gt;可以看到浏览统计等等；&lt;/li&gt;
+&lt;li&gt;最近和Google联合搞了一个简版的平台；&lt;/li&gt;
+&lt;/ul&gt;
+    
+    </summary>
+    
+      <category term="IT" scheme="http://yoursite.com/categories/IT/"/>
+    
+    
+      <category term="体验" scheme="http://yoursite.com/tags/%E4%BD%93%E9%AA%8C/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>对互联网个人隐私的看法</title>
+    <link href="http://yoursite.com/2019/02/25/%E5%AF%B9%E4%BA%92%E8%81%94%E7%BD%91%E4%B8%AA%E4%BA%BA%E9%9A%90%E7%A7%81%E7%9A%84%E7%9C%8B%E6%B3%95/"/>
+    <id>http://yoursite.com/2019/02/25/对互联网个人隐私的看法/</id>
+    <published>2019-02-25T07:42:45.000Z</published>
+    <updated>2019-02-25T08:20:50.739Z</updated>
+    
+    <content type="html"><![CDATA[<p></p><h1>对互联网个人隐私的思考</h1><br><img src="http://file.elecfans.com/web1/M00/50/44/o4YBAFrxZzWAV7ncAAFzMaJcjjk082.jpg" alt><p></p><h3>起因</h3><p>最近周围发生了许多事，基本都是关于我们在互联网的个人隐私和安全而言，各种言论令人浮躁不安；</p><h3>我的思考</h3><p><em><strong>勿喷！每个人都有自己的想法，我尊重你的个人观点。欢迎多多交流，说不定我也会对这个问题会多一种全新的理解角度，毕竟我的思维会随着所见所感会不断成长变化，在未来的某一刻推翻所有的价值观都有可能;</strong></em></p><a id="more"></a><p><strong>1-这个世界本身就没有绝对的隐私和安全。在某种意义上我们也并不需要这种绝对，反而我们需要牺牲某种所谓的隐私来方便自己的生活；只是说此时此刻我们周围发生着过度搜集个人信息而引发了我们对这种未知行为后果的一种恐慌；</strong></p><p><strong>2-我们要做好个人自我隐私保护。我相信这个世界总有人会为了达成某种目的而对周围的人不+怀好意，这也是无法避免的，人性使然；我们真正要防范的也只是这一部分小人而已；不过按佛家语倒是感觉矛盾：好人要经过九九八十一难才能成佛，而坏人却是“放下屠刀，立地成佛”，这挺闹心的。也许是我对此的理解过于粗浅吧！</strong></p><blockquote><p>推荐大家看一部剧 《黑镜》，反应社会状况的剧。里面有一集也是关于互联网个人隐私的，不过结局挺惨的；</p></blockquote><p><strong>3-我们对自己在互联网的所作所为负责。我感觉这是周围人很少考虑到的一件事，有一部分人心里想的是：我在网上想说什么就说什么，什么杀人越货，什么风花雪夜，随便攻击自己不爽的人（突然想到如果过于私密，我们就无法知道对方是谁了）。我在一定程度上是反对这种行为的，在某种意义上也是让人背后发凉的。这个所谓的“人类小村庄”没有一丝的人性存在，似乎是那么的冷血无情。当让也有那么一部分正义的人；</strong></p><p><strong>4-最好的互联网应该是实名制的，这也是大势所趋；这是白岩松的《白说》里面的一段话。我认为这是一种美好的理想状态，但这种状态我认为是在某种社会背景下存在的，可能是和谐、美丽、安定、民主、富足等等；可是社会就算在怎么平均分配最后都会形成二八法则，我好像是在十点读书这个微信公众号看到的一个规律。也就意味着这是绝对的公平是不存在的；无论怎么说都希望大家能做一个有良知的人，过着温暖纯良的一生；</strong></p><p><strong>5-突然想到高晓松在《晓说》好像是介绍黑人奴隶买卖时说过一句话：“历史的悲剧不断重演，而我们人们从未从中吸取过教训！”</strong></p><p><strong>6-有些东西是否正确短时间是无法判断的，都有可能需要几百年、几千年，甚至是永远也判断不了；就像cookies最初的发明是为了保护用户隐私而设计，但现在作用却恰恰相反；</strong></p><h3>总结</h3><blockquote><p>人是复杂的动物，好与坏都在个人手里；有时候真难以理解我们自身的行为！呵！奇怪的人类！</p></blockquote>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;/p&gt;&lt;h1&gt;对互联网个人隐私的思考&lt;/h1&gt;&lt;br&gt;&lt;img src=&quot;http://file.elecfans.com/web1/M00/50/44/o4YBAFrxZzWAV7ncAAFzMaJcjjk082.jpg&quot; alt&gt;&lt;p&gt;&lt;/p&gt;
+&lt;h3&gt;起因&lt;/h3&gt;
+
+&lt;p&gt;最近周围发生了许多事，基本都是关于我们在互联网的个人隐私和安全而言，各种言论令人浮躁不安；&lt;/p&gt;
+&lt;h3&gt;我的思考&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;勿喷！每个人都有自己的想法，我尊重你的个人观点。欢迎多多交流，说不定我也会对这个问题会多一种全新的理解角度，毕竟我的思维会随着所见所感会不断成长变化，在未来的某一刻推翻所有的价值观都有可能;&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="闲杂" scheme="http://yoursite.com/categories/%E9%97%B2%E6%9D%82/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>指环王影评</title>
+    <link href="http://yoursite.com/2019/02/25/%E6%8C%87%E7%8E%AF%E7%8E%8B%E5%BD%B1%E8%AF%84/"/>
+    <id>http://yoursite.com/2019/02/25/指环王影评/</id>
+    <published>2019-02-25T07:25:09.000Z</published>
+    <updated>2019-02-25T07:41:03.444Z</updated>
+    
+    <content type="html"><![CDATA[<h1>指环王影评</h1><br><img src="http://5b0988e595225.cdn.sohucs.com/images/20171114/1ef37694ef014d2b9776784e863896ae.jpeg" alt><br><br>共三部，加起来差不多16小时左右<a href="https://www.zxzjs.com/vodsearch/-------------.html?wd=%E6%8C%87%E7%8E%AF%E7%8E%8B&submit=" target="_blank" rel="noopener"> 观看地址 </a><br><br><h1>简介：</h1><p>因一个带有恶力量的指环引起的人，精灵，巫师等等和“邪眼”的较量，主线是以一个少年在伙伴的陪伴和一个随时心存不轨的人为线索而展开；</p><a id="more"></a><p></p><h3>指环王1：魔戒再现</h3><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">**简介：**</span><br><span class="line">比尔博•巴金斯是100多岁的哈比人，住在故乡夏尔，生性喜欢冒险，在年轻时的一次探险经历中，他从怪物咕噜手中得到了至尊魔戒，</span><br><span class="line">这枚戒指是黑暗魔君索伦打造的至尊魔戒，拥有奴役世界的邪恶力量，能够统领其他几枚力量之戒，在3000年前的人类联盟和半兽人大军的</span><br><span class="line">战役中，联盟取得了胜利，并得到了至尊魔戒，数千年的辗转后，魔戒落到咕噜手中，被比尔博碰巧得到。因为和魔戒的朝夕相处，比尔博</span><br><span class="line">的心性也受到了影响，在他111岁的生日宴会上，他决定把一切都留给侄子佛罗多(伊莱贾•伍德 饰)，继续冒险。比尔博的好朋友灰袍巫师甘</span><br><span class="line">道夫（伊恩•麦凯伦 饰）知道至尊魔戒的秘密，同时，黑暗魔君索伦已经知道他的魔戒落在哈比族的手中。索伦正在重新建造要塞巴拉多，</span><br><span class="line">集结无数的半兽人，准备以大军 夺取魔戒，并且征服全世界。甘道夫说服佛罗多将魔戒护送到精灵王国瑞文希尔，佛罗多在好朋友山姆、</span><br><span class="line">皮平和梅利的陪同下，在跃马旅店得到了刚铎王子阿拉贡的帮助，历经艰难，终于到达了精灵王国。然而，精灵族并不愿意保管这个邪恶</span><br><span class="line">的至尊魔戒，中土各国代表开会讨论，达成意见，准备将至尊魔戒送到末日山脉的烈焰中彻底销毁，佛罗多挺身而出接受了这个任务，这次</span><br><span class="line">，陪伴他的除了三个好朋友，还有甘道夫、阿拉贡、精灵莱戈拉斯（奥兰多•布鲁姆 饰）、人类博罗米尔、侏儒金利。一路上，魔戒远征军</span><br><span class="line">除了要逃避索伦爪牙黑骑士和半兽人的追杀之外，更要抵抗至尊魔界本身的邪恶诱惑，前途困难重重。</span><br></pre></td></tr></table></figure><p></p><p></p><h3>指环王2：双塔奇兵</h3><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">**简介：**</span><br><span class="line">第二部在延续第一部风格的同时，故事呈现出多线发展的格局，情节有了更高的观赏性。第一部结尾，博罗米尔被强兽人杀死之后</span><br><span class="line">，两个哈比族人皮平和梅利也被强兽人绑架，阿拉贡、精灵莱戈拉斯（奥兰多•布鲁姆 饰）、侏儒金利一路追踪强兽人，营救皮平和梅利，</span><br><span class="line">遇到了“复活”的白袍巫师甘道夫（伊恩•麦凯伦 饰）。此时，投降索伦的白袍巫师萨鲁曼控制了人类洛汉王国的国王，并派出大量的强兽人</span><br><span class="line">军队，准备消灭人类。阿拉贡、莱戈拉斯和金利在甘道夫的带领下，帮助洛汉王国对抗邪恶力量的入侵。  幸运的皮平和梅利被会说话的树</span><br><span class="line">精救了出来，并且遇到“复活”的甘道夫，在甘道夫的授意下，树精保护了两人的安全，并且带他们参加树精大会，大会上，树精们讨论对待</span><br><span class="line">中土大战的态度：是继续当中立者，逆来顺受，还是奋起反抗？身负重任的佛罗多(伊莱贾•伍德 饰)和山姆继续向末日山脉前进，一路上被</span><br><span class="line">咕噜跟踪，弗罗多依靠至尊魔戒的力量，成为了咕噜的主人，在咕噜的带领下，他们到了末日山脉的入口，黑门。就在他们准备进入之时，</span><br><span class="line">博罗米尔的弟弟法莫尔出现，将他们带回了刚铎。弗罗多又遇上了新的危机：法莫尔想利用至尊魔戒的力量对抗萨鲁曼的攻击……</span><br></pre></td></tr></table></figure><p></p><p></p><h3>指环王3：王者无敌</h3><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">**简介：**</span><br><span class="line">魔幻战争逐渐进入高潮阶段。霍比特人弗拉多（伊利亚·伍德 Elijah Wood 饰）携带着魔戒，与伙伴山姆（Sean Astin 饰）以及狡猾</span><br><span class="line">阴暗的咕噜等前往末日山，一路上艰难险阻不断，魔君索伦为阻止魔戒被销毁用尽全力阻挠。另一方面，白袍巫师甘道夫（伊安·麦克莱恩 </span><br><span class="line">Ian McKellen 饰）率中土勇士们镇守刚铎首都——白城米那斯提里斯。魔兽大军压境，黑暗与光明的决战即将来临…… 本片是“指环王三部曲”</span><br><span class="line">的终结篇，根据英国作家J.R.R.托尔金（J.R.R. Tolkien）同名魔幻巨著《指环王》（The Lord of the Rings）改编，并荣获2004年第76届</span><br><span class="line">奥斯卡最佳影片、最佳导演、最佳改编剧本、最佳剪辑、最佳艺术指导、最佳服装设计、最佳化妆、最佳视觉效果、最佳音效、最佳配乐和最</span><br><span class="line">佳歌曲等11项大奖。</span><br></pre></td></tr></table></figure><p></p><h1>个人感觉</h1><li>冲突太少，就基本是单一（正与邪）的冲突存在，内部冲突基本没有；</li><br><li>人物的内心刻画有的地方比较细腻，特别是弗拉多（少年主人公）在与魔戒的冲突时；</li><br><li>人物感情刻画比较感动：<br>&gt; 精灵女和刚铎王子阿拉贡温暖而朴实的爱情；<br>&gt; 精灵王和精灵女的父女情；<br>&gt; 弗拉多和山姆的兄弟患难情；<br>&gt; 阿拉贡和一直陪伴其左右的精灵和矮人的友情；<br></li><br><li>邪眼的轮廓过于抽象；</li><br><li>人性的险恶描写出来了:<br>&gt; 白袍巫师为了自己背叛人类；<br>&gt; 对自然的毁坏（树精）；<br>&gt; 轱辘就是我们生活中一些人的真实写照；<br>&gt; 有些人为了指环王不顾性命；<br></li><br><li>没有恶人像好人转化的例子；</li><br><li>没有看懂这系列片子的内涵主旨是什么(难不成是所有人为了对抗恶势力而从侧面反映人性，感觉不够呀!</li><br><li>感觉没有很愉悦的感觉，有点像史诗似的；</li>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1&gt;指环王影评&lt;/h1&gt;&lt;br&gt;&lt;img src=&quot;http://5b0988e595225.cdn.sohucs.com/images/20171114/1ef37694ef014d2b9776784e863896ae.jpeg&quot; alt&gt;&lt;br&gt;&lt;br&gt;共三部，加起来差不多16小时左右&lt;a href=&quot;https://www.zxzjs.com/vodsearch/-------------.html?wd=%E6%8C%87%E7%8E%AF%E7%8E%8B&amp;submit=&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt; 观看地址 &lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;h1&gt;简介：&lt;/h1&gt;
+
+&lt;p&gt;因一个带有恶力量的指环引起的人，精灵，巫师等等和“邪眼”的较量，主线是以一个少年在伙伴的陪伴和一个随时心存不轨的人为线索而展开；&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="闲杂" scheme="http://yoursite.com/categories/%E9%97%B2%E6%9D%82/"/>
+    
+    
+      <category term="影视观感" scheme="http://yoursite.com/tags/%E5%BD%B1%E8%A7%86%E8%A7%82%E6%84%9F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>QQ空间的注销</title>
+    <link href="http://yoursite.com/2019/02/25/QQ%E7%A9%BA%E9%97%B4%E7%9A%84%E6%B3%A8%E9%94%80/"/>
+    <id>http://yoursite.com/2019/02/25/QQ空间的注销/</id>
+    <published>2019-02-25T07:13:54.000Z</published>
+    <updated>2019-02-25T07:23:46.555Z</updated>
+    
+    <content type="html"><![CDATA[<h2>QQ空间图片批量导出</h2><p>下载软件按按操作运行即可<br><a href="https://pan.baidu.com/s/1rVi5JmAihV3iEUshLMA-Hg\" target="_blank" rel="noopener">百度网盘</a> 提取码：ynbe</p><h2>QQ空间的注销</h2><p><a href="https://imgcache.qq.com/qzone/web/qzone_submit_close.html" target="_blank" rel="noopener">QQ空间关闭申请地址</a></p><p><img src="https://i.loli.net/2019/01/18/5c40e79cec11f.jpg" alt></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2&gt;QQ空间图片批量导出&lt;/h2&gt;
+
+&lt;p&gt;下载软件按按操作运行即可&lt;br&gt;&lt;a href=&quot;https://pan.baidu.com/s/1rVi5JmAihV3iEUshLMA-Hg\&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;百度网盘&lt;/a&gt; 提
+      
+    
+    </summary>
+    
+      <category term="闲杂" scheme="http://yoursite.com/categories/%E9%97%B2%E6%9D%82/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>关于博客无法被收录的问题</title>
+    <link href="http://yoursite.com/2019/02/23/%E5%85%B3%E4%BA%8E%E5%8D%9A%E5%AE%A2%E6%97%A0%E6%B3%95%E8%A2%AB%E6%94%B6%E5%BD%95%E7%9A%84%E9%97%AE%E9%A2%98/"/>
+    <id>http://yoursite.com/2019/02/23/关于博客无法被收录的问题/</id>
+    <published>2019-02-22T18:39:07.000Z</published>
+    <updated>2019-02-22T16:38:25.643Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="缘由："><a href="#缘由：" class="headerlink" title="缘由："></a>缘由：</h1><p>我建立博客不久后发现在百度和谷歌并不能搜到我的博客，甚至是输入网站都无法搜索到，最后查阅了相关资料发现要自己主动提交链接给百度和google;</p><h2 id="百度："><a href="#百度：" class="headerlink" title="百度："></a>百度：</h2><p>1.进入<a href="https://ziyuan.baidu.com/" target="_blank" rel="noopener">百度搜索资源平台</a>，登录自己的百度帐号;<br>2.依次点击链接-&gt;网站支持-&gt;链接提交;<br>3.按说明操作即可</p><a id="more"></a><p>注：<br>1.我不是很了解具体过程，我当时是手动提交，要下载文件然后传到网页服务器根目录&lt;我不清楚怎么上传，就按下载文件的名字和内容自己Vim了一个&gt;<br>2.在站长工具里面能抓取，但在百度上搜索不到;可能是未填备案，也可能是博客帖子数量和质量不行而未被收录;我在弄博客很久以后会在试试的;</p><h2 id="Google"><a href="#Google" class="headerlink" title="Google"></a>Google</h2><p>1.进入<a href="https://search.google.com/search-console/welcome" target="_blank" rel="noopener">Google Search Console</a>;<br>2.输入网站;<br>3.下载文件;<br>4.自己在服务器端个人主网页根目录按下载文件名称和内容建立文件即可;<br>5.建立好后点击验证即可在一段时间后被Google收录;</p><p>注：<br>1,收录后搜自己网站有显示;<br>2,seo可以优化搜索;<br>3,还是内容为王，没有好的文章都是白说;<br>最后希望大家能从中收获到一点东西！</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;缘由：&quot;&gt;&lt;a href=&quot;#缘由：&quot; class=&quot;headerlink&quot; title=&quot;缘由：&quot;&gt;&lt;/a&gt;缘由：&lt;/h1&gt;&lt;p&gt;我建立博客不久后发现在百度和谷歌并不能搜到我的博客，甚至是输入网站都无法搜索到，最后查阅了相关资料发现要自己主动提交链接给百度和google;&lt;/p&gt;
+&lt;h2 id=&quot;百度：&quot;&gt;&lt;a href=&quot;#百度：&quot; class=&quot;headerlink&quot; title=&quot;百度：&quot;&gt;&lt;/a&gt;百度：&lt;/h2&gt;&lt;p&gt;1.进入&lt;a href=&quot;https://ziyuan.baidu.com/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;百度搜索资源平台&lt;/a&gt;，登录自己的百度帐号;&lt;br&gt;2.依次点击链接-&amp;gt;网站支持-&amp;gt;链接提交;&lt;br&gt;3.按说明操作即可&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="IT" scheme="http://yoursite.com/categories/IT/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>让wordpress支持markdown</title>
+    <link href="http://yoursite.com/2019/02/23/%E8%AE%A9wordpress%E6%94%AF%E6%8C%81markdown/"/>
+    <id>http://yoursite.com/2019/02/23/让wordpress支持markdown/</id>
+    <published>2019-02-22T17:39:07.000Z</published>
+    <updated>2019-02-22T16:39:50.389Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="缘由"><a href="#缘由" class="headerlink" title="缘由"></a>缘由</h1><p>几天前，我朋友看了我的博客说道，你的代码在博客里面排版一点也不美观，也不能高亮，于是向我推荐了markdown，我搜了相关与markdown和代码高亮的资料，并不断尝试找到了以下方法。</p><h1 id="方法"><a href="#方法" class="headerlink" title="方法"></a>方法</h1><h4 id="使用插件-可直接在插件里面搜到"><a href="#使用插件-可直接在插件里面搜到" class="headerlink" title="使用插件(可直接在插件里面搜到)"></a>使用插件(可直接在插件里面搜到)</h4><ul><li><strong>Disable Gutenberg</strong><br>插件wordpress5.0（5.0一下版本未测试过）需要禁用原版编辑器，<strong>否则</strong>会在代码框中出现 <strong>乱码</strong> 的问题（比如在C++文件中会把 &lt;&lt; 转换掉 )</li><li><strong>WP Editor.md</strong><br>markdown编辑器插件，我使用这几天感觉还不错！</li></ul><a id="more"></a><h1 id="使用体验"><a href="#使用体验" class="headerlink" title="使用体验"></a>使用体验</h1><ul><li><strong>可实时在编辑框右侧看到文章的排版布局;</strong><br><img src="https://res.cloudinary.com/dn6fdfasw/image/upload/v1544521834/2018-12-11_17-48-28_%E7%9A%84%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE.png" alt></li><li><strong>效率极高</strong><br>这得益于markdown的语法，不过让人头疼的是要背一些语法，不过很简单！<br><a href="http://xianbai.me/learn-md/article/about/readme.html" target="_blank" rel="noopener">语法学习一个网站</a><br><a href="https://www.jianshu.com/p/45faddb1526d" target="_blank" rel="noopener">语法学习一个博客</a></li><li><strong>注重文章本身的书写</strong><br>不用去按鼠标即可操作。可以随时随地完成文章的书写和排版，排版只要在文章中插入语法即可。比如我在记事本里面写好这个，复制粘帖到编辑器里面，然后检查是否有排版写错了的地方，即可发表;</li><li><strong>功能强大</strong><br>按语法可以在文章中甘特图，流程图，表格等等:<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">graph TD</span><br><span class="line">A[NO.1]--&gt;B(No.2)</span><br><span class="line">B --&gt; C&#123;think&#125;</span><br><span class="line">C --&gt;|是| C1[No.3]</span><br><span class="line">C --&gt;|否| C2[No.4]</span><br><span class="line">C --&gt;|随机|D[No.4]</span><br></pre></td></tr></table></figure></li></ul><table><thead><tr><th>序号</th><th>Value</th><th>Qty</th></tr></thead><tbody><tr><td>1</td><td>PDF阅读器</td><td>正版</td></tr><tr><td>2</td><td>有道云笔记</td><td>正版</td></tr><tr><td>3</td><td>百度网盘</td><td>正版</td></tr><tr><td>4</td><td>MS office</td><td>盗版</td></tr></tbody></table><ul><li><p><strong>可全屏编辑文章</strong></p></li><li><p><strong>支持代码高亮</strong><br><a href="https://emperinter.tk/2018/10/17/%e7%94%a8-c-%e5%92%8c%e6%a0%88%e5%ae%9e%e7%8e%b0%e6%95%b0%e5%88%b6%e8%bd%ac%e6%8d%a2%e5%92%8c%e8%bf%9b%e5%88%b6%e8%bd%ac%e6%8d%a2/" target="_blank" rel="noopener">我的文章示例</a><br><em>应该还可以加入什么代码高亮插件支持copy，之前有过，后来不小心删了就搞忘了</em><br><img src="https://res.cloudinary.com/dn6fdfasw/image/upload/v1544522348/2018-12-11_17-58-41_%E7%9A%84%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE.png" alt></p></li><li><p><strong>可使用tab键</strong><br>程序员常用</p></li><li><p><strong>添加图片方便</strong><br>插入图片只要网址即可，比如google一个图片,按格式 <strong>![图片地址]</strong> 即可;</p></li></ul><p>建议注册一个 <a href="cloudinary">cloudinary</a> 来存放自己的图片后，获取地址来添加的blog（可优化主机内存，加快访问速度）;<br>示例如下：<br><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Tor-logo-2011-flat.svg/1200px-Tor-logo-2011-flat.svg.png" alt></p><h4 id="更多功能和体验欢迎大家继续去探索和发现，如有什么值得高兴的欢迎和我交流！"><a href="#更多功能和体验欢迎大家继续去探索和发现，如有什么值得高兴的欢迎和我交流！" class="headerlink" title="更多功能和体验欢迎大家继续去探索和发现，如有什么值得高兴的欢迎和我交流！"></a>更多功能和体验欢迎大家继续去探索和发现，如有什么值得高兴的欢迎和我交流！</h4>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;缘由&quot;&gt;&lt;a href=&quot;#缘由&quot; class=&quot;headerlink&quot; title=&quot;缘由&quot;&gt;&lt;/a&gt;缘由&lt;/h1&gt;&lt;p&gt;几天前，我朋友看了我的博客说道，你的代码在博客里面排版一点也不美观，也不能高亮，于是向我推荐了markdown，我搜了相关与markdown和代码高亮的资料，并不断尝试找到了以下方法。&lt;/p&gt;
+&lt;h1 id=&quot;方法&quot;&gt;&lt;a href=&quot;#方法&quot; class=&quot;headerlink&quot; title=&quot;方法&quot;&gt;&lt;/a&gt;方法&lt;/h1&gt;&lt;h4 id=&quot;使用插件-可直接在插件里面搜到&quot;&gt;&lt;a href=&quot;#使用插件-可直接在插件里面搜到&quot; class=&quot;headerlink&quot; title=&quot;使用插件(可直接在插件里面搜到)&quot;&gt;&lt;/a&gt;使用插件(可直接在插件里面搜到)&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Disable Gutenberg&lt;/strong&gt;&lt;br&gt;插件wordpress5.0（5.0一下版本未测试过）需要禁用原版编辑器，&lt;strong&gt;否则&lt;/strong&gt;会在代码框中出现 &lt;strong&gt;乱码&lt;/strong&gt; 的问题（比如在C++文件中会把 &amp;lt;&amp;lt; 转换掉 )&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;WP Editor.md&lt;/strong&gt;&lt;br&gt;markdown编辑器插件，我使用这几天感觉还不错！&lt;/li&gt;
+&lt;/ul&gt;
+    
+    </summary>
+    
+      <category term="IT" scheme="http://yoursite.com/categories/IT/"/>
+    
+    
+      <category term="wordpress" scheme="http://yoursite.com/tags/wordpress/"/>
+    
+      <category term="markdown" scheme="http://yoursite.com/tags/markdown/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Git</title>
+    <link href="http://yoursite.com/2019/02/23/Git/"/>
+    <id>http://yoursite.com/2019/02/23/Git/</id>
+    <published>2019-02-22T17:29:06.000Z</published>
+    <updated>2019-02-22T16:53:05.341Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="我学习参考了一下网站："><a href="#我学习参考了一下网站：" class="headerlink" title="我学习参考了一下网站："></a>我学习参考了一下网站：</h2><p><a href="https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000" target="_blank" rel="noopener">Git教程 | 廖雪峰的官方网站</a><br><a href="http://www.runoob.com/git/git-tutorial.html" target="_blank" rel="noopener">Git教材 | 菜鸟教程</a><br><a href="https://blog.csdn.net/gdutxiaoxu/article/details/53573399" target="_blank" rel="noopener">Key配置 | CSDN</a><br><a href="https://youtu.be/9zfQ0gVp6I4" target="_blank" rel="noopener">YOUTUBE | 学习视频教程</a></p><h2 id="下载安装-ubuntu下）"><a href="#下载安装-ubuntu下）" class="headerlink" title="下载安装(ubuntu下）"></a>下载安装(ubuntu下）</h2><p>我使用的环境是Ubuntu 18.04，其他系统上问题和流程应该类似 可以参照  Git安装配置|菜鸟教程</p><a id="more"></a><blockquote><p>apt-get install libcurl4-gnutls-dev libexpat1-dev gettext \libz-dev libssl-dev</p></blockquote><blockquote><p>apt-get install git</p></blockquote><blockquote><p>git –version<br>git version 1.8.1.2</p></blockquote><h2 id="设置Git的user-name和email：-如果是第一次的话"><a href="#设置Git的user-name和email：-如果是第一次的话" class="headerlink" title="设置Git的user name和email：(如果是第一次的话)"></a>设置Git的user name和email：(如果是第一次的话)</h2><blockquote><p>git config –global user.name “你的Github用户名”</p></blockquote><blockquote><p>git config –global user.email “你的Github注册邮箱”</p></blockquote><h2 id="查看个人信息设置"><a href="#查看个人信息设置" class="headerlink" title="查看个人信息设置"></a>查看个人信息设置</h2><blockquote><p>git config –list</p><ul><li>Git Key配置（我几天都卡在这里了)</li></ul></blockquote><p>参照:<a href="https://blog.csdn.net/gdutxiaoxu/article/details/53573399" target="_blank" rel="noopener">GIt KEY 配置</a></p><ul><li>检查是否已经有SSH Key.*</li></ul><blockquote><p>cd~/.ssh<br>接着输入ls，</p></blockquote><blockquote><p>ls<br>列出该文件下的文件，看是否存在 id_isa 和 id_isa.pub 文件（也可以是别的文件名，只要 yourName 和 yourName.pub 承兑存在），如果存在的话，证明已经存在 ssh key了，可以直接跳过生成密钥这一步骤，</p></blockquote><ul><li>生成密钥</li></ul><blockquote><p>ssh-keygen -t rsa -C “你的Github邮箱”</p></blockquote><p>连续3个回车。如果不需要密码的话。 最后得到了两个文件：id_rsa和id_rsa.pub。<br>添加密钥到ssh-agent<br>确保 ssh-agent 是可用的。ssh-agent是一种控制用来保存公钥身份验证所使用的私钥的程序，其实ssh-agent就是一个密钥管理器，运行ssh-agent以后，使用ssh-add将私钥交给ssh-agent保管，其他程序需要身份验证的时候可以将验证申请交给ssh-agent来完成整个认证过程。</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#start the ssh-agent in the background</span></span><br><span class="line"><span class="built_in">eval</span> <span class="string">"<span class="variable">$(ssh-agent -s)</span>"</span></span><br></pre></td></tr></table></figure><p>添加生成的 SSH key 到 ssh-agent。</p><blockquote><p>ssh-add ~/.ssh/id_rsa</p></blockquote><p>登陆Github, 添加 ssh<br>打开个人主页 点击个人头像 点击Settings 点击SSH and GPG keys 点击new SSH keys 把id_rsa.pub文件里的内容复制到key里面去（Title 随便填）</p><p>测试：</p><blockquote><p>ssh -T <a href="mailto:git@github.com" target="_blank" rel="noopener">git@github.com</a></p></blockquote><p>你将会看到：</p><blockquote><p>Hi 你的Github用户名! You’ve successfully authenticated,but GitHub does not provide shell access.</p></blockquote><p>Git 管理远程仓库上传本地仓库</p><pre><code>* </code></pre><p>创建文件夹（必须和Github远程仓库同名）</p><pre><code>* </code></pre><p>打开文件夹</p><pre><code>* </code></pre><ul><li>初始化(会生成一个.git文件夹)</li></ul><blockquote><p>git init</p></blockquote><ul><li>创建/修改好自己的文件</li><li><p>添加到暂存区</p><blockquote><p>git add 文件名</p></blockquote></li><li><p>添加到本地仓库</p></li></ul><blockquote><p>git commit -m ‘描述’</p></blockquote><ul><li>添加远程仓库链接</li></ul><blockquote><p>git remote add origin 远程仓库链接</p></blockquote><ul><li>推送至Github</li></ul><blockquote><p>git push -u origin master</p></blockquote><ul><li>克隆远端仓库</li></ul><blockquote><p>git clone 远程仓库链接</p></blockquote>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;我学习参考了一下网站：&quot;&gt;&lt;a href=&quot;#我学习参考了一下网站：&quot; class=&quot;headerlink&quot; title=&quot;我学习参考了一下网站：&quot;&gt;&lt;/a&gt;我学习参考了一下网站：&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Git教程 | 廖雪峰的官方网站&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;http://www.runoob.com/git/git-tutorial.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Git教材 | 菜鸟教程&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;https://blog.csdn.net/gdutxiaoxu/article/details/53573399&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Key配置 | CSDN&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;https://youtu.be/9zfQ0gVp6I4&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;YOUTUBE | 学习视频教程&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;下载安装-ubuntu下）&quot;&gt;&lt;a href=&quot;#下载安装-ubuntu下）&quot; class=&quot;headerlink&quot; title=&quot;下载安装(ubuntu下）&quot;&gt;&lt;/a&gt;下载安装(ubuntu下）&lt;/h2&gt;&lt;p&gt;我使用的环境是Ubuntu 18.04，其他系统上问题和流程应该类似 可以参照  Git安装配置|菜鸟教程&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="IT" scheme="http://yoursite.com/categories/IT/"/>
+    
+    
+      <category term="Git" scheme="http://yoursite.com/tags/Git/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo博客多台电脑设备同步管理</title>
+    <link href="http://yoursite.com/2019/02/22/Hexo%E5%8D%9A%E5%AE%A2%E5%A4%9A%E5%8F%B0%E7%94%B5%E8%84%91%E8%AE%BE%E5%A4%87%E5%90%8C%E6%AD%A5%E7%AE%A1%E7%90%86/"/>
+    <id>http://yoursite.com/2019/02/22/Hexo博客多台电脑设备同步管理/</id>
+    <published>2019-02-22T13:39:07.000Z</published>
+    <updated>2019-02-22T13:58:48.123Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="环境配置"><a href="#环境配置" class="headerlink" title="环境配置"></a>环境配置</h2><p>相关环境</p><ul><li>安装Node.js</li><li>安装git</li><li>安装hexo</li></ul><h2 id="创建分支"><a href="#创建分支" class="headerlink" title="创建分支"></a>创建分支</h2><pre><code>hexo生成的静态博客文件都是上传到GitHub上的, 且默认放在master分支上, 而一些相关的配置文件都在本地</code></pre><ul><li>hexo的源文件（部署环境文件）可以都放在hexo分支上（可以新创建一个hexo分支），换新电脑时，直接git clone hexo分支</li></ul><a id="more"></a><ul><li>对username.github.io仓库新建hexo分支</li></ul><p>在Github的username.github.io仓库上新建一个hexo(分支名字可自定义)分支, 在下图箭头位置输入分支名字,回车即可创建成功</p><ul><li>设置默认分支切换到该hexo分支，</li></ul><p>并在该仓库-&gt;Settings-&gt;Branches-&gt;Default branch中将默认分支设为hexo，save保存</p><ul><li><p>配置文件上传导Github该步骤需要在搭建博客的电脑上操作(博客配置文件和主题配置文件所在的电脑上操作)</p></li><li><p>克隆hexo分支(创建博客是的电脑平台)</p><ul><li>将上述新建的hexo分支克隆到本地, 在终端中cd进入该username.github.io文件目录</li><li><p>在当前目录使用Git Bash执行git branch命令查看当前所在分支，应为新建的分支hexo</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git branch</span><br><span class="line">*hexo</span><br></pre></td></tr></table></figure></li><li><p>如果用Sourcetree软件管理代码的话, 克隆到本地的项目可能没有username.github.io层级, 所有文件都在根目录下, 操作上都不影响, 只需要记住操作要在文件的根目录下即可</p></li></ul></li><li>上传部署文件<ul><li>先将本地博客的部署文件（Hexo目录下的全部文件）全部拷贝进username.github.io文件目录中去</li><li>然后安装要用到的一些插件, 有的可能不需要, 但都安装了貌似没有任何影响</li></ul></li></ul><blockquote><p>npm install hexo-generator-index –save<br>npm install hexo-generator-archive –save<br>npm install hexo-generator-category –save<br>npm install hexo-generator-tag –save<br>npm install hexo-server –save<br>npm install hexo-deployer-git –save<br>npm install hexo-deployer-heroku –save<br>npm install hexo-deployer-rsync –save<br>npm install hexo-deployer-openshift –save<br>npm install <a href="mailto:hexo-renderer-marked@0.2" target="_blank" rel="noopener">hexo-renderer-marked@0.2</a> –save<br>npm install <a href="mailto:hexo-renderer-stylus@0.2" target="_blank" rel="noopener">hexo-renderer-stylus@0.2</a> –save<br>npm install hexo-generator-feed@1 –save<br>npm install hexo-generator-sitemap@1 –save<br>npm install hexo-generator-search –save<br>npm install hexo-generator-searchdb –save复制代码</p></blockquote><ul><li><p>最后就是讲所有的文件都提交到hexo分支</p></li><li><p>提交时考虑以下注意事项</p><ul><li>将themes目录以内中的主题的.git目录删除（如果有），因为一个git仓库中不能包含另一个git仓库，否则提交主题文件夹会失败</li><li>后期需要更新主题时在另一个地方git clone下来该主题的最新版本，然后将内容拷到当前主题目录即可</li><li>最后用终端或者管理工具将所有文件提交到hexo分支        master分支和hexo分支各自保存着一个版本，master分支用于保存博客静态资源，提供博客页面供人访问；hexo分支用于备份博客部署文件，供自己维护更新，两者在一个GitHub仓库内也不会有任何冲突</li></ul></li></ul><h2 id="同步到其他电脑"><a href="#同步到其他电脑" class="headerlink" title="同步到其他电脑"></a>同步到其他电脑</h2><pre><code>* 将新电脑的生成的ssh key添加到GitHub账户上* 克隆username.github.io库的hexo分支到本地，此时本地git仓库处于hexo分支* 切换到username.github.io目录，执行npm install(由于仓库有一个.gitignore文件，里面默认是忽略掉node_modules文件夹的，也就是说仓库的hexo分支并没有存储该目录，所以需要install下)</code></pre><blockquote><p>如果node_modules文件没有丢失, 可不执行该操作</p></blockquote><pre><code>* 到这里了就可以开始在自己的电脑上写博客了！* 需要注意的是每次更新博客之后, 都要把相关修改上传到hexo分支* 每次换电脑更新博客的时候, 在修改之前最好也要git pull拉取一下最新的更新</code></pre>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;环境配置&quot;&gt;&lt;a href=&quot;#环境配置&quot; class=&quot;headerlink&quot; title=&quot;环境配置&quot;&gt;&lt;/a&gt;环境配置&lt;/h2&gt;&lt;p&gt;相关环境&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;安装Node.js&lt;/li&gt;
+&lt;li&gt;安装git&lt;/li&gt;
+&lt;li&gt;安装hexo&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;创建分支&quot;&gt;&lt;a href=&quot;#创建分支&quot; class=&quot;headerlink&quot; title=&quot;创建分支&quot;&gt;&lt;/a&gt;创建分支&lt;/h2&gt;&lt;pre&gt;&lt;code&gt;hexo生成的静态博客文件都是上传到GitHub上的, 且默认放在master分支上, 而一些相关的配置文件都在本地
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;hexo的源文件（部署环境文件）可以都放在hexo分支上（可以新创建一个hexo分支），换新电脑时，直接git clone hexo分支&lt;/li&gt;
+&lt;/ul&gt;
+    
+    </summary>
+    
+      <category term="IT" scheme="http://yoursite.com/categories/IT/"/>
+    
+    
+      <category term="hexo" scheme="http://yoursite.com/tags/hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>V2ray使用教程</title>
+    <link href="http://yoursite.com/2019/02/22/v2ray%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/"/>
+    <id>http://yoursite.com/2019/02/22/v2ray使用教程/</id>
+    <published>2019-02-21T16:06:23.000Z</published>
+    <updated>2019-02-22T13:57:32.786Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="缘由："><a href="#缘由：" class="headerlink" title="缘由："></a>缘由：</h1><p>更换服务器为CentOs7系统以后就开始琢磨以前想尝试的V2ray来翻墙了，结果卡在了配置文件这儿，搜了很多资料感觉很复杂，弄明白一点后就搞了个极简教程！</p><h2 id="V2ray-官网服务器端-客户端-安装"><a href="#V2ray-官网服务器端-客户端-安装" class="headerlink" title="V2ray 官网服务器端/客户端 安装"></a>V2ray 官网服务器端/客户端 安装</h2><p>这个按<a href="https://toutyrater.github.io/prep/install.html" target="_blank" rel="noopener">官网步骤</a>就行了，没什么说的；极简步骤如下：</p><ul><li>查看服务器时间<br>对于 V2Ray，它的验证方式包含时间，就算是配置没有任何问题，如果时间不正确，也无法连接 V2Ray 服务器的，服务器会认为你这是不合法的请求。所以系统时间一定要正确，只要保证时间误差在90秒之内就没问题。</li></ul><a id="more"></a><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">date -R</span><br><span class="line">Sun, 22 Jan 2017 10:10:36 -0500</span><br></pre></td></tr></table></figure><ul><li>校准为东八区(你客户端使用当地时间)</li></ul><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo date --<span class="built_in">set</span>=<span class="string">"2017-01-22 16:16:23"</span></span><br><span class="line">Sun 22 Jan 16:16:23 GMT 2017</span><br></pre></td></tr></table></figure><ul><li>下载安装文件</li></ul><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">wget https://install.direct/go.sh</span><br></pre></td></tr></table></figure><ul><li>安装</li></ul><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo bash go.sh</span><br></pre></td></tr></table></figure><ul><li>启动</li></ul><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo systemctl start v2ray配置文件</span><br></pre></td></tr></table></figure><h3 id="服务器端"><a href="#服务器端" class="headerlink" title="服务器端"></a>服务器端</h3><h4 id="生产一个ID"><a href="#生产一个ID" class="headerlink" title="生产一个ID"></a>生产一个ID</h4><p><a href="https://www.uuidgenerator.net/" target="_blank" rel="noopener">在线UUID生成器/用于生成一个随机id</a></p><p><em>编辑配置文件</em></p><blockquote><p>vi /etc/v2ray/config.json</p></blockquote><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line"><span class="attr">"inbounds"</span>: [&#123;</span><br><span class="line">"port": 16823, // 服务器监听端口（类似于SS的端口）</span><br><span class="line">"protocol": "vmess", // 主传入协议</span><br><span class="line">"settings": &#123;</span><br><span class="line">"clients": [&#123;</span><br><span class="line">"id": "63d6668a-b898-4404-B07C-9d804af7f78a", // 用户 ID，客户端与服务器必须相同/填入上述网站生成的ID</span><br><span class="line">"alterId": 64 //客户端与服务器必须相同</span><br><span class="line">&#125;</span><br><span class="line">]&#125;</span><br><span class="line">&#125;],</span><br><span class="line"></span><br><span class="line">"outbounds": [&#123;</span><br><span class="line">"protocol": "freedom", // 主传出协议</span><br><span class="line">"settings": &#123;&#125;</span><br><span class="line">&#125;]</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p><em>检查配置是否有问题</em></p><blockquote><p>/usr/bin/v2ray/v2ray -test -config /etc/v2ray/config.json</p></blockquote><p>重新启动</p><blockquote><p>sudo systemctl start v2ray</p></blockquote><h3 id="安卓手机端配置"><a href="#安卓手机端配置" class="headerlink" title="安卓手机端配置"></a>安卓手机端配置</h3><p>软件:<a href="https://play.google.com/store/apps/details?id=com.v2ray.ang&amp;hl=zh" target="_blank" rel="noopener">v2rayNG</a></p><p>手机端填入信息步骤如下:</p><p>1.选Vmess协议</p><p>2.填入信息于服务器配置相同</p><h3 id="Windows配置"><a href="#Windows配置" class="headerlink" title="Windows配置"></a>Windows配置</h3><p><a href="https://github.com/v2ray/v2ray-core/releases" target="_blank" rel="noopener">软件下载地址</a></p><ul><li><p>直接解压到桌面</p></li><li><p>用记事本打开config.json，并写成一下信息（注意 服务器端口/id/alterId与服务器端的配置相同，否则无法运行）</p></li></ul><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line"><span class="attr">"inbounds"</span>: [&#123;</span><br><span class="line">"port": 1080, // 监听端口</span><br><span class="line">"protoco": "socks", // 入口协议为 SOCKS 5</span><br><span class="line">"sniffing": &#123;</span><br><span class="line"><span class="string">"enabled: true,</span></span><br><span class="line">"destOverride": ["http", "tls"]</span><br><span class="line">&#125;,</span><br><span class="line"></span><br><span class="line">"settings": &#123;</span><br><span class="line">"auth": "noauth" //socks的认证设置，noauth 代表不认证，由于 socks 通常在客户端使用，所以这里不认证</span><br><span class="line">&#125;</span><br><span class="line">&#125;],</span><br><span class="line"></span><br><span class="line">"outbounds": [&#123;</span><br><span class="line">"protocol": "vmess", // 出口协议</span><br><span class="line">"settings": &#123;</span><br><span class="line">"vnext": [&#123;</span><br><span class="line">"address": "serveraddr.com", // 服务器地址，请修改为你自己的服务器 IP 或域名</span><br><span class="line">"port": 16823, // 服务器端口</span><br><span class="line">"users": [&#123;</span><br><span class="line">"id": "63d6668a-b898-4404-B07C-9d804af7f78a", // 用户 ID，必须与服务器端配置相同</span><br><span class="line">"alterId": 64 // 此处的值也应当与服务器相同</span><br><span class="line">&#125;]</span><br><span class="line">&#125;]</span><br><span class="line">&#125;</span><br><span class="line">&#125;]</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><ul><li><p>运行v2ray.exe</p></li><li><p>浏览器代理（需代理才能使用/以Firefox为例）</p></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;缘由：&quot;&gt;&lt;a href=&quot;#缘由：&quot; class=&quot;headerlink&quot; title=&quot;缘由：&quot;&gt;&lt;/a&gt;缘由：&lt;/h1&gt;&lt;p&gt;更换服务器为CentOs7系统以后就开始琢磨以前想尝试的V2ray来翻墙了，结果卡在了配置文件这儿，搜了很多资料感觉很复杂，弄明白一点后就搞了个极简教程！&lt;/p&gt;
+&lt;h2 id=&quot;V2ray-官网服务器端-客户端-安装&quot;&gt;&lt;a href=&quot;#V2ray-官网服务器端-客户端-安装&quot; class=&quot;headerlink&quot; title=&quot;V2ray 官网服务器端/客户端 安装&quot;&gt;&lt;/a&gt;V2ray 官网服务器端/客户端 安装&lt;/h2&gt;&lt;p&gt;这个按&lt;a href=&quot;https://toutyrater.github.io/prep/install.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;官网步骤&lt;/a&gt;就行了，没什么说的；极简步骤如下：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;查看服务器时间&lt;br&gt;对于 V2Ray，它的验证方式包含时间，就算是配置没有任何问题，如果时间不正确，也无法连接 V2Ray 服务器的，服务器会认为你这是不合法的请求。所以系统时间一定要正确，只要保证时间误差在90秒之内就没问题。&lt;/li&gt;
+&lt;/ul&gt;
+    
+    </summary>
+    
+      <category term="IT" scheme="http://yoursite.com/categories/IT/"/>
+    
+    
+      <category term="V2ray" scheme="http://yoursite.com/tags/V2ray/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>WordPress 迁移/重装</title>
+    <link href="http://yoursite.com/2019/01/23/WordPress%E8%BF%81%E7%A7%BB%E6%88%96%E9%87%8D%E8%A3%85/"/>
+    <id>http://yoursite.com/2019/01/23/WordPress迁移或重装/</id>
+    <published>2019-01-22T22:06:06.000Z</published>
+    <updated>2019-02-23T02:08:24.821Z</updated>
+    
+    <content type="html"><![CDATA[<h2>缘由：</h2><p><strong>1.个人php版本过低（5.5）且有听说Wordpress不再支持php7.2以下版本；2.个人安装的是Centos6版本，之前安装一些功能不支持（Eg：V2ray）；</strong></p><h2>工具：</h2><ul><br><li>git + GIthub</li><br><li>phpMyAdmin</li><br></ul><h2>步骤：</h2><p><strong>1.数据库备份下载（phpMyAdmin）</strong><br>登陆个人服务器ip地址，进入phpMyadmin，登陆数据库。把整个数据库备份下来；</p><p><strong>2.网站整个文件夹备份</strong><br>登陆ssh进入vps，用<a href="https://emperinter.tk/?p=124" target="_blank" rel="noopener">git命令行</a>把整个网站文件夹备份到GIthub里面。<br>现在Github私库不要钱了，如果不考虑隐私，倒是一个很好的“云盘”</p><a id="more"></a><p><strong>3.重新搭建wordpress需要的lnmp和php等等</strong><br>这个没什么说的，老样子;</p><p><strong>4.新数据库完全删除</strong><br>进入phpMyAdmin,删除自动安装的数据库；</p><p><strong>5.导入备份数据库（phpMyAdmin上传有50M以下限制)</strong></p><p><strong>6.网站文件夹下载</strong><br>登陆服务器，覆盖新安装的；</p><p>注意权限的重新赋予</p><pre><code>chmod -R 755 /home/wwwroot && chown -R www /home/wwwroot</code></pre><p><strong>7.wp-config 数据库信息更改（若新数据库的用户名等等更改了，未改则跳过）</strong></p><pre><code>vi /home/wwwroot/emperinter.tk/wp-config.php</code></pre><p>( 注意替换成自己的安装目录)</p><p><strong>8.DNS解析设置</strong></p><h1>坑</h1><h3>WordPress您当前正在编辑显示最新文章的页面</h3><p><img src="https://www.softwen.com/wp-content/uploads/image/20180921/1537541209565552.jpg" alt></p><h3>解决方法：</h3><p>1.进入phpMyAdmin</p><p>2.找到wp_posts(文章储存的地方）</p><p>3.点击结构</p><p>4.找到Id</p><p><img src="https://res.cloudinary.com/dn6fdfasw/image/upload/v1549035472/%E6%96%B0%E5%BB%BA%E4%BD%8D%E5%9B%BE%E5%9B%BE%E5%83%8F.bmp" alt></p><p>5.点击“更多”</p><p>6.点击“主键”</p><p>7.若提示失败则点击“修改”，后勾选”A_I”，点击保存，后返回再次点击“主键”；</p><p>8.若再次提示失败则单独导出wp_posts;</p><p>9.删除数据库里面的wp_posts;</p><p>10.重新导入wp_posts &amp; <strong>注意再次导入时取消勾选“不要给零值使用自增 (AUTO_INCREMENT)”</strong><br><img src="https://res.cloudinary.com/dn6fdfasw/image/upload/v1549036305/%E6%8D%95%E8%8E%B71.png" alt></p><p>11.再次重复步骤1-7即可；</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2&gt;缘由：&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;1.个人php版本过低（5.5）且有听说Wordpress不再支持php7.2以下版本；2.个人安装的是Centos6版本，之前安装一些功能不支持（Eg：V2ray）；&lt;/strong&gt;&lt;/p&gt;
+&lt;h2&gt;工具：&lt;/h2&gt;
+
+&lt;ul&gt;&lt;br&gt;&lt;li&gt;git + GIthub&lt;/li&gt;&lt;br&gt;&lt;li&gt;phpMyAdmin&lt;/li&gt;&lt;br&gt;&lt;/ul&gt;
+
+&lt;h2&gt;步骤：&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;1.数据库备份下载（phpMyAdmin）&lt;/strong&gt;&lt;br&gt;登陆个人服务器ip地址，进入phpMyadmin，登陆数据库。把整个数据库备份下来；&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;2.网站整个文件夹备份&lt;/strong&gt;&lt;br&gt;登陆ssh进入vps，用&lt;a href=&quot;https://emperinter.tk/?p=124&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;git命令行&lt;/a&gt;把整个网站文件夹备份到GIthub里面。&lt;br&gt;现在Github私库不要钱了，如果不考虑隐私，倒是一个很好的“云盘”&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="IT" scheme="http://yoursite.com/categories/IT/"/>
+    
+    
+      <category term="WordPress" scheme="http://yoursite.com/tags/WordPress/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>怪诞行为学</title>
+    <link href="http://yoursite.com/2018/12/25/%E6%80%AA%E8%AF%9E%E8%A1%8C%E4%B8%BA%E5%AD%A6/"/>
+    <id>http://yoursite.com/2018/12/25/怪诞行为学/</id>
+    <published>2018-12-24T22:06:06.000Z</published>
+    <updated>2019-02-25T07:07:22.450Z</updated>
+    
+    <content type="html"><![CDATA[<p>如果你接受市场力量和自由市场并不能完全有效调控市场这一前提，那你就认同了这样的观点，即政府（我们希望是理性的，考虑周到的政府）必须在宏观调控方面发挥更大的作用，即使这样做会限制企业的自由经营。不错，如果我们真正都是理性的，那么建立在供给需求基础上，而且没有摩擦的市场是再理想不过了。但是,如果我们不是理性的，那么，制定各种政策时就必须考虑到这一重要因素。</p><p>我们原来压根儿不想买的东西一旦免费了，就在难以置信地吸引人。</p><p>免费最大的问题在于，它引诱你在它和另一件商品之间挣扎。<br>人类本能地惧怕损失，免费的真正诱惑力是与这种惧怕心理联系在一起的。<br>免费引起的情绪冲动是不可战胜的。<br>免费就像地心引力一样，实在让我们难以抗拒。<br>在两种产品之间做选择时，我们常常对免费服务反应过度。</p><a id="more"></a><p>我们花在一件事上的时间，说到底，是从另一件事上转移过来的 。</p><p>市场规范一来，社会规范就被挤跑了。</p><p>市场规范不仅和劳动有关，它还与相当广泛的一系列行为有关。</p><p>因此. 我们生活在两个世界里， 一个以杜会交换为特征， 另一个以市场交换为特征. 我们对  这两个世界实行不同规范。 仅如此， 把市功规 范引入社会交换, 如同我们前面看到的， 就违反了社会规范井且伤害了杜会关系。一旦发生这样错误, 社会关系难以恢复。比如你一旦向你未来的浪漫伴侣提议切入正题，分摊你们约会所花的钱，或者直接上床，你可能就把这桩浪漫史彻底葬送了。</p><p>社会规范与市场规范发生碰撞，社会规范就会退出。<br>社会规范是激励员工，保持忠诚的最好办法。</p><p>我们懂得人们不会为钱去死。</p><p>长远看只有社会规范起决定性作用。</p><p>金钱，到头来，经常是最昂贵的激励方式。社会规范不仅成本较低，并且往往更有效。</p><p>我们所有人，不管有多“善良”，都会低估激情对我们行为的影响。</p><p>交换行为是否互利取决于市场上的交易者是否真正清楚双方所交换的物品价值；</p><p>在一种情绪状态中观察另一种状态是困难的。为了做出明智的决定，我们需要对可能的经历亲身体验一下，对可能的某种情绪状况有所了解。学会如何弥补这一差距对生活中的重要决定是必不可少的。（比如选学校应该到学校具体了解一下等等）；</p><p>为了眼前的满足而放弃长远的目标，这就是拖沓；</p><p>即使那些认识到自己有拖沓倾向的人也不一定对自己的问题有完全的了解；</p><p>拖沓问题人皆有之，那些认识到并承认自己弱点的人能更好地利用设计好的工具帮助自己战胜它；</p><p>抵御诱惑，灌输自制意识是人类的总体目标，一再失败，少有成功则是我们很多苦难的来源之一；</p><p>为自我控制进行的斗争到处都有；</p><p>我们一次又一次无法达到长远目标。为什么呢？因为我们在诱惑面前一触即溃。</p><p>我们在自我控制上有困难，这种困难与及时满足与延后满足有关———这是明摆着的事实。但同时我们面临的每个问题又都有潜在的自我控制机制；</p><p>简化是天才的标准之一；</p><p>你的天花板是别人的地板；</p><p>三大非理性的怪癖：</p><ul><li>我们对拥有的东西迷恋不能自拔；</li><li>我们总是把注意力集中到自己会失去什么，而不是会得到什么；</li><li>我们经常假定别人看待交易的角度也和我们一样；</li></ul><p>所有权的独特个性：<br>我们在某件事上投入的劳动越多，对它的感情越深；<br>我们在实际拥有所有权之前就对某物产生了拥有的感觉；</p><p>用“非拥有心态”来看待每一桩交易（特别是大笔的），把自己和感兴趣的物件拉开适当距离。有了这样的努力，我不敢说能像印度托钵（ｂｏ）僧人那样，奉行对物质世界无欲无求的信条。但至少我可以尝试像禅宗弟子那样，对世间万物，尽量待之以平常之心；</p><p>我们忘了在真正重要的事情上下功夫；</p><p>我们可能往往认识不到，无论哪种情况，保留余地的同时我们也放弃了别的东西；</p><p>一般来说，在明确的目标指引下，我们都会努力追求最大程度的满足；</p><p>一想到我们的损失我们就无法忍受；</p><p>手忙脚乱地去保持所有选择是愚人的游戏。它不仅耗尽我们的热情，也掏空我们的钱包。我们需要把有些“门”自觉的关掉。我们有种非理性的冲动，要让所有的门都开着。这是我们与生俱来的局限，但这并不意味着不应该去关。无论是大门还是小门，我们都要关掉。假如你把很多门都关上了，只剩下两扇。我想说，这样你就容易选择了，但往往并非如此。事实上，在吸引力大致相同的两种选择中做取舍是最难的。这种情形下，问题不仅在于保留选择时间的长短，还在于到头来我们要为自己的犹豫不决付出代价。</p><p>预期还可以形成成见。成见，说到底，是人们希望用来预测体验，是人们对信息进行分类的一种方式。大脑不能在每一种新环境下仅凭片段就开动，它必须建立在从前所收到过的信息基础上。由于这一原因，成见并不是从本质上就有害的。它为我们不断地理解周围复杂的环境提供了捷径。但是，因为成见给我们提供了对某一群体成员特定的预期，它也可能对我们的认识与行为有不利的影响。</p><p>对于成见的研究表明，如果我们对某一群体的人抱有成见，不仅仅我们对他们的反应不同，而且当他们认识到强加给他们的标记时，他们自己的反应也不同（用心理学上的说法，他们被这一标记所“启动”）</p><p>安慰疗法和安慰剂的作用靠的是暗示的力量，它起作用是因为人们的信任。暗示是怎样用8影响我们的呢？总的来说，有两种机制能够形成预期，使用安慰疗法和安慰剂起作用。其一是信念。第二个机制是条件反射。</p><p>熟悉未必产生轻视，但它确实产生预期。</p><p>有了适当的机会，很多平日里诚实的人也会作弊。</p><p>一旦在诱惑下作弊，作弊的程度并不像人们通常认为的那样，与害怕被发现有直接关联。</p><p>凡事诚实为上</p><p>我们在成长过程中把社会美德内化了。这种内化引导我们发展到超我境界。一般来说，当我们的所作所为符合社会伦理，超我就会感到愉悦,否则就会感到不快。</p><p>我们内心的诚实尺度只有在考虑重大越轨行为时才会被激活。</p><p>我们大脑的奖赏中心——伏隔核和尾状核</p><p>没有超我对诚实进行帮助与监督，我们抵御这种越轨行为的防线，就只剩下成本收益的理性分析了。</p><p>我们可以用非宗教的道德准则来提高大众的诚实水平。</p><p>腐败的现象到处可见。</p><p>如果我们没有了一切道德规范的意识，就会滑向不诚实一边。但是如果在收到诱惑的瞬间得到有关道德的提醒，我们可能保持诚实。</p><p>人们甘愿牺牲消费快感来突出自己在别人心目中的形象。</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;如果你接受市场力量和自由市场并不能完全有效调控市场这一前提，那你就认同了这样的观点，即政府（我们希望是理性的，考虑周到的政府）必须在宏观调控方面发挥更大的作用，即使这样做会限制企业的自由经营。不错，如果我们真正都是理性的，那么建立在供给需求基础上，而且没有摩擦的市场是再理想不过了。但是,如果我们不是理性的，那么，制定各种政策时就必须考虑到这一重要因素。&lt;/p&gt;
+&lt;p&gt;我们原来压根儿不想买的东西一旦免费了，就在难以置信地吸引人。&lt;/p&gt;
+&lt;p&gt;免费最大的问题在于，它引诱你在它和另一件商品之间挣扎。&lt;br&gt;人类本能地惧怕损失，免费的真正诱惑力是与这种惧怕心理联系在一起的。&lt;br&gt;免费引起的情绪冲动是不可战胜的。&lt;br&gt;免费就像地心引力一样，实在让我们难以抗拒。&lt;br&gt;在两种产品之间做选择时，我们常常对免费服务反应过度。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="闲杂" scheme="http://yoursite.com/categories/%E9%97%B2%E6%9D%82/"/>
+    
+    
+      <category term="读书笔记" scheme="http://yoursite.com/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>惠普暗夜精灵4后续体验</title>
+    <link href="http://yoursite.com/2018/12/23/%E6%83%A0%E6%99%AE%E6%9A%97%E5%A4%9C%E7%B2%BE%E7%81%B54%E5%90%8E%E7%BB%AD%E4%BD%93%E9%AA%8C/"/>
+    <id>http://yoursite.com/2018/12/23/惠普暗夜精灵4后续体验/</id>
+    <published>2018-12-22T22:06:06.000Z</published>
+    <updated>2019-02-23T02:05:26.506Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="售后换新过程"><a href="#售后换新过程" class="headerlink" title="售后换新过程"></a>售后换新过程</h3><h5 id="我那天实在受不了那个滋滋声就申请了换货服务，说句难听的话，换货真是提心吊胆的。没有任何凭借，官网让我送到jD售后站就行了，官网没有任何监督体系在这个售后当中，感觉完全交给JD了，也没想到官网会与JD挂钩，说是只是派送，具体难以捉摸；打电话查不到任何售后服务信息，要不是当天收到了售后流程信息差点报警了；"><a href="#我那天实在受不了那个滋滋声就申请了换货服务，说句难听的话，换货真是提心吊胆的。没有任何凭借，官网让我送到jD售后站就行了，官网没有任何监督体系在这个售后当中，感觉完全交给JD了，也没想到官网会与JD挂钩，说是只是派送，具体难以捉摸；打电话查不到任何售后服务信息，要不是当天收到了售后流程信息差点报警了；" class="headerlink" title="我那天实在受不了那个滋滋声就申请了换货服务，说句难听的话，换货真是提心吊胆的。没有任何凭借，官网让我送到jD售后站就行了，官网没有任何监督体系在这个售后当中，感觉完全交给JD了，也没想到官网会与JD挂钩，说是只是派送，具体难以捉摸；打电话查不到任何售后服务信息，要不是当天收到了售后流程信息差点报警了；"></a>我那天实在受不了那个滋滋声就申请了换货服务，说句难听的话，换货真是提心吊胆的。没有任何凭借，官网让我送到jD售后站就行了，官网没有任何监督体系在这个售后当中，感觉完全交给JD了，也没想到官网会与JD挂钩，说是只是派送，具体难以捉摸；打电话查不到任何售后服务信息，要不是当天收到了售后流程信息差点报警了；</h5><h4 id="大概流程"><a href="#大概流程" class="headerlink" title="大概流程"></a>大概流程</h4><ul><li>电话申请，电话那边人员会进行初次估计（让我进BIOS系统降低频率等等操作，我说我试过了就直接让描述了一下原因后给了一个电话让我打说换货）；</li><li>送到服务站（会以短信或电话通知你送到何处，一般有人来提货；因为我在学校，就让送到快递处就行了，）；</li><li>工程人员会进行检测，如有问题则直接换新；若无问题会打电话联系我说明原因并会拒绝换货；</li><li>收到短信后去取货；</li></ul><h4 id="提醒"><a href="#提醒" class="headerlink" title="提醒"></a>提醒</h4><ul><li>注意<strong>保留保修卡等等物件</strong></li><li><strong>收到货后，先不要联网激活</strong>。先用几天试试看是否有问题，或是否合适自己；联网激活后无法支持7天退货，只支持15天换新（有问题的情况下）；</li><li>如无问题<strong>建议激活办公软件（好像是45天之内可以激活）</strong></li></ul><h3 id="实验体验"><a href="#实验体验" class="headerlink" title="实验体验"></a>实验体验</h3><ul><li><strong>滋滋声不能说没有，只是比小了很多，可接受范围；</strong><br>我查过资料好像是电脑都有这个毛病，我这个是标压笔记本（i5-8300H），电脑如要超频工作就会产生这个声音，叫什么 <strong>电感啸叫</strong>，也有说说明高频电流的东西；</li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;售后换新过程&quot;&gt;&lt;a href=&quot;#售后换新过程&quot; class=&quot;headerlink&quot; title=&quot;售后换新过程&quot;&gt;&lt;/a&gt;售后换新过程&lt;/h3&gt;&lt;h5 id=&quot;我那天实在受不了那个滋滋声就申请了换货服务，说句难听的话，换货真是提心吊胆的。没有任何凭借，官网让
+      
+    
+    </summary>
+    
+      <category term="闲杂" scheme="http://yoursite.com/categories/%E9%97%B2%E6%9D%82/"/>
+    
+    
+      <category term="调侃" scheme="http://yoursite.com/tags/%E8%B0%83%E4%BE%83/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>只有偏执狂才能生存</title>
+    <link href="http://yoursite.com/2018/12/20/%E5%8F%AA%E6%9C%89%E5%81%8F%E6%89%A7%E7%8B%82%E6%89%8D%E8%83%BD%E7%94%9F%E5%AD%98/"/>
+    <id>http://yoursite.com/2018/12/20/只有偏执狂才能生存/</id>
+    <published>2018-12-19T22:06:06.000Z</published>
+    <updated>2019-02-25T07:09:03.141Z</updated>
+    
+    <content type="html"><![CDATA[<p>影响企业竞争的因素：<br>公司现有竞争对手的实力、活力和能力：<br>竞争对手多不多？它们的资本雄不雄厚？它们是不是清清楚楚地瞄准了你？</p><p>公司的供应商实力、活力和能力：<br>供应商数目是很多，让你的业务有足够的选择余地；还是只有几家，它们可以扼住你的喉咙？它们是充满挑衅，贪得无厌；还是较为谨慎稳妥，并把对客户的情况的长远评价作为企业指导？</p><p>公司的企业客户的实力、活力和能力：<br>企业客户数量是很多，还是仅仅依靠一两家主要客户做生意？它们是依靠激烈的竞争而对你求全责备，还是采用较为温婉的态度？</p><p>公司潜在的竞争对手的实力、活力和能力：<br>这些对手现在还没有出现，但形式一变，它们就可能参加进来。这样看来，它们可能比现有的竞争对手更加强大有力，资金更加雄厚，态度也更强硬。</p><p>你的产品或服务项目采用其他方式投产或发送的可能性：<br>这常常叫做”替代方案“，我认为这是最为致命的一点。新技术方法可以颠覆旧秩序，建立新规则，使商业环境发生沧海桑田的变化。这就类似于公路运输和航空运输对铁路运输的冲击，集装箱货运对传统海运的冲击，超级市场对小商店的冲击，微处理器对运算的冲击，以及数字媒体对娱乐的冲击；</p><a id="more"></a><p>互补企业因素：<br>互补型企业就是为客户提供互补型产品的其他企业。每个公司的产品都要和其他公司的产品互相结合，才能发挥更大的作用。有的产品甚至不与其他产品结合就无法使用。汽车需要汽油，汽油也需要汽车。计算机离不开软件，软件也离不开计算机。</p><p>我们不能在等到答案后再行动：时间就是一切；</p><p>当战略转折点席卷某一产业时，原产业结构中的成员越是成功，其本身受变革带来的威胁则越大，而本身则越不自愿改变以适应变化；其次，新进入 拥有强大竞争对手的既定产业并向对手挑战所付出的代价可能极大，而当该产业结构即将崩溃，所需的代价便是会极小；</p><p>在多种领域中都成为一流要比仅在一个领域中领先难得多；</p><p>竞争场上出现一个格外强大的对手就是召唤自己变革的一道命令，想继续沿袭原先的做法已经行不通了。</p><p>拒绝面对痛苦的新现实是大多数</p><p>一个公司的成败取决于其适应变化的能力。</p><p>企业管理，尤其是危机中的企业管理，是极端个人化的事情。</p><p>《零点时刻》#####电影</p><p>在企业经历剧变时，现有的管理人员要想坐稳交椅,就必须从旁观者的角度来客观地看待形势。#当局者迷，旁观者清。</p><p>卡桑德拉们工作在公司的各个部门，但是中层管理人居多。他们常常是销售部门的员工，与高层管理人员相比，他们更早得知变化的到来，这是因为他们在“户外”活动的时间更长，更容易接触到实际生活中的风向。换句话说，他们不是那种依靠老办法把事情办好的人。</p><p>《开创与企业精神：实例与原则》彼得·德鲁克#书籍#管理大师#本书作者不太赞同这本书的观点</p><p>企业家就是那些把资源从低收益项目的生产转到高收益项目生产中去的人</p><p>确定某项特定的发展变化是否是战略转折点，最好的方法就是广泛的深入展开辩论。</p><p>《摆脱危机》W·爱德华·戴明博士</p><p>逃避现实不仅仅是那些不称职的高层经理。优秀的企业领导也同样经历这种思想斗争，但是他们最终能接受现实，采取行动。差一点的领导做不到这一点，常常被革职，由一些或许并不比他们能干，但却免遭情感羁绊的人来代替他们的职位。这是十分关键的一点。企业领导的替换，常常并不是为了寻求更加精明能干的领袖人物，而是因为有必要寻求一些和公司的过去没有情感牵挂的人来管理公司。</p><p>高层管理者之所以上升到今天的职位，是因为他们在过去业绩不凡。慢慢的地，他们学会了顺应自己的个人优势来管理公司。因此，他们总是凭借从前成功的经验，尤其是”夺冠时期“的显赫业绩来制定公司的战略战术。</p><p>新的突发事件或许为一人所知，或直接发生在他身上，这就造成他暂时的认知矛盾对象—————即与行为有关的既有认知、看法或认识不再相一致。是什么使这个人难以该百年他的行为呢？第一，改变可能带来痛苦和损失；第二，现有行为表明看上去似乎还不错；第三，做新的改变也许根本就不可能；</p><p>怎么知道战略矛盾出现了呢？只有在允许公开辩论的情况下，高层管理者邀请中层管理者或销售人员自由发言的时候，战略矛盾才能水落石出。</p><p>战略矛盾的出现是人们对战略转折点的本能反应，因此探查战略矛盾的有无，是确定战略转折点的最佳方式。公司里的人开始提问题：“我们怎么说的一套，做的是另一套？”到了这个时候，就有可能暗示着战略转折点正在酝酿之中。</p><p>战略矛盾的解决并不是轻而易举的，也必须通过实验得到。把企业中原有的条条框框放松一些，让他们实验不同技术，研究不同的产品，开发不同的销售渠道，争取不同的客户。从前，管理层总是致力于维持公司的秩序。这一次，不妨容忍一下新事物。只有一概旧辙，才能柳暗花明。<br>这个操作命令就叫做：“让混乱统治一切！”</p><p>《规模与范围》阿尔弗莱德<em>D</em>钱德勒</p><p>愿景</p><p>抓住公司的精髓，看准业务的焦点。要清楚地为公司形象下定义，除了回答“它是什么之外”，还要回答“它不是什么”。</p><p>为了在战略转折点求得生存，必须更换一些管理层的人员。</p><p>对新事物的察觉、想象和感知只是万里长征的第一步。对这一点要心中有数，也要客观冷静。不要妥协放弃，也不要自欺欺人。如果你定的目标高不可攀，那么逃亡死亡之谷的概率就不会太大，这无异于自取灭亡。</p><p>企业体系的转型过程中最关键的就是资源从旧产业到新企业的全盘转移。</p><p>要承认之才疏学浅，有必要学习新知识，并不是件容易的事。对一名深受他人敬重已成习惯的高层管理者来说更是困难。但是，如果任其发展，他人对你的敬重就会形成一堵墙，阻碍你学习新的东西。要克服这些需要自律。</p><p>资源的再分配听起来有百益而无一害：它意味着你把更多的注意力和精力投入到前程似锦的产业上去。但与此同时，你不可避免地削弱了其他的资源：生产资源、管理资源、你自己的时间。战略转型中，需要把所有资源和规划重新分配，否则，它们就会成为言之无物的陈词滥调。<br>还有一点，如果你处在领导地位，那么你本人的时间分配具有极其重要的意义，它比任何发言都更能体现哪些是公司的重点，哪些是非重点。<br>战略变化不是凭空发生的，它和你的日程安排密不可分。</p><p>战略计划中包含的都是将来发生的事情，与我们今天要做的实事关系甚微。因此，不需要过分关注战略计划。<br>与之相反，战略行动就在眼前，他需要我们刻不容缓的重视。战略行动的力量来自它的即时性。即使战略行动只使公司发生了区区几角度的小转向，只要这些战略行动的预期效果和公司穿过战略转折点的预期形象相吻合，这些行动就能相互作用，迸发出更大威力。正是由于这个原因，我认为公司转型的最有效途径就是经历一系列循序渐进的变化，变化的方向又要与我们已经明确指定的最终形象保持一致。</p><p>有一些管理者甚至倒退到基层，获得更适应新方向的亲身技术体验后再返回到管理层。</p><p>成功地穿过战略转折点的公司，似乎有一种存在于自下而上的行动和自上而下的行动之间的对立统一。自下而上的行动总是从中层管理者开始的，他们由于工作性质的关系首先接触到外界风向的改变。他们的岗位在外围，因此最早察觉到变化的出现（记住，雪总是在外围先融化），最早对此作出反应。但是由于他们的工作性质，他们只能在局部范围内做小的变动。高层管理者虽然不能触及风向，但他们一旦决定转至新方向，便可以改变整个企业的战略。<br>当自下而上与自上而下的行动处同等强度时，效果最佳。</p><p>动态对立统一必不可少。带领公司走出死亡之谷的智慧，并不只是高层管理者脑子里具体盘算的具体事件。如果高层管理者的任命取决于公司世代相传的习惯，那么他们的思想必定拘泥于过去。如果他们来自公司之外，那么他们很可能不了解与公司新方向有关的详细情形。高层管理者必须依靠中层管理者。然而，导航的重任又不能完全依靠中层管理者来承担。他们的知识丰富详尽又有亲身的工作实践，但是他们的经验和见解只局限于小范围内，缺乏统领整个公司的雄才大略。</p><p>我们需要的是上下平衡型的相互作用，即知识丰富却眼界欠广的中层管理者和高瞻远瞩、统观全局的高层管理者互补不足，联手行动，两者对立会引起激烈的争论。但正是通过争论，大家看清楚了死亡之谷另一边的清晰景象，从而更有利于确定前进的方向。</p><p>你的职业几乎就是你的生意，你就是自己的首席执行官；</p><p>你的职业未来将由你做出回应行动而决定；</p><p>###（命由己造，相由心生。）</p><h3 id="如果你不作出改变，你将成为一个被改变的人；"><a href="#如果你不作出改变，你将成为一个被改变的人；" class="headerlink" title="如果你不作出改变，你将成为一个被改变的人；"></a>如果你不作出改变，你将成为一个被改变的人；</h3><p>在应对战略转折点时也涉及许多要素。最为重要的，也是最为困难的———就是要警惕你所处的环境的改变。当你在公司内部工作时，常常会免遭世界上许多事情的侵扰，这些事情都和你所工作的公司健康有关。当你得到这份工作是，即使你在内心深处知道它不可能是你剩余职业生涯中一直要做的工作，你仍然可能会为了公司而默默地放弃自己的福利。但是忽视了你公司运行的环境，就像一家大公司的首席执行官一样，你也可能会是最后一个知道潜在变化会对你职业产生影响的人。你怎么应对这种情况呢？<br>精神消防演习————对你的职业多一点点偏置；<br>时间就是一切——————防止”成功惯性“</p><h3 id="由环境变化引发的职业转折点同人们自己改变的职业转折点之间没有什么本质区别。"><a href="#由环境变化引发的职业转折点同人们自己改变的职业转折点之间没有什么本质区别。" class="headerlink" title="由环境变化引发的职业转折点同人们自己改变的职业转折点之间没有什么本质区别。"></a>由环境变化引发的职业转折点同人们自己改变的职业转折点之间没有什么本质区别。</h3><p>在现实中，在现存工作的良性发展阶段———也就是一切进展很好时作出改变，比你在职业开始下滑时作出同样的改变要痛苦得多。简单的说，早起的鸟儿有虫吃，晚来的只有残羹剩饭。<br>为了改变而锻炼———实验是为了改变而作准备的关键方法。实验可能有许多不同的方式。可以是第二职业的兼职，也可以是回到学校兼职。或者你可以向当前的公司提出要求，接受新的完全不同的工作。所有的这些都是探索职业生涯新方向，为职业转折点做好准备的方式。在实验时，要避免随意而为。不要盲目采取措施，朝着对发生在你身上的变革的性质的了解和理解引导自己；这样一来，这种实验就会推动着你朝着一个方向前进，帮你解决那些变革带来的问题。寻找一些东西，可以让你使用自己的知识或者技能，从而更好地免受你所发现的变革波浪的影响。（最好是找一份工作，可以首先利用变革。随波逐流胜于奋起抗争。)同自己对话可以帮助你认清楚现存的职业转折点，对于你的未来的性质的对话将会帮你集中精力，并允许你一步步地稳步超前进 ，而不是在外部世界的驱使下，飞奔前进。</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;影响企业竞争的因素：&lt;br&gt;公司现有竞争对手的实力、活力和能力：&lt;br&gt;竞争对手多不多？它们的资本雄不雄厚？它们是不是清清楚楚地瞄准了你？&lt;/p&gt;
+&lt;p&gt;公司的供应商实力、活力和能力：&lt;br&gt;供应商数目是很多，让你的业务有足够的选择余地；还是只有几家，它们可以扼住你的喉咙？它们是充满挑衅，贪得无厌；还是较为谨慎稳妥，并把对客户的情况的长远评价作为企业指导？&lt;/p&gt;
+&lt;p&gt;公司的企业客户的实力、活力和能力：&lt;br&gt;企业客户数量是很多，还是仅仅依靠一两家主要客户做生意？它们是依靠激烈的竞争而对你求全责备，还是采用较为温婉的态度？&lt;/p&gt;
+&lt;p&gt;公司潜在的竞争对手的实力、活力和能力：&lt;br&gt;这些对手现在还没有出现，但形式一变，它们就可能参加进来。这样看来，它们可能比现有的竞争对手更加强大有力，资金更加雄厚，态度也更强硬。&lt;/p&gt;
+&lt;p&gt;你的产品或服务项目采用其他方式投产或发送的可能性：&lt;br&gt;这常常叫做”替代方案“，我认为这是最为致命的一点。新技术方法可以颠覆旧秩序，建立新规则，使商业环境发生沧海桑田的变化。这就类似于公路运输和航空运输对铁路运输的冲击，集装箱货运对传统海运的冲击，超级市场对小商店的冲击，微处理器对运算的冲击，以及数字媒体对娱乐的冲击；&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="闲杂" scheme="http://yoursite.com/categories/%E9%97%B2%E6%9D%82/"/>
+    
+    
+      <category term="读书笔记" scheme="http://yoursite.com/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>人的宗教</title>
+    <link href="http://yoursite.com/2018/11/25/%E4%BA%BA%E7%9A%84%E5%AE%97%E6%95%99/"/>
+    <id>http://yoursite.com/2018/11/25/人的宗教/</id>
+    <published>2018-11-24T22:06:06.000Z</published>
+    <updated>2019-02-23T02:19:46.625Z</updated>
+    
+    <content type="html"><![CDATA[<p>如果允许他们追随当下快乐的刺激，他们很快就会演变成他们最害怕的痛苦的追随者；反过来如果令他们接受一些眼前不喜欢的，结果就会为他们带来所要的快乐。</p><p>没有湖水平静得可以毫无波纹,<br>没有圆圈可以那么圆而没有一点模糊不清。<br>如果我能够的话，我会为你改变一切；<br>因为我不能，你就必须照他们那样来接受它们。</p><a id="more"></a><h1 id="儒家"><a href="#儒家" class="headerlink" title="儒家"></a>儒家</h1><p>你可以用刺刀做任何事，却不能坐在上面。————塔利兰（Talleyrand）</p><p>孔子相信，没有一个政权能够自始至终地束缚住它的人民，甚至连大部分时期内控制任何一大派系的人都做不到。它必须靠人民接受其意志对其作为有相当信心。孔子指出政府的三项要素：经济上充足（足食），军事上优越（足兵），以及人民有信心（民信之矣）。他更进一步说最重要的还是人民的信赖。因为“如果人民对他们的政策不信任，它就站不住了”。（民无信不立。）这种来自公民自发的赞同，这种没有它国家就不能生存的信念，只有当人民感受到他们正真的领袖是有能力且诚心诚意地致力于大众福利，并具有令人尊敬的品德时才会发生。</p><p>政府的整个艺术即在于诚实的艺术；</p><p>对艺术毫不关心的人只是半个人————孔子</p><p>一个从事自我修养的儒者，是把自己置身于不断在变动、永无休止的人际关系交错潮流中心，而不期望其他事情，对孔子来说，在孤离中的圣性是没有意义的。</p><p>离开人际关系根本就没有我，自我是关系的中心，是通过与他人的相互作用组成，而由它的社会角色之总和来定义的。</p><p>像一只在飞行中的老鹰，我们的人生也在动态中，不过人的情形乃是，人际关系是他在其中奋力前进的大气。孔子的方案是要掌握调节吾人翅膀的技术，使人上升到那无从捉摸，但却可以到达的完美的目标。或者，有如孔子所说的，指向变成更完全的人的目标。</p><p>关注当下，一次只有一个世界。</p><p>儒家的价值与中国人民的一般价值，在时间的过程中混合在一起难以把两者分开；</p><p>孔子的社会重点，在中国人身上产生了一种显著的社会实用性——一种当有需要时，去大规模地完成事物的本领。</p><p>每一个中国人在伦理和公众生活上是儒家，在个人生活和健康上是道家，而在死亡的时候是佛家；<br>每一个中国人都戴上一顶儒家的帽子，穿上道家的袍子，以及佛家的草鞋；</p><h1 id="道家"><a href="#道家" class="headerlink" title="道家"></a>道家</h1><p>老子——————其人的一生基本是一个谜，孔子对他的描述，显示了这位奇特的人使孔子觉得困惑而又<br>充满敬意；</p><p>知者不言，言者不知；</p><h1 id="原始宗教"><a href="#原始宗教" class="headerlink" title="原始宗教"></a>原始宗教</h1><p>澳洲是唯一没有经历新石器时代的大陆；<br>原住民族宗教活动并非在于崇拜，乃在于认同；<br>每一个人都向活的知识贮藏库输送知识，同时接受其资讯的回流，而塑造和贮（zhu）备他们的生命；<br>平原印第安人一年一度的太阳舞被称为世界和生命更新之舞；</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;如果允许他们追随当下快乐的刺激，他们很快就会演变成他们最害怕的痛苦的追随者；反过来如果令他们接受一些眼前不喜欢的，结果就会为他们带来所要的快乐。&lt;/p&gt;
+&lt;p&gt;没有湖水平静得可以毫无波纹,&lt;br&gt;没有圆圈可以那么圆而没有一点模糊不清。&lt;br&gt;如果我能够的话，我会为你改变一切；&lt;br&gt;因为我不能，你就必须照他们那样来接受它们。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="闲杂" scheme="http://yoursite.com/categories/%E9%97%B2%E6%9D%82/"/>
+    
+    
+      <category term="读书笔记" scheme="http://yoursite.com/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>对Ubuntu18的调侃</title>
+    <link href="http://yoursite.com/2018/11/23/%E5%AF%B9Ubuntu18%E7%9A%84%E8%B0%83%E4%BE%83/"/>
+    <id>http://yoursite.com/2018/11/23/对Ubuntu18的调侃/</id>
+    <published>2018-11-22T22:06:06.000Z</published>
+    <updated>2019-02-22T17:02:21.429Z</updated>
+    
+    <content type="html"><![CDATA[<p>我已经用了18版本一段时间了，我来说说我不好的感受吧，好的我就不说了。<br><strong>1.安装不合理：</strong><br>我是1T移动硬盘里面分了36G来安装系统，可每次直接从18版本安装都会在最后一步提示/target………读写错误，无法安装。弄得我只有从16.04版本升级到18。升级可慢了。原谅我电脑不强的配置和辣鸡网速。<br><strong>2.总是卡住，运行不了任何程序。</strong><br>不清楚是哪里出了错误。前几天用着用着就直接黑屏进入类似命令行的窗口进行某种活动，有显示说什么什么／sdb6/………错误。<br><strong>3.两次无缘无故的开机后进不去系统:</strong><br>A.第一次显示什么加载错误，我感觉是之前一次系统提示什么的驱动升级搞挂了;<br>B.第二次是玩DOTA时卡住了，强制关机后直接开不了机，显示什么utlma什么玩意的;让输入help，输入后输出什么硬盘错误之类的就没反应了。进不了recovery模式。</p><h3 id="最后建议："><a href="#最后建议：" class="headerlink" title="最后建议："></a>最后建议：</h3><p>18如果适合那些喜欢新鲜的人玩玩吧！如果追求稳定性还是算了，刚出来bug太多。总是要不断更新，经常出错挂机。过一段稳定后再转吧！我还是换回16吧！心酸</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;我已经用了18版本一段时间了，我来说说我不好的感受吧，好的我就不说了。&lt;br&gt;&lt;strong&gt;1.安装不合理：&lt;/strong&gt;&lt;br&gt;我是1T移动硬盘里面分了36G来安装系统，可每次直接从18版本安装都会在最后一步提示/target………读写错误，无法安装。弄得我只有从1
+      
+    
+    </summary>
+    
+      <category term="闲杂" scheme="http://yoursite.com/categories/%E9%97%B2%E6%9D%82/"/>
+    
+    
+      <category term="调侃" scheme="http://yoursite.com/tags/%E8%B0%83%E4%BE%83/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>奢侈态度</title>
+    <link href="http://yoursite.com/2018/11/23/%E5%A5%A2%E4%BE%88%E6%80%81%E5%BA%A6/"/>
+    <id>http://yoursite.com/2018/11/23/奢侈态度/</id>
+    <published>2018-11-22T22:06:06.000Z</published>
+    <updated>2019-02-23T02:19:28.462Z</updated>
+    
+    <content type="html"><![CDATA[<p>一切手工技艺，皆由口传心授；</p><p>由俭入奢易，由奢入俭难；</p><p>放弃与否便是划分是否是奢侈品的一个界限；</p><p>1.我们需要控制速度，不能因发展过快而伤及我们的基本价值观—工艺精湛、材质优良和创意无限。过去我们就曾为保住核心价值观而抑制发展速度，如果你注重的是价值观，增长就不再是唯一的选项；<br>2.我们不跟同行比速度，我们要的是良性增长，而不是快速扩张；<br>                                                                            ———爱马仕：托马斯</p><p>上台靠机会，下台靠智慧；———官场名言</p><a id="more"></a><p>魔鬼都在细节里；</p><p>运通百夫卡———全球公认的富人身份象征</p><p>凡是口红大卖的年份，都是经济景气气度最差的年份————针对成熟市场才有意义（如中国市场并不成熟）；</p><p>中东人、巴林人、巴林投资</p><p>有人说这是阴谋，我们说，不，这是阳谋</p><p>YKK</p><p>瑞士莲</p><p>《全金属外壳》《断背山》———电影</p><p>全球最古老的家族企业榜  ———胡润</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;一切手工技艺，皆由口传心授；&lt;/p&gt;
+&lt;p&gt;由俭入奢易，由奢入俭难；&lt;/p&gt;
+&lt;p&gt;放弃与否便是划分是否是奢侈品的一个界限；&lt;/p&gt;
+&lt;p&gt;1.我们需要控制速度，不能因发展过快而伤及我们的基本价值观—工艺精湛、材质优良和创意无限。过去我们就曾为保住核心价值观而抑制发展速度，如果你注重的是价值观，增长就不再是唯一的选项；&lt;br&gt;2.我们不跟同行比速度，我们要的是良性增长，而不是快速扩张；&lt;br&gt;                                                                            ———爱马仕：托马斯&lt;/p&gt;
+&lt;p&gt;上台靠机会，下台靠智慧；———官场名言&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="闲杂" scheme="http://yoursite.com/categories/%E9%97%B2%E6%9D%82/"/>
+    
+    
+      <category term="读书笔记" scheme="http://yoursite.com/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Xmind破解</title>
+    <link href="http://yoursite.com/2018/11/20/Xmind%E7%A0%B4%E8%A7%A3/"/>
+    <id>http://yoursite.com/2018/11/20/Xmind破解/</id>
+    <published>2018-11-19T23:06:06.000Z</published>
+    <updated>2019-02-25T07:06:08.440Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="缘由"><a href="#缘由" class="headerlink" title="缘由:"></a>缘由:</h2><p>Xmind是一款好的思维导图软件,能进行很好的编辑,易于使用的界面,且平台较多(MAC,Windows,Linux,iphone,安卓),且能进行导出pdf等格式;但对于我们用户来说当然还是免费吸引较大了</p><h3 id="经过"><a href="#经过" class="headerlink" title="经过:"></a>经过:</h3><ul><li>1.刚开始使用是在windows平台,具体就不说了,看网站:<a href="https://github.com/mounui/Xmind/tree/master/XMindCrack" target="_blank" rel="noopener">XMind破解</a></li><li>2.后来基本使用Ubuntu了,用wine可以使用一些windows软件;</li><li>3.最近学习要用就想到了windows版本,以前没有相关资料,但不知道怎么配置具体目录而失败!</li><li>4.最后呢!找到了教程:<a href="https://www.jianshu.com/p/9d93b1754549" target="_blank" rel="noopener">教程来源</a></li></ul><h3 id="步骤"><a href="#步骤" class="headerlink" title="步骤:"></a>步骤:</h3><ul><li>1.去官网下载软件:<a href="https://www.xmind.cn/download/xmind8/" target="_blank" rel="noopener">XMind下载</a>(或我的网盘:<a href="https://pan.baidu.com/s/1PELdBG2dmDUAOEPZw95BbQ" target="_blank" rel="noopener">Xmind/百度网盘</a>)</li><li>2.下载替换脚本<a href="https://pan.baidu.com/s/1uCaAObP2OFyVPymcyZxIIQ" target="_blank" rel="noopener">XMindCrack</a></li><li>3.下载好最新XMind压缩包之后解压, 再解压XMind_amd64.tar.gz到XMind_amd64目录下.(我的是64bit的系统, 如果是32bit的系统解压到XMind_i386目录即可)</li><li>4.修改host:<br>shell下, 输入以修改host:<blockquote><p>sudo vi /etc/hosts<br>在文本末尾添加: 127.0.0.1 <a href="http://www.xmind.net" target="_blank" rel="noopener">www.xmind.net</a></p></blockquote></li><li><p>5.回到解压后的文件夹的根目录, 运行</p><blockquote><p>./setup.sh<br>安装好依赖库之后, 再次进入XMind_amd64, 运行XMind.</p></blockquote></li><li><p>6.在XMind主界面依次: Help -&gt; License, 复制以下license key即可, 邮箱随便填:</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">XAka34A2rVRYJ4XBIU35UZMUEEF64CMMIYZCK2FZZUQNODEKUHGJLFMSLIQMQUCUBXRENLK6NZL37JXP4PZXQFILMQ2RG5R7G4QNDO3PSOEUBOCDRYSSXZGRARV6MGA33TN2AMUBHEL4FXMWYTTJDEINJXUAV4BAYKBDCZQWVF3LWYXSDCXY546U3NBGOI3ZPAP2SO3CSQFNB7VVIY123456789012345</span><br></pre></td></tr></table></figure></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;缘由&quot;&gt;&lt;a href=&quot;#缘由&quot; class=&quot;headerlink&quot; title=&quot;缘由:&quot;&gt;&lt;/a&gt;缘由:&lt;/h2&gt;&lt;p&gt;Xmind是一款好的思维导图软件,能进行很好的编辑,易于使用的界面,且平台较多(MAC,Windows,Linux,iphone,安卓)
+      
+    
+    </summary>
+    
+      <category term="IT" scheme="http://yoursite.com/categories/IT/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>人类简史</title>
+    <link href="http://yoursite.com/2018/11/15/%E4%BA%BA%E7%B1%BB%E7%AE%80%E5%8F%B2/"/>
+    <id>http://yoursite.com/2018/11/15/人类简史/</id>
+    <published>2018-11-14T22:06:06.000Z</published>
+    <updated>2019-02-23T02:19:10.560Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="人类简史观感"><a href="#人类简史观感" class="headerlink" title="人类简史观感"></a>人类简史观感</h1><p>1.感觉有些东西过于贬低或者夸大，比如想象，其实想象就是人类智慧的结晶，一种工具，只能说人们并未真正明确或者说过，但仔细思考都应该能够明白。<br>2.开头还算是人类的历史吧！后边感觉算不上是一种历史，更像是一种分学科总结陈述。<br>3.确实是在人与自然之间进行了某种思考，但感觉还是以人为中心来进行思考的，对自然的描述过于浅显。<br>4.感觉是一个涉猎许多东西后的一个集大成者(有点过度夸作者似的，也许有其他人思考过，或者心里明白这些)<br>5.整体有点令我稍微有点失望，可能是之前被太多人所推荐/“吹捧”后而造成的偏差；<br>6.感觉可能只会在现在流行，以后可能会不怎么出名。不会成为经典之作。这有待历史的筛选；以后才会了解，可能我也不会了解，毕竟一部经典，短短的一个人生无法判断。从历史来说较短。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;人类简史观感&quot;&gt;&lt;a href=&quot;#人类简史观感&quot; class=&quot;headerlink&quot; title=&quot;人类简史观感&quot;&gt;&lt;/a&gt;人类简史观感&lt;/h1&gt;&lt;p&gt;1.感觉有些东西过于贬低或者夸大，比如想象，其实想象就是人类智慧的结晶，一种工具，只能说人们并未真正明确或者
+      
+    
+    </summary>
+    
+      <category term="闲杂" scheme="http://yoursite.com/categories/%E9%97%B2%E6%9D%82/"/>
+    
+    
+      <category term="读书笔记" scheme="http://yoursite.com/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
+  
+</feed>

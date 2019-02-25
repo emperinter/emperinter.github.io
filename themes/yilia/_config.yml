@@ -2,6 +2,8 @@
 
 menu:
   主页: /
+  It: /categories/IT
+  闲杂: /categories/闲杂
 
 # SubNav
 subnav:
@@ -21,7 +23,7 @@ subnav:
   #google: "#"
   twitter: "https://twitter.com/emperinter"
   linkedin: "https://www.linkedin.com/in/emperinter"
-
+  
 rss: /atom.xml
 
 # 是否需要修改 root 路径
@@ -32,9 +34,9 @@ root: /
 # Content
 
 # 文章太长，截断按钮文字
-excerpt_link: more
+excerpt_link: Reading More
 # 文章卡片右下角常驻链接，不需要请设置为false
-show_all_link: 'Continue Reading >>>'
+show_all_link: false 
 # 数学公式
 mathjax: false
 # 是否在新窗口打开链接
@@ -44,7 +46,7 @@ open_in_new: true
 # 打赏type设定：0-关闭打赏； 1-文章对应的md文件里有reward:true属性，才有打赏； 2-所有文章均有打赏
 reward_type: 2
 # 打赏wording
-reward_wording: '谢谢你请我吃糖果'
+reward_wording: '谢谢你的支持！'
 # 支付宝二维码图片地址，跟你设置头像的方式一样。比如：/assets/img/alipay.jpg
 alipay: https://res.cloudinary.com/dn6fdfasw/image/upload/v1550760349/%E6%94%AF.jpg 
 # 微信二维码图片地址
@@ -56,7 +58,7 @@ toc: 1
 # 根据自己的习惯来设置，如果你的目录标题习惯有标号，置为true即可隐藏hexo重复的序号；否则置为false
 toc_hide_index: true
 # 目录为空时的提示
-toc_empty_wording: '目录，不存在的…'
+toc_empty_wording: '抱歉！该目录还没有创建（或有问题），如有必要请联系我！谢谢！'
 
 # 是否有快速回到顶部的按钮
 top: true
@@ -98,10 +100,12 @@ disqus: emperinter666
 
 # 样式定制 - 一般不需要修改，除非有很强的定制欲望…
 style:
-  # 头像上面的背景颜色
-  header: '#4d4d4d'
+   # 头像上面的背景颜色
+   header: '#4d4d4d'
+  # header: https://res.cloudinary.com/dn6fdfasw/image/upload/v1544172477/4f13a5014b4051feb9383b262c4bf109.jpg
   # 右滑板块背景
-  slider: 'linear-gradient(200deg,#a0cfe4,#e8c37e)'
+   slider: 'linear-gradient(200deg,#a0cfe4,#e8c37e)'
+  #slider: https://res.cloudinary.com/dn6fdfasw/image/upload/v1544172477/4f13a5014b4051feb9383b262c4bf109.jpg
 
 # slider的设置
 slider:
@@ -126,4 +130,4 @@ friends:
   友情链接5: http://localhost:4000/
   友情链接6: http://localhost:4000/
 
-aboutme: <table border="8"><tr><th>姓名</th><th>辉章</th></tr><tr><th>格言</th><th>宁静致远</th></tr><tr><th>爱好</th><th>阅读 | 美食 | 慢跑</th></tr></table>
+aboutme: <table border="5"><tr><th>姓名</th><th>辉章</th></tr><tr><th>格言</th><th>宁静致远</th></tr><tr><th>爱好</th><th>阅读 | 美食 | 慢跑</th></tr><tr><th>学校</th><th><a href="http://lntu.edu.cn">辽宁工程技术大学</a></th></tr><tr><th>联系方式</th><th><a href="https://twitter.com/emperinter">Twitter | </a><a href="https://www.facebook.com/profile.php?id=100009385885603">Facebook | </a><a href="https://t.me/emperinter">Telegram   </a><a href="https://www.linkedin.com/in/emperinter/">Linkedin | </a><a href="https://github.com/emperinter">Github | </a><a href="mailto:hehiuzhang@gmail.com">Email</a></th></table>
