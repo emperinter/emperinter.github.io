@@ -5,9 +5,9 @@
   <subtitle>宁静致远</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://emperinter.tk/"/>
+  <link href="http://yoursite.com/"/>
   <updated>2019-02-26T07:55:44.632Z</updated>
-  <id>http://emperinter.tk/</id>
+  <id>http://yoursite.com/</id>
   
   <author>
     <name>辉</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>在Github用Cloudflare解解析个人域名</title>
-    <link href="http://emperinter.tk/2019/02/25/%E5%9C%A8Github%E7%94%A8Cloudflare%E8%A7%A3%E8%A7%A3%E6%9E%90%E4%B8%AA%E4%BA%BA%E5%9F%9F%E5%90%8D/"/>
-    <id>http://emperinter.tk/2019/02/25/在Github用Cloudflare解解析个人域名/</id>
+    <link href="http://yoursite.com/2019/02/25/%E5%9C%A8Github%E7%94%A8Cloudflare%E8%A7%A3%E8%A7%A3%E6%9E%90%E4%B8%AA%E4%BA%BA%E5%9F%9F%E5%90%8D/"/>
+    <id>http://yoursite.com/2019/02/25/在Github用Cloudflare解解析个人域名/</id>
     <published>2019-02-25T13:00:22.000Z</published>
     <updated>2019-02-26T07:55:44.632Z</updated>
     
@@ -34,17 +34,17 @@
     
     </summary>
     
-      <category term="IT" scheme="http://emperinter.tk/categories/IT/"/>
+      <category term="IT" scheme="http://yoursite.com/categories/IT/"/>
     
     
-      <category term="网站建设" scheme="http://emperinter.tk/tags/%E7%BD%91%E7%AB%99%E5%BB%BA%E8%AE%BE/"/>
+      <category term="网站建设" scheme="http://yoursite.com/tags/%E7%BD%91%E7%AB%99%E5%BB%BA%E8%AE%BE/"/>
     
   </entry>
   
   <entry>
     <title>几种开源博客体验</title>
-    <link href="http://emperinter.tk/2019/02/25/%E5%87%A0%E7%A7%8D%E5%BC%80%E6%BA%90%E5%8D%9A%E5%AE%A2%E4%BD%93%E9%AA%8C/"/>
-    <id>http://emperinter.tk/2019/02/25/几种开源博客体验/</id>
+    <link href="http://yoursite.com/2019/02/25/%E5%87%A0%E7%A7%8D%E5%BC%80%E6%BA%90%E5%8D%9A%E5%AE%A2%E4%BD%93%E9%AA%8C/"/>
+    <id>http://yoursite.com/2019/02/25/几种开源博客体验/</id>
     <published>2019-02-25T08:23:59.000Z</published>
     <updated>2019-02-25T08:55:04.246Z</updated>
     
@@ -64,17 +64,17 @@
     
     </summary>
     
-      <category term="IT" scheme="http://emperinter.tk/categories/IT/"/>
+      <category term="IT" scheme="http://yoursite.com/categories/IT/"/>
     
     
-      <category term="体验" scheme="http://emperinter.tk/tags/%E4%BD%93%E9%AA%8C/"/>
+      <category term="体验" scheme="http://yoursite.com/tags/%E4%BD%93%E9%AA%8C/"/>
     
   </entry>
   
   <entry>
     <title>对互联网个人隐私的看法</title>
-    <link href="http://emperinter.tk/2019/02/25/%E5%AF%B9%E4%BA%92%E8%81%94%E7%BD%91%E4%B8%AA%E4%BA%BA%E9%9A%90%E7%A7%81%E7%9A%84%E7%9C%8B%E6%B3%95/"/>
-    <id>http://emperinter.tk/2019/02/25/对互联网个人隐私的看法/</id>
+    <link href="http://yoursite.com/2019/02/25/%E5%AF%B9%E4%BA%92%E8%81%94%E7%BD%91%E4%B8%AA%E4%BA%BA%E9%9A%90%E7%A7%81%E7%9A%84%E7%9C%8B%E6%B3%95/"/>
+    <id>http://yoursite.com/2019/02/25/对互联网个人隐私的看法/</id>
     <published>2019-02-25T07:42:45.000Z</published>
     <updated>2019-02-25T08:20:50.739Z</updated>
     
@@ -92,15 +92,15 @@
     
     </summary>
     
-      <category term="闲杂" scheme="http://emperinter.tk/categories/%E9%97%B2%E6%9D%82/"/>
+      <category term="闲杂" scheme="http://yoursite.com/categories/%E9%97%B2%E6%9D%82/"/>
     
     
   </entry>
   
   <entry>
     <title>指环王影评</title>
-    <link href="http://emperinter.tk/2019/02/25/%E6%8C%87%E7%8E%AF%E7%8E%8B%E5%BD%B1%E8%AF%84/"/>
-    <id>http://emperinter.tk/2019/02/25/指环王影评/</id>
+    <link href="http://yoursite.com/2019/02/25/%E6%8C%87%E7%8E%AF%E7%8E%8B%E5%BD%B1%E8%AF%84/"/>
+    <id>http://yoursite.com/2019/02/25/指环王影评/</id>
     <published>2019-02-25T07:25:09.000Z</published>
     <updated>2019-02-25T07:41:03.444Z</updated>
     
@@ -114,17 +114,17 @@
     
     </summary>
     
-      <category term="闲杂" scheme="http://emperinter.tk/categories/%E9%97%B2%E6%9D%82/"/>
+      <category term="闲杂" scheme="http://yoursite.com/categories/%E9%97%B2%E6%9D%82/"/>
     
     
-      <category term="影视观感" scheme="http://emperinter.tk/tags/%E5%BD%B1%E8%A7%86%E8%A7%82%E6%84%9F/"/>
+      <category term="影视观感" scheme="http://yoursite.com/tags/%E5%BD%B1%E8%A7%86%E8%A7%82%E6%84%9F/"/>
     
   </entry>
   
   <entry>
     <title>QQ空间的注销</title>
-    <link href="http://emperinter.tk/2019/02/25/QQ%E7%A9%BA%E9%97%B4%E7%9A%84%E6%B3%A8%E9%94%80/"/>
-    <id>http://emperinter.tk/2019/02/25/QQ空间的注销/</id>
+    <link href="http://yoursite.com/2019/02/25/QQ%E7%A9%BA%E9%97%B4%E7%9A%84%E6%B3%A8%E9%94%80/"/>
+    <id>http://yoursite.com/2019/02/25/QQ空间的注销/</id>
     <published>2019-02-25T07:13:54.000Z</published>
     <updated>2019-02-25T07:23:46.555Z</updated>
     
@@ -141,15 +141,15 @@
     
     </summary>
     
-      <category term="闲杂" scheme="http://emperinter.tk/categories/%E9%97%B2%E6%9D%82/"/>
+      <category term="闲杂" scheme="http://yoursite.com/categories/%E9%97%B2%E6%9D%82/"/>
     
     
   </entry>
   
   <entry>
     <title>关于博客无法被收录的问题</title>
-    <link href="http://emperinter.tk/2019/02/23/%E5%85%B3%E4%BA%8E%E5%8D%9A%E5%AE%A2%E6%97%A0%E6%B3%95%E8%A2%AB%E6%94%B6%E5%BD%95%E7%9A%84%E9%97%AE%E9%A2%98/"/>
-    <id>http://emperinter.tk/2019/02/23/关于博客无法被收录的问题/</id>
+    <link href="http://yoursite.com/2019/02/23/%E5%85%B3%E4%BA%8E%E5%8D%9A%E5%AE%A2%E6%97%A0%E6%B3%95%E8%A2%AB%E6%94%B6%E5%BD%95%E7%9A%84%E9%97%AE%E9%A2%98/"/>
+    <id>http://yoursite.com/2019/02/23/关于博客无法被收录的问题/</id>
     <published>2019-02-22T18:39:07.000Z</published>
     <updated>2019-02-22T16:38:25.643Z</updated>
     
@@ -162,19 +162,19 @@
     
     </summary>
     
-      <category term="IT" scheme="http://emperinter.tk/categories/IT/"/>
+      <category term="IT" scheme="http://yoursite.com/categories/IT/"/>
     
     
   </entry>
   
   <entry>
     <title>让wordpress支持markdown</title>
-    <link href="http://emperinter.tk/2019/02/23/%E8%AE%A9wordpress%E6%94%AF%E6%8C%81markdown/"/>
-    <id>http://emperinter.tk/2019/02/23/让wordpress支持markdown/</id>
+    <link href="http://yoursite.com/2019/02/23/%E8%AE%A9wordpress%E6%94%AF%E6%8C%81markdown/"/>
+    <id>http://yoursite.com/2019/02/23/让wordpress支持markdown/</id>
     <published>2019-02-22T17:39:07.000Z</published>
     <updated>2019-02-22T16:39:50.389Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="缘由"><a href="#缘由" class="headerlink" title="缘由"></a>缘由</h1><p>几天前，我朋友看了我的博客说道，你的代码在博客里面排版一点也不美观，也不能高亮，于是向我推荐了markdown，我搜了相关与markdown和代码高亮的资料，并不断尝试找到了以下方法。</p><h1 id="方法"><a href="#方法" class="headerlink" title="方法"></a>方法</h1><h4 id="使用插件-可直接在插件里面搜到"><a href="#使用插件-可直接在插件里面搜到" class="headerlink" title="使用插件(可直接在插件里面搜到)"></a>使用插件(可直接在插件里面搜到)</h4><ul><li><strong>Disable Gutenberg</strong><br>插件wordpress5.0（5.0一下版本未测试过）需要禁用原版编辑器，<strong>否则</strong>会在代码框中出现 <strong>乱码</strong> 的问题（比如在C++文件中会把 &lt;&lt; 转换掉 )</li><li><strong>WP Editor.md</strong><br>markdown编辑器插件，我使用这几天感觉还不错！</li></ul><a id="more"></a><h1 id="使用体验"><a href="#使用体验" class="headerlink" title="使用体验"></a>使用体验</h1><ul><li><strong>可实时在编辑框右侧看到文章的排版布局;</strong><br><img src="https://res.cloudinary.com/dn6fdfasw/image/upload/v1544521834/2018-12-11_17-48-28_%E7%9A%84%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE.png" alt></li><li><strong>效率极高</strong><br>这得益于markdown的语法，不过让人头疼的是要背一些语法，不过很简单！<br><a href="http://xianbai.me/learn-md/article/about/readme.html" target="_blank" rel="noopener">语法学习一个网站</a><br><a href="https://www.jianshu.com/p/45faddb1526d" target="_blank" rel="noopener">语法学习一个博客</a></li><li><strong>注重文章本身的书写</strong><br>不用去按鼠标即可操作。可以随时随地完成文章的书写和排版，排版只要在文章中插入语法即可。比如我在记事本里面写好这个，复制粘帖到编辑器里面，然后检查是否有排版写错了的地方，即可发表;</li><li><strong>功能强大</strong><br>按语法可以在文章中甘特图，流程图，表格等等:<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">graph TD</span><br><span class="line">A[NO.1]--&gt;B(No.2)</span><br><span class="line">B --&gt; C&#123;think&#125;</span><br><span class="line">C --&gt;|是| C1[No.3]</span><br><span class="line">C --&gt;|否| C2[No.4]</span><br><span class="line">C --&gt;|随机|D[No.4]</span><br></pre></td></tr></table></figure></li></ul><table><thead><tr><th>序号</th><th>Value</th><th>Qty</th></tr></thead><tbody><tr><td>1</td><td>PDF阅读器</td><td>正版</td></tr><tr><td>2</td><td>有道云笔记</td><td>正版</td></tr><tr><td>3</td><td>百度网盘</td><td>正版</td></tr><tr><td>4</td><td>MS office</td><td>盗版</td></tr></tbody></table><ul><li><p><strong>可全屏编辑文章</strong></p></li><li><p><strong>支持代码高亮</strong><br><a href="https://emperinter.tk/2018/10/17/%e7%94%a8-c-%e5%92%8c%e6%a0%88%e5%ae%9e%e7%8e%b0%e6%95%b0%e5%88%b6%e8%bd%ac%e6%8d%a2%e5%92%8c%e8%bf%9b%e5%88%b6%e8%bd%ac%e6%8d%a2/">我的文章示例</a><br><em>应该还可以加入什么代码高亮插件支持copy，之前有过，后来不小心删了就搞忘了</em><br><img src="https://res.cloudinary.com/dn6fdfasw/image/upload/v1544522348/2018-12-11_17-58-41_%E7%9A%84%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE.png" alt></p></li><li><p><strong>可使用tab键</strong><br>程序员常用</p></li><li><p><strong>添加图片方便</strong><br>插入图片只要网址即可，比如google一个图片,按格式 <strong>![图片地址]</strong> 即可;</p></li></ul><p>建议注册一个 <a href="cloudinary">cloudinary</a> 来存放自己的图片后，获取地址来添加的blog（可优化主机内存，加快访问速度）;<br>示例如下：<br><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Tor-logo-2011-flat.svg/1200px-Tor-logo-2011-flat.svg.png" alt></p><h4 id="更多功能和体验欢迎大家继续去探索和发现，如有什么值得高兴的欢迎和我交流！"><a href="#更多功能和体验欢迎大家继续去探索和发现，如有什么值得高兴的欢迎和我交流！" class="headerlink" title="更多功能和体验欢迎大家继续去探索和发现，如有什么值得高兴的欢迎和我交流！"></a>更多功能和体验欢迎大家继续去探索和发现，如有什么值得高兴的欢迎和我交流！</h4>]]></content>
+    <content type="html"><![CDATA[<h1 id="缘由"><a href="#缘由" class="headerlink" title="缘由"></a>缘由</h1><p>几天前，我朋友看了我的博客说道，你的代码在博客里面排版一点也不美观，也不能高亮，于是向我推荐了markdown，我搜了相关与markdown和代码高亮的资料，并不断尝试找到了以下方法。</p><h1 id="方法"><a href="#方法" class="headerlink" title="方法"></a>方法</h1><h4 id="使用插件-可直接在插件里面搜到"><a href="#使用插件-可直接在插件里面搜到" class="headerlink" title="使用插件(可直接在插件里面搜到)"></a>使用插件(可直接在插件里面搜到)</h4><ul><li><strong>Disable Gutenberg</strong><br>插件wordpress5.0（5.0一下版本未测试过）需要禁用原版编辑器，<strong>否则</strong>会在代码框中出现 <strong>乱码</strong> 的问题（比如在C++文件中会把 &lt;&lt; 转换掉 )</li><li><strong>WP Editor.md</strong><br>markdown编辑器插件，我使用这几天感觉还不错！</li></ul><a id="more"></a><h1 id="使用体验"><a href="#使用体验" class="headerlink" title="使用体验"></a>使用体验</h1><ul><li><strong>可实时在编辑框右侧看到文章的排版布局;</strong><br><img src="https://res.cloudinary.com/dn6fdfasw/image/upload/v1544521834/2018-12-11_17-48-28_%E7%9A%84%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE.png" alt></li><li><strong>效率极高</strong><br>这得益于markdown的语法，不过让人头疼的是要背一些语法，不过很简单！<br><a href="http://xianbai.me/learn-md/article/about/readme.html" target="_blank" rel="noopener">语法学习一个网站</a><br><a href="https://www.jianshu.com/p/45faddb1526d" target="_blank" rel="noopener">语法学习一个博客</a></li><li><strong>注重文章本身的书写</strong><br>不用去按鼠标即可操作。可以随时随地完成文章的书写和排版，排版只要在文章中插入语法即可。比如我在记事本里面写好这个，复制粘帖到编辑器里面，然后检查是否有排版写错了的地方，即可发表;</li><li><strong>功能强大</strong><br>按语法可以在文章中甘特图，流程图，表格等等:<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">graph TD</span><br><span class="line">A[NO.1]--&gt;B(No.2)</span><br><span class="line">B --&gt; C&#123;think&#125;</span><br><span class="line">C --&gt;|是| C1[No.3]</span><br><span class="line">C --&gt;|否| C2[No.4]</span><br><span class="line">C --&gt;|随机|D[No.4]</span><br></pre></td></tr></table></figure></li></ul><table><thead><tr><th>序号</th><th>Value</th><th>Qty</th></tr></thead><tbody><tr><td>1</td><td>PDF阅读器</td><td>正版</td></tr><tr><td>2</td><td>有道云笔记</td><td>正版</td></tr><tr><td>3</td><td>百度网盘</td><td>正版</td></tr><tr><td>4</td><td>MS office</td><td>盗版</td></tr></tbody></table><ul><li><p><strong>可全屏编辑文章</strong></p></li><li><p><strong>支持代码高亮</strong><br><a href="https://emperinter.tk/2018/10/17/%e7%94%a8-c-%e5%92%8c%e6%a0%88%e5%ae%9e%e7%8e%b0%e6%95%b0%e5%88%b6%e8%bd%ac%e6%8d%a2%e5%92%8c%e8%bf%9b%e5%88%b6%e8%bd%ac%e6%8d%a2/" target="_blank" rel="noopener">我的文章示例</a><br><em>应该还可以加入什么代码高亮插件支持copy，之前有过，后来不小心删了就搞忘了</em><br><img src="https://res.cloudinary.com/dn6fdfasw/image/upload/v1544522348/2018-12-11_17-58-41_%E7%9A%84%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE.png" alt></p></li><li><p><strong>可使用tab键</strong><br>程序员常用</p></li><li><p><strong>添加图片方便</strong><br>插入图片只要网址即可，比如google一个图片,按格式 <strong>![图片地址]</strong> 即可;</p></li></ul><p>建议注册一个 <a href="cloudinary">cloudinary</a> 来存放自己的图片后，获取地址来添加的blog（可优化主机内存，加快访问速度）;<br>示例如下：<br><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Tor-logo-2011-flat.svg/1200px-Tor-logo-2011-flat.svg.png" alt></p><h4 id="更多功能和体验欢迎大家继续去探索和发现，如有什么值得高兴的欢迎和我交流！"><a href="#更多功能和体验欢迎大家继续去探索和发现，如有什么值得高兴的欢迎和我交流！" class="headerlink" title="更多功能和体验欢迎大家继续去探索和发现，如有什么值得高兴的欢迎和我交流！"></a>更多功能和体验欢迎大家继续去探索和发现，如有什么值得高兴的欢迎和我交流！</h4>]]></content>
     
     <summary type="html">
     
@@ -186,19 +186,19 @@
     
     </summary>
     
-      <category term="IT" scheme="http://emperinter.tk/categories/IT/"/>
+      <category term="IT" scheme="http://yoursite.com/categories/IT/"/>
     
     
-      <category term="wordpress" scheme="http://emperinter.tk/tags/wordpress/"/>
+      <category term="wordpress" scheme="http://yoursite.com/tags/wordpress/"/>
     
-      <category term="markdown" scheme="http://emperinter.tk/tags/markdown/"/>
+      <category term="markdown" scheme="http://yoursite.com/tags/markdown/"/>
     
   </entry>
   
   <entry>
     <title>Git</title>
-    <link href="http://emperinter.tk/2019/02/23/Git/"/>
-    <id>http://emperinter.tk/2019/02/23/Git/</id>
+    <link href="http://yoursite.com/2019/02/23/Git/"/>
+    <id>http://yoursite.com/2019/02/23/Git/</id>
     <published>2019-02-22T17:29:06.000Z</published>
     <updated>2019-02-22T16:53:05.341Z</updated>
     
@@ -211,17 +211,17 @@
     
     </summary>
     
-      <category term="IT" scheme="http://emperinter.tk/categories/IT/"/>
+      <category term="IT" scheme="http://yoursite.com/categories/IT/"/>
     
     
-      <category term="Git" scheme="http://emperinter.tk/tags/Git/"/>
+      <category term="Git" scheme="http://yoursite.com/tags/Git/"/>
     
   </entry>
   
   <entry>
     <title>Hexo博客多台电脑设备同步管理</title>
-    <link href="http://emperinter.tk/2019/02/22/Hexo%E5%8D%9A%E5%AE%A2%E5%A4%9A%E5%8F%B0%E7%94%B5%E8%84%91%E8%AE%BE%E5%A4%87%E5%90%8C%E6%AD%A5%E7%AE%A1%E7%90%86/"/>
-    <id>http://emperinter.tk/2019/02/22/Hexo博客多台电脑设备同步管理/</id>
+    <link href="http://yoursite.com/2019/02/22/Hexo%E5%8D%9A%E5%AE%A2%E5%A4%9A%E5%8F%B0%E7%94%B5%E8%84%91%E8%AE%BE%E5%A4%87%E5%90%8C%E6%AD%A5%E7%AE%A1%E7%90%86/"/>
+    <id>http://yoursite.com/2019/02/22/Hexo博客多台电脑设备同步管理/</id>
     <published>2019-02-22T13:39:07.000Z</published>
     <updated>2019-02-22T13:58:48.123Z</updated>
     
@@ -242,17 +242,17 @@
     
     </summary>
     
-      <category term="IT" scheme="http://emperinter.tk/categories/IT/"/>
+      <category term="IT" scheme="http://yoursite.com/categories/IT/"/>
     
     
-      <category term="hexo" scheme="http://emperinter.tk/tags/hexo/"/>
+      <category term="hexo" scheme="http://yoursite.com/tags/hexo/"/>
     
   </entry>
   
   <entry>
     <title>V2ray使用教程</title>
-    <link href="http://emperinter.tk/2019/02/22/v2ray%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/"/>
-    <id>http://emperinter.tk/2019/02/22/v2ray使用教程/</id>
+    <link href="http://yoursite.com/2019/02/22/v2ray%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/"/>
+    <id>http://yoursite.com/2019/02/22/v2ray使用教程/</id>
     <published>2019-02-21T16:06:23.000Z</published>
     <updated>2019-02-22T13:57:32.786Z</updated>
     
@@ -268,21 +268,21 @@
     
     </summary>
     
-      <category term="IT" scheme="http://emperinter.tk/categories/IT/"/>
+      <category term="IT" scheme="http://yoursite.com/categories/IT/"/>
     
     
-      <category term="V2ray" scheme="http://emperinter.tk/tags/V2ray/"/>
+      <category term="V2ray" scheme="http://yoursite.com/tags/V2ray/"/>
     
   </entry>
   
   <entry>
     <title>WordPress 迁移/重装</title>
-    <link href="http://emperinter.tk/2019/01/23/WordPress%E8%BF%81%E7%A7%BB%E6%88%96%E9%87%8D%E8%A3%85/"/>
-    <id>http://emperinter.tk/2019/01/23/WordPress迁移或重装/</id>
+    <link href="http://yoursite.com/2019/01/23/WordPress%E8%BF%81%E7%A7%BB%E6%88%96%E9%87%8D%E8%A3%85/"/>
+    <id>http://yoursite.com/2019/01/23/WordPress迁移或重装/</id>
     <published>2019-01-22T22:06:06.000Z</published>
     <updated>2019-02-23T02:08:24.821Z</updated>
     
-    <content type="html"><![CDATA[<h2>缘由：</h2><p><strong>1.个人php版本过低（5.5）且有听说Wordpress不再支持php7.2以下版本；2.个人安装的是Centos6版本，之前安装一些功能不支持（Eg：V2ray）；</strong></p><h2>工具：</h2><ul><br><li>git + GIthub</li><br><li>phpMyAdmin</li><br></ul><h2>步骤：</h2><p><strong>1.数据库备份下载（phpMyAdmin）</strong><br>登陆个人服务器ip地址，进入phpMyadmin，登陆数据库。把整个数据库备份下来；</p><p><strong>2.网站整个文件夹备份</strong><br>登陆ssh进入vps，用<a href="https://emperinter.tk/?p=124">git命令行</a>把整个网站文件夹备份到GIthub里面。<br>现在Github私库不要钱了，如果不考虑隐私，倒是一个很好的“云盘”</p><a id="more"></a><p><strong>3.重新搭建wordpress需要的lnmp和php等等</strong><br>这个没什么说的，老样子;</p><p><strong>4.新数据库完全删除</strong><br>进入phpMyAdmin,删除自动安装的数据库；</p><p><strong>5.导入备份数据库（phpMyAdmin上传有50M以下限制)</strong></p><p><strong>6.网站文件夹下载</strong><br>登陆服务器，覆盖新安装的；</p><p>注意权限的重新赋予</p><pre><code>chmod -R 755 /home/wwwroot && chown -R www /home/wwwroot</code></pre><p><strong>7.wp-config 数据库信息更改（若新数据库的用户名等等更改了，未改则跳过）</strong></p><pre><code>vi /home/wwwroot/emperinter.tk/wp-config.php</code></pre><p>( 注意替换成自己的安装目录)</p><p><strong>8.DNS解析设置</strong></p><h1>坑</h1><h3>WordPress您当前正在编辑显示最新文章的页面</h3><p><img src="https://www.softwen.com/wp-content/uploads/image/20180921/1537541209565552.jpg" alt></p><h3>解决方法：</h3><p>1.进入phpMyAdmin</p><p>2.找到wp_posts(文章储存的地方）</p><p>3.点击结构</p><p>4.找到Id</p><p><img src="https://res.cloudinary.com/dn6fdfasw/image/upload/v1549035472/%E6%96%B0%E5%BB%BA%E4%BD%8D%E5%9B%BE%E5%9B%BE%E5%83%8F.bmp" alt></p><p>5.点击“更多”</p><p>6.点击“主键”</p><p>7.若提示失败则点击“修改”，后勾选”A_I”，点击保存，后返回再次点击“主键”；</p><p>8.若再次提示失败则单独导出wp_posts;</p><p>9.删除数据库里面的wp_posts;</p><p>10.重新导入wp_posts &amp; <strong>注意再次导入时取消勾选“不要给零值使用自增 (AUTO_INCREMENT)”</strong><br><img src="https://res.cloudinary.com/dn6fdfasw/image/upload/v1549036305/%E6%8D%95%E8%8E%B71.png" alt></p><p>11.再次重复步骤1-7即可；</p>]]></content>
+    <content type="html"><![CDATA[<h2>缘由：</h2><p><strong>1.个人php版本过低（5.5）且有听说Wordpress不再支持php7.2以下版本；2.个人安装的是Centos6版本，之前安装一些功能不支持（Eg：V2ray）；</strong></p><h2>工具：</h2><ul><br><li>git + GIthub</li><br><li>phpMyAdmin</li><br></ul><h2>步骤：</h2><p><strong>1.数据库备份下载（phpMyAdmin）</strong><br>登陆个人服务器ip地址，进入phpMyadmin，登陆数据库。把整个数据库备份下来；</p><p><strong>2.网站整个文件夹备份</strong><br>登陆ssh进入vps，用<a href="https://emperinter.tk/?p=124" target="_blank" rel="noopener">git命令行</a>把整个网站文件夹备份到GIthub里面。<br>现在Github私库不要钱了，如果不考虑隐私，倒是一个很好的“云盘”</p><a id="more"></a><p><strong>3.重新搭建wordpress需要的lnmp和php等等</strong><br>这个没什么说的，老样子;</p><p><strong>4.新数据库完全删除</strong><br>进入phpMyAdmin,删除自动安装的数据库；</p><p><strong>5.导入备份数据库（phpMyAdmin上传有50M以下限制)</strong></p><p><strong>6.网站文件夹下载</strong><br>登陆服务器，覆盖新安装的；</p><p>注意权限的重新赋予</p><pre><code>chmod -R 755 /home/wwwroot && chown -R www /home/wwwroot</code></pre><p><strong>7.wp-config 数据库信息更改（若新数据库的用户名等等更改了，未改则跳过）</strong></p><pre><code>vi /home/wwwroot/emperinter.tk/wp-config.php</code></pre><p>( 注意替换成自己的安装目录)</p><p><strong>8.DNS解析设置</strong></p><h1>坑</h1><h3>WordPress您当前正在编辑显示最新文章的页面</h3><p><img src="https://www.softwen.com/wp-content/uploads/image/20180921/1537541209565552.jpg" alt></p><h3>解决方法：</h3><p>1.进入phpMyAdmin</p><p>2.找到wp_posts(文章储存的地方）</p><p>3.点击结构</p><p>4.找到Id</p><p><img src="https://res.cloudinary.com/dn6fdfasw/image/upload/v1549035472/%E6%96%B0%E5%BB%BA%E4%BD%8D%E5%9B%BE%E5%9B%BE%E5%83%8F.bmp" alt></p><p>5.点击“更多”</p><p>6.点击“主键”</p><p>7.若提示失败则点击“修改”，后勾选”A_I”，点击保存，后返回再次点击“主键”；</p><p>8.若再次提示失败则单独导出wp_posts;</p><p>9.删除数据库里面的wp_posts;</p><p>10.重新导入wp_posts &amp; <strong>注意再次导入时取消勾选“不要给零值使用自增 (AUTO_INCREMENT)”</strong><br><img src="https://res.cloudinary.com/dn6fdfasw/image/upload/v1549036305/%E6%8D%95%E8%8E%B71.png" alt></p><p>11.再次重复步骤1-7即可；</p>]]></content>
     
     <summary type="html">
     
@@ -296,21 +296,21 @@
 &lt;h2&gt;步骤：&lt;/h2&gt;
 
 &lt;p&gt;&lt;strong&gt;1.数据库备份下载（phpMyAdmin）&lt;/strong&gt;&lt;br&gt;登陆个人服务器ip地址，进入phpMyadmin，登陆数据库。把整个数据库备份下来；&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;2.网站整个文件夹备份&lt;/strong&gt;&lt;br&gt;登陆ssh进入vps，用&lt;a href=&quot;https://emperinter.tk/?p=124&quot;&gt;git命令行&lt;/a&gt;把整个网站文件夹备份到GIthub里面。&lt;br&gt;现在Github私库不要钱了，如果不考虑隐私，倒是一个很好的“云盘”&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;2.网站整个文件夹备份&lt;/strong&gt;&lt;br&gt;登陆ssh进入vps，用&lt;a href=&quot;https://emperinter.tk/?p=124&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;git命令行&lt;/a&gt;把整个网站文件夹备份到GIthub里面。&lt;br&gt;现在Github私库不要钱了，如果不考虑隐私，倒是一个很好的“云盘”&lt;/p&gt;
     
     </summary>
     
-      <category term="IT" scheme="http://emperinter.tk/categories/IT/"/>
+      <category term="IT" scheme="http://yoursite.com/categories/IT/"/>
     
     
-      <category term="WordPress" scheme="http://emperinter.tk/tags/WordPress/"/>
+      <category term="WordPress" scheme="http://yoursite.com/tags/WordPress/"/>
     
   </entry>
   
   <entry>
     <title>怪诞行为学</title>
-    <link href="http://emperinter.tk/2018/12/25/%E6%80%AA%E8%AF%9E%E8%A1%8C%E4%B8%BA%E5%AD%A6/"/>
-    <id>http://emperinter.tk/2018/12/25/怪诞行为学/</id>
+    <link href="http://yoursite.com/2018/12/25/%E6%80%AA%E8%AF%9E%E8%A1%8C%E4%B8%BA%E5%AD%A6/"/>
+    <id>http://yoursite.com/2018/12/25/怪诞行为学/</id>
     <published>2018-12-24T22:06:06.000Z</published>
     <updated>2019-02-25T07:07:22.450Z</updated>
     
@@ -324,17 +324,17 @@
     
     </summary>
     
-      <category term="闲杂" scheme="http://emperinter.tk/categories/%E9%97%B2%E6%9D%82/"/>
+      <category term="闲杂" scheme="http://yoursite.com/categories/%E9%97%B2%E6%9D%82/"/>
     
     
-      <category term="读书笔记" scheme="http://emperinter.tk/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
+      <category term="读书笔记" scheme="http://yoursite.com/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
     
   </entry>
   
   <entry>
     <title>惠普暗夜精灵4后续体验</title>
-    <link href="http://emperinter.tk/2018/12/23/%E6%83%A0%E6%99%AE%E6%9A%97%E5%A4%9C%E7%B2%BE%E7%81%B54%E5%90%8E%E7%BB%AD%E4%BD%93%E9%AA%8C/"/>
-    <id>http://emperinter.tk/2018/12/23/惠普暗夜精灵4后续体验/</id>
+    <link href="http://yoursite.com/2018/12/23/%E6%83%A0%E6%99%AE%E6%9A%97%E5%A4%9C%E7%B2%BE%E7%81%B54%E5%90%8E%E7%BB%AD%E4%BD%93%E9%AA%8C/"/>
+    <id>http://yoursite.com/2018/12/23/惠普暗夜精灵4后续体验/</id>
     <published>2018-12-22T22:06:06.000Z</published>
     <updated>2019-02-23T02:05:26.506Z</updated>
     
@@ -349,17 +349,17 @@
     
     </summary>
     
-      <category term="闲杂" scheme="http://emperinter.tk/categories/%E9%97%B2%E6%9D%82/"/>
+      <category term="闲杂" scheme="http://yoursite.com/categories/%E9%97%B2%E6%9D%82/"/>
     
     
-      <category term="调侃" scheme="http://emperinter.tk/tags/%E8%B0%83%E4%BE%83/"/>
+      <category term="调侃" scheme="http://yoursite.com/tags/%E8%B0%83%E4%BE%83/"/>
     
   </entry>
   
   <entry>
     <title>只有偏执狂才能生存</title>
-    <link href="http://emperinter.tk/2018/12/20/%E5%8F%AA%E6%9C%89%E5%81%8F%E6%89%A7%E7%8B%82%E6%89%8D%E8%83%BD%E7%94%9F%E5%AD%98/"/>
-    <id>http://emperinter.tk/2018/12/20/只有偏执狂才能生存/</id>
+    <link href="http://yoursite.com/2018/12/20/%E5%8F%AA%E6%9C%89%E5%81%8F%E6%89%A7%E7%8B%82%E6%89%8D%E8%83%BD%E7%94%9F%E5%AD%98/"/>
+    <id>http://yoursite.com/2018/12/20/只有偏执狂才能生存/</id>
     <published>2018-12-19T22:06:06.000Z</published>
     <updated>2019-02-25T07:09:03.141Z</updated>
     
@@ -375,17 +375,17 @@
     
     </summary>
     
-      <category term="闲杂" scheme="http://emperinter.tk/categories/%E9%97%B2%E6%9D%82/"/>
+      <category term="闲杂" scheme="http://yoursite.com/categories/%E9%97%B2%E6%9D%82/"/>
     
     
-      <category term="读书笔记" scheme="http://emperinter.tk/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
+      <category term="读书笔记" scheme="http://yoursite.com/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
     
   </entry>
   
   <entry>
     <title>人的宗教</title>
-    <link href="http://emperinter.tk/2018/11/25/%E4%BA%BA%E7%9A%84%E5%AE%97%E6%95%99/"/>
-    <id>http://emperinter.tk/2018/11/25/人的宗教/</id>
+    <link href="http://yoursite.com/2018/11/25/%E4%BA%BA%E7%9A%84%E5%AE%97%E6%95%99/"/>
+    <id>http://yoursite.com/2018/11/25/人的宗教/</id>
     <published>2018-11-24T22:06:06.000Z</published>
     <updated>2019-02-23T02:19:46.625Z</updated>
     
@@ -398,42 +398,17 @@
     
     </summary>
     
-      <category term="闲杂" scheme="http://emperinter.tk/categories/%E9%97%B2%E6%9D%82/"/>
+      <category term="闲杂" scheme="http://yoursite.com/categories/%E9%97%B2%E6%9D%82/"/>
     
     
-      <category term="读书笔记" scheme="http://emperinter.tk/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>对Ubuntu18的调侃</title>
-    <link href="http://emperinter.tk/2018/11/23/%E5%AF%B9Ubuntu18%E7%9A%84%E8%B0%83%E4%BE%83/"/>
-    <id>http://emperinter.tk/2018/11/23/对Ubuntu18的调侃/</id>
-    <published>2018-11-22T22:06:06.000Z</published>
-    <updated>2019-02-22T17:02:21.429Z</updated>
-    
-    <content type="html"><![CDATA[<p>我已经用了18版本一段时间了，我来说说我不好的感受吧，好的我就不说了。<br><strong>1.安装不合理：</strong><br>我是1T移动硬盘里面分了36G来安装系统，可每次直接从18版本安装都会在最后一步提示/target………读写错误，无法安装。弄得我只有从16.04版本升级到18。升级可慢了。原谅我电脑不强的配置和辣鸡网速。<br><strong>2.总是卡住，运行不了任何程序。</strong><br>不清楚是哪里出了错误。前几天用着用着就直接黑屏进入类似命令行的窗口进行某种活动，有显示说什么什么／sdb6/………错误。<br><strong>3.两次无缘无故的开机后进不去系统:</strong><br>A.第一次显示什么加载错误，我感觉是之前一次系统提示什么的驱动升级搞挂了;<br>B.第二次是玩DOTA时卡住了，强制关机后直接开不了机，显示什么utlma什么玩意的;让输入help，输入后输出什么硬盘错误之类的就没反应了。进不了recovery模式。</p><h3 id="最后建议："><a href="#最后建议：" class="headerlink" title="最后建议："></a>最后建议：</h3><p>18如果适合那些喜欢新鲜的人玩玩吧！如果追求稳定性还是算了，刚出来bug太多。总是要不断更新，经常出错挂机。过一段稳定后再转吧！我还是换回16吧！心酸</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;我已经用了18版本一段时间了，我来说说我不好的感受吧，好的我就不说了。&lt;br&gt;&lt;strong&gt;1.安装不合理：&lt;/strong&gt;&lt;br&gt;我是1T移动硬盘里面分了36G来安装系统，可每次直接从18版本安装都会在最后一步提示/target………读写错误，无法安装。弄得我只有从1
-      
-    
-    </summary>
-    
-      <category term="闲杂" scheme="http://emperinter.tk/categories/%E9%97%B2%E6%9D%82/"/>
-    
-    
-      <category term="调侃" scheme="http://emperinter.tk/tags/%E8%B0%83%E4%BE%83/"/>
+      <category term="读书笔记" scheme="http://yoursite.com/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
     
   </entry>
   
   <entry>
     <title>奢侈态度</title>
-    <link href="http://emperinter.tk/2018/11/23/%E5%A5%A2%E4%BE%88%E6%80%81%E5%BA%A6/"/>
-    <id>http://emperinter.tk/2018/11/23/奢侈态度/</id>
+    <link href="http://yoursite.com/2018/11/23/%E5%A5%A2%E4%BE%88%E6%80%81%E5%BA%A6/"/>
+    <id>http://yoursite.com/2018/11/23/奢侈态度/</id>
     <published>2018-11-22T22:06:06.000Z</published>
     <updated>2019-02-23T02:19:28.462Z</updated>
     
@@ -449,17 +424,42 @@
     
     </summary>
     
-      <category term="闲杂" scheme="http://emperinter.tk/categories/%E9%97%B2%E6%9D%82/"/>
+      <category term="闲杂" scheme="http://yoursite.com/categories/%E9%97%B2%E6%9D%82/"/>
     
     
-      <category term="读书笔记" scheme="http://emperinter.tk/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
+      <category term="读书笔记" scheme="http://yoursite.com/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>对Ubuntu18的调侃</title>
+    <link href="http://yoursite.com/2018/11/23/%E5%AF%B9Ubuntu18%E7%9A%84%E8%B0%83%E4%BE%83/"/>
+    <id>http://yoursite.com/2018/11/23/对Ubuntu18的调侃/</id>
+    <published>2018-11-22T22:06:06.000Z</published>
+    <updated>2019-02-22T17:02:21.429Z</updated>
+    
+    <content type="html"><![CDATA[<p>我已经用了18版本一段时间了，我来说说我不好的感受吧，好的我就不说了。<br><strong>1.安装不合理：</strong><br>我是1T移动硬盘里面分了36G来安装系统，可每次直接从18版本安装都会在最后一步提示/target………读写错误，无法安装。弄得我只有从16.04版本升级到18。升级可慢了。原谅我电脑不强的配置和辣鸡网速。<br><strong>2.总是卡住，运行不了任何程序。</strong><br>不清楚是哪里出了错误。前几天用着用着就直接黑屏进入类似命令行的窗口进行某种活动，有显示说什么什么／sdb6/………错误。<br><strong>3.两次无缘无故的开机后进不去系统:</strong><br>A.第一次显示什么加载错误，我感觉是之前一次系统提示什么的驱动升级搞挂了;<br>B.第二次是玩DOTA时卡住了，强制关机后直接开不了机，显示什么utlma什么玩意的;让输入help，输入后输出什么硬盘错误之类的就没反应了。进不了recovery模式。</p><h3 id="最后建议："><a href="#最后建议：" class="headerlink" title="最后建议："></a>最后建议：</h3><p>18如果适合那些喜欢新鲜的人玩玩吧！如果追求稳定性还是算了，刚出来bug太多。总是要不断更新，经常出错挂机。过一段稳定后再转吧！我还是换回16吧！心酸</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;我已经用了18版本一段时间了，我来说说我不好的感受吧，好的我就不说了。&lt;br&gt;&lt;strong&gt;1.安装不合理：&lt;/strong&gt;&lt;br&gt;我是1T移动硬盘里面分了36G来安装系统，可每次直接从18版本安装都会在最后一步提示/target………读写错误，无法安装。弄得我只有从1
+      
+    
+    </summary>
+    
+      <category term="闲杂" scheme="http://yoursite.com/categories/%E9%97%B2%E6%9D%82/"/>
+    
+    
+      <category term="调侃" scheme="http://yoursite.com/tags/%E8%B0%83%E4%BE%83/"/>
     
   </entry>
   
   <entry>
     <title>Xmind破解</title>
-    <link href="http://emperinter.tk/2018/11/20/Xmind%E7%A0%B4%E8%A7%A3/"/>
-    <id>http://emperinter.tk/2018/11/20/Xmind破解/</id>
+    <link href="http://yoursite.com/2018/11/20/Xmind%E7%A0%B4%E8%A7%A3/"/>
+    <id>http://yoursite.com/2018/11/20/Xmind破解/</id>
     <published>2018-11-19T23:06:06.000Z</published>
     <updated>2019-02-25T07:06:08.440Z</updated>
     
@@ -474,15 +474,15 @@
     
     </summary>
     
-      <category term="IT" scheme="http://emperinter.tk/categories/IT/"/>
+      <category term="IT" scheme="http://yoursite.com/categories/IT/"/>
     
     
   </entry>
   
   <entry>
     <title>人类简史</title>
-    <link href="http://emperinter.tk/2018/11/15/%E4%BA%BA%E7%B1%BB%E7%AE%80%E5%8F%B2/"/>
-    <id>http://emperinter.tk/2018/11/15/人类简史/</id>
+    <link href="http://yoursite.com/2018/11/15/%E4%BA%BA%E7%B1%BB%E7%AE%80%E5%8F%B2/"/>
+    <id>http://yoursite.com/2018/11/15/人类简史/</id>
     <published>2018-11-14T22:06:06.000Z</published>
     <updated>2019-02-23T02:19:10.560Z</updated>
     
@@ -497,10 +497,10 @@
     
     </summary>
     
-      <category term="闲杂" scheme="http://emperinter.tk/categories/%E9%97%B2%E6%9D%82/"/>
+      <category term="闲杂" scheme="http://yoursite.com/categories/%E9%97%B2%E6%9D%82/"/>
     
     
-      <category term="读书笔记" scheme="http://emperinter.tk/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
+      <category term="读书笔记" scheme="http://yoursite.com/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
     
   </entry>
   
