@@ -3,7 +3,7 @@
   <entry>
     <title><![CDATA[在Github用Cloudflare解解析个人域名]]></title>
     <url>%2F2019%2F02%2F25%2F%E5%9C%A8Github%E7%94%A8Cloudflare%E8%A7%A3%E8%A7%A3%E6%9E%90%E4%B8%AA%E4%BA%BA%E5%9F%9F%E5%90%8D%2F</url>
-    <content type="text"><![CDATA[我是GitHub创建了两个分支（master/hexo） Steps:1.在有.git的文件夹里面新建一个CNAME文件（无后缀），并写入个人申请的个人域名（像我的则为：emperinter一个CNAME文件（无后缀），并写入个人申请的个人域名（像我的则为：emperinter.tk）;2.push更新到Github;3.在Github里面的**github.io里面的设置里面找到GitHub Pages（_注意：两个分支都要修改，如只有一个master则只修改一个即可，分支是否必须未尝试过**_），并在Custom domain里面填入你的域名（格式同上）；4.登陆Cloudflare，添加DNS为如下格式(注意修改为自己的域名)： Type Name Domain name CNAME @ emperinter.tk]]></content>
+    <content type="text"><![CDATA[我是GitHub创建了两个分支（master/hexo） Steps:1.在有.git的文件夹里面新建一个CNAME文件（无后缀），并写入个人申请的个人域名（像我的则为：emperinter.tk）;2.push更新到Github;3.在Github里面的xxx.github.io里面的设置里面找到GitHub Pages（两个分支都要修改，如只有一个master则只修改master即可，分支是否必须修改77未尝试过。），并在Custom domain里面填入你的域名（格式同上）；4.登陆Cloudflare，添加DNS为如下格式(注意修改为自己的域名)： Type Name Domain name CNAME @ emperinter.tk]]></content>
       <categories>
         <category>IT</category>
       </categories>
