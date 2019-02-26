@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 辉章的个人博客
+title: 辉的个人博客
 subtitle: 宁静致远
 description: Thoughts, stories and ideas.
 keywords:
-author: 辉章
+author: 辉
 language: cn
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: http://emperinter.tk
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
