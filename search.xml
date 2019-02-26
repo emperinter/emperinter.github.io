@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[阿丽塔:战斗天使]]></title>
+    <url>%2F2019%2F02%2F26%2F%E9%98%BF%E4%B8%BD%E5%A1%94%EF%BC%9A%E6%88%98%E6%96%97%E5%A4%A9%E4%BD%BF%2F</url>
+    <content type="text"><![CDATA[av画质观看地址 观感 不知到为什么看到最后心情有点承重，可能想到了现实中有很多东西与电影中的情节相似吧！ 上面浮着的”城市生活“是映射着生活中我们某些人所追求的”美好生活“，模糊而不清晰，只知道一头扎进去，不知随云； 我们每个人追求的东西到底是什么？比如那个所谓自私的女人其实追求的是爱； 感觉冲突不够激烈，少了一点元素； 人性的善恶表现并不充分，生活远比这复杂多了； 不知道有没有前一部电影，铺垫不是很好； 映像中已经有两部电影和天空上飘着所谓的”高级人种“，具体名字忘了，一部拍科幻片，一部动画；在未来的某一天，不排除这种可能性的发生，就像现在所谓的转基因儿童一样，科技前沿技术十分发达，我们普通老百姓了解途径过少，加上现在的贫富差距越来越大，我突然想未来可能上面飘着的都是富人建造的玩具； 所谓的医生按他所说的话应该其实也曾做过类似少年的事，现治疗所谓的半人类算不算是另一种的赎罪； 感觉少了一点什么，不是很尽性！]]></content>
+      <categories>
+        <category>闲杂</category>
+      </categories>
+      <tags>
+        <tag>影评</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[在Github用Cloudflare解解析个人域名]]></title>
     <url>%2F2019%2F02%2F25%2F%E5%9C%A8Github%E7%94%A8Cloudflare%E8%A7%A3%E8%A7%A3%E6%9E%90%E4%B8%AA%E4%BA%BA%E5%9F%9F%E5%90%8D%2F</url>
     <content type="text"><![CDATA[我是GitHub创建了两个分支（master/hexo） Steps:1.在有.git的文件夹里面新建一个CNAME文件（无后缀），并写入个人申请的个人域名（像我的则为：emperinter.tk）;2.push更新到Github;3.在Github里面的xxx.github.io里面的设置里面找到GitHub Pages（两个分支都要修改，如只有一个master则只修改master即可，分支是否必须修改未尝试过。），并在Custom domain里面填入你的域名（格式同上）；4.登陆Cloudflare，添加DNS为如下格式(注意修改为自己的域名)： Type Name Domain name CNAME @ emperinter.tk 最新发现 也要在source文件里面建一个CNAME文件，不然每次更新后都会导致在Github里面的设置失效。]]></content>
