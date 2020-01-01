@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://emperinter.github.io/"/>
-  <updated>2019-03-05T12:52:28.450Z</updated>
+  <updated>2020-01-01T01:06:25.341Z</updated>
   <id>http://emperinter.github.io/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>btsync</title>
+    <link href="http://emperinter.github.io/2020/01/01/btsync/"/>
+    <id>http://emperinter.github.io/2020/01/01/btsync/</id>
+    <published>2020-01-01T00:54:31.000Z</published>
+    <updated>2020-01-01T01:06:25.341Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="https://i.loli.net/2019/12/24/GfbBsRpVWhoXlzy.png" alt="file"></p><h1 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h1><p>   我自己一直是拿他来接收外部的资料或文档，但我知道这个的时候是叫BTSYNC，自己上一次想安装但一直没有反应就放弃了。最近几天发现可能是安装好了，但我自己没有去设置软件以及软件一直用的是老版本就导致连接同步失败！我之前有一个<a style="color:red;font-size:32px;" href="https://www.emperinter.info/2019/11/14/syncthing/" target="_blank" rel="noopener noreferrer">Syncthing</a>,开源倒是开源的，但移动端（Ipad，手机等等）就十分够呛无法使用了。同时同步总是有一些搞不太懂的提示，网上也没具体教程来说明，感觉有点难搞。局域网也可以用，这也意味着如果你的电脑和其它设备在同一局域网中能快速传播资源。</p><h1 id="官网"><a href="#官网" class="headerlink" title="官网"></a><a href="https://www.resilio.com/" target="_blank" rel="noopener">官网</a></h1><h1 id="安装教程"><a href="#安装教程" class="headerlink" title="安装教程"></a>安装教程</h1><h2 id="服务器端（以CentOs举例，其它类似）"><a href="#服务器端（以CentOs举例，其它类似）" class="headerlink" title="服务器端（以CentOs举例，其它类似）"></a>服务器端（以CentOs举例，其它类似）</h2><ul><li><p>下载:<a href="https://www.resilio.com/platforms/desktop/" target="_blank" rel="noopener">https://www.resilio.com/platforms/desktop/</a>到一个具体目录（这里以 <strong>/root/sync</strong>为例）中；</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">wget https://download-cdn.resilio.com/stable/linux-x64/resilio-sync_x64.tar.gz</span><br></pre></td></tr></table></figure></li><li><p>解压</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">tar zxvf resilio-sync_x64.tar.gz</span><br></pre></td></tr></table></figure></li><li><p>导出配置</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">./rslsync --dump-sample-config &gt; sync.conf</span><br></pre></td></tr></table></figure></li><li><p>把BTSync加入开机启动</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vi /etc/rc.local</span><br></pre></td></tr></table></figure></li></ul><p>加入内容如下<br><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">cd /root/sync</span><br><span class="line">./rslsync --config sync.conf</span><br></pre></td></tr></table></figure></p><ul><li><p>如果是CentOS 7还需要执行</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">chmod +x /etc/rc.d/rc.local</span><br></pre></td></tr></table></figure></li><li><p>防火墙开启端口<strong>8888[为配置文件默认端口]</strong>,如已有其它进程占用该端口，请修改配置文件中的默认端口号;</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vi /root/sync/sync.conf</span><br></pre></td></tr></table></figure></li><li><p>启动sync</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">./rslsync --config sync.conf</span><br></pre></td></tr></table></figure></li><li><p>运行后登陆浏览器输入<strong><a href="http://ip地址:端口" target="_blank" rel="noopener">http://ip地址:端口</a></strong>，按要求配置好名字和密码(请记住，后面每次登陆都要用)后即可进入后台；</p><blockquote><p>如想保留个人隐私，请不要把设备名称和身份链接名设置与自身无关的名字。</p></blockquote></li><li><p>使用后面统一介绍，操作在服务器、电脑和移动端一样。</p></li></ul><h2 id="电脑"><a href="#电脑" class="headerlink" title="电脑"></a>电脑</h2><blockquote><p>我第一次使用老版本接收其他人传送的资源是要fq的，新版本我测试如果自己的服务器能正常连接不fq也能用。具体没测试过。只知道老版本第一次能正常同步，但如果重启或断网后，就无法同步自己的资源了，但以前的资源同步没有问题。搞不清楚是什么毛病。所以总的来说，如果第一次使用还是用新版本得了。我自己老版本是有很多重要资源，所以电脑上新老版本都有。</p></blockquote><ul><li>下载安装即可；</li><li>同时注意这个新版本不像老版本运行时有图标（如下）显示运行状态，但自己测试是能正常运行的。刚开始以为有问题，我还卸载重新安装了一遍。<br><img src="https://i.loli.net/2019/12/24/WPmVHavGQ43sRbL.png" alt="file"></li></ul><h2 id="移动端"><a href="#移动端" class="headerlink" title="移动端"></a>移动端</h2><blockquote><p>以Ipad为例，直接搜<strong>Resilio Sync</strong>即可。</p></blockquote><h1 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h1><h2 id="分享文件（夹）"><a href="#分享文件（夹）" class="headerlink" title="分享文件（夹）"></a>分享文件（夹）</h2><ul><li>在其中任何一端点击如下右上角的<strong>+</strong>,然后选择文件（夹）即可创建生成两个<a style="color:red;font-size:32px;">密钥:读写和只读（十分重要的，不要泄露给其它人，如分享文件一遍给他人只读就行了，如同步请选择读写）</a><br><img src="https://i.loli.net/2019/12/24/W5ulvobIh8sCSRA.png" alt="file"></li></ul><h2 id="接收文件（夹）"><a href="#接收文件（夹）" class="headerlink" title="接收文件（夹）"></a>接收文件（夹）</h2><ul><li>选择<strong>输入密匙或链接</strong>，然后选择本地保存文件的文件夹即可接收</li></ul><h2 id="注意"><a href="#注意" class="headerlink" title="注意"></a>注意</h2><ul><li>最好都使用最新的版本！否则会遇见在线用户始终为0的情况。</li><li>配置选默认就好了，老版本还有什么DHT可选，但新版本则没有。入为老版本，一般最好把DHT勾选上；<br><img src="https://i.loli.net/2019/12/24/T8IKQ1yqeOdJ3k4.png" alt="file"></li><li>那个什么LAN应该就是局域网选项了；</li><li>这个是闭源的，其安全性不详，自己斟酌考虑。类似的还有其它软件：<a href="https://www.emperinter.info/2019/11/14/syncthing/" target="_blank" rel="noopener">syncthing</a>,<a href="https://www.seafile.com/en/home/" target="_blank" rel="noopener">seafile</a></li></ul><blockquote><h1 id="其它功能就自己去探索吧！"><a href="#其它功能就自己去探索吧！" class="headerlink" title="其它功能就自己去探索吧！"></a>其它功能就自己去探索吧！</h1></blockquote>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;img src=&quot;https://i.loli.net/2019/12/24/GfbBsRpVWhoXlzy.png&quot; alt=&quot;file&quot;&gt;&lt;/p&gt;
+&lt;h1 id=&quot;简介&quot;&gt;&lt;a href=&quot;#简介&quot; class=&quot;headerlink&quot; title=&quot;简介&quot;&gt;&lt;/a&gt;
+      
+    
+    </summary>
+    
+      <category term="IT" scheme="http://emperinter.github.io/categories/IT/"/>
+    
+    
+      <category term="Git" scheme="http://emperinter.github.io/tags/Git/"/>
+    
+  </entry>
   
   <entry>
     <title>Wordpress从RSS导入文章</title>
@@ -275,7 +301,7 @@
     <published>2019-02-22T17:39:07.000Z</published>
     <updated>2019-02-22T16:39:50.389Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="缘由"><a href="#缘由" class="headerlink" title="缘由"></a>缘由</h1><p>几天前，我朋友看了我的博客说道，你的代码在博客里面排版一点也不美观，也不能高亮，于是向我推荐了markdown，我搜了相关与markdown和代码高亮的资料，并不断尝试找到了以下方法。</p><h1 id="方法"><a href="#方法" class="headerlink" title="方法"></a>方法</h1><h4 id="使用插件-可直接在插件里面搜到"><a href="#使用插件-可直接在插件里面搜到" class="headerlink" title="使用插件(可直接在插件里面搜到)"></a>使用插件(可直接在插件里面搜到)</h4><ul><li><strong>Disable Gutenberg</strong><br>插件wordpress5.0（5.0一下版本未测试过）需要禁用原版编辑器，<strong>否则</strong>会在代码框中出现 <strong>乱码</strong> 的问题（比如在C++文件中会把 &lt;&lt; 转换掉 )</li><li><strong>WP Editor.md</strong><br>markdown编辑器插件，我使用这几天感觉还不错！</li></ul><a id="more"></a><h1 id="使用体验"><a href="#使用体验" class="headerlink" title="使用体验"></a>使用体验</h1><ul><li><strong>可实时在编辑框右侧看到文章的排版布局;</strong><br><img src="https://res.cloudinary.com/dn6fdfasw/image/upload/v1544521834/2018-12-11_17-48-28_%E7%9A%84%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE.png" alt></li><li><strong>效率极高</strong><br>这得益于markdown的语法，不过让人头疼的是要背一些语法，不过很简单！<br><a href="http://xianbai.me/learn-md/article/about/readme.html" target="_blank" rel="noopener">语法学习一个网站</a><br><a href="https://www.jianshu.com/p/45faddb1526d" target="_blank" rel="noopener">语法学习一个博客</a></li><li><strong>注重文章本身的书写</strong><br>不用去按鼠标即可操作。可以随时随地完成文章的书写和排版，排版只要在文章中插入语法即可。比如我在记事本里面写好这个，复制粘帖到编辑器里面，然后检查是否有排版写错了的地方，即可发表;</li><li><strong>功能强大</strong><br>按语法可以在文章中甘特图，流程图，表格等等:<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">graph TD</span><br><span class="line">A[NO.1]--&gt;B(No.2)</span><br><span class="line">B --&gt; C&#123;think&#125;</span><br><span class="line">C --&gt;|是| C1[No.3]</span><br><span class="line">C --&gt;|否| C2[No.4]</span><br><span class="line">C --&gt;|随机|D[No.4]</span><br></pre></td></tr></table></figure></li></ul><table><thead><tr><th>序号</th><th>Value</th><th>Qty</th></tr></thead><tbody><tr><td>1</td><td>PDF阅读器</td><td>正版</td></tr><tr><td>2</td><td>有道云笔记</td><td>正版</td></tr><tr><td>3</td><td>百度网盘</td><td>正版</td></tr><tr><td>4</td><td>MS office</td><td>盗版</td></tr></tbody></table><ul><li><p><strong>可全屏编辑文章</strong></p></li><li><p><strong>支持代码高亮</strong><br><a href="https://emperinter.tk/2018/10/17/%e7%94%a8-c-%e5%92%8c%e6%a0%88%e5%ae%9e%e7%8e%b0%e6%95%b0%e5%88%b6%e8%bd%ac%e6%8d%a2%e5%92%8c%e8%bf%9b%e5%88%b6%e8%bd%ac%e6%8d%a2/">我的文章示例</a><br><em>应该还可以加入什么代码高亮插件支持copy，之前有过，后来不小心删了就搞忘了</em><br><img src="https://res.cloudinary.com/dn6fdfasw/image/upload/v1544522348/2018-12-11_17-58-41_%E7%9A%84%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE.png" alt></p></li><li><p><strong>可使用tab键</strong><br>程序员常用</p></li><li><p><strong>添加图片方便</strong><br>插入图片只要网址即可，比如google一个图片,按格式 <strong>![图片地址]</strong> 即可;</p></li></ul><p>建议注册一个 <a href="cloudinary">cloudinary</a> 来存放自己的图片后，获取地址来添加的blog（可优化主机内存，加快访问速度）;<br>示例如下：<br><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Tor-logo-2011-flat.svg/1200px-Tor-logo-2011-flat.svg.png" alt></p><h4 id="更多功能和体验欢迎大家继续去探索和发现，如有什么值得高兴的欢迎和我交流！"><a href="#更多功能和体验欢迎大家继续去探索和发现，如有什么值得高兴的欢迎和我交流！" class="headerlink" title="更多功能和体验欢迎大家继续去探索和发现，如有什么值得高兴的欢迎和我交流！"></a>更多功能和体验欢迎大家继续去探索和发现，如有什么值得高兴的欢迎和我交流！</h4>]]></content>
+    <content type="html"><![CDATA[<h1 id="缘由"><a href="#缘由" class="headerlink" title="缘由"></a>缘由</h1><p>几天前，我朋友看了我的博客说道，你的代码在博客里面排版一点也不美观，也不能高亮，于是向我推荐了markdown，我搜了相关与markdown和代码高亮的资料，并不断尝试找到了以下方法。</p><h1 id="方法"><a href="#方法" class="headerlink" title="方法"></a>方法</h1><h4 id="使用插件-可直接在插件里面搜到"><a href="#使用插件-可直接在插件里面搜到" class="headerlink" title="使用插件(可直接在插件里面搜到)"></a>使用插件(可直接在插件里面搜到)</h4><ul><li><strong>Disable Gutenberg</strong><br>插件wordpress5.0（5.0一下版本未测试过）需要禁用原版编辑器，<strong>否则</strong>会在代码框中出现 <strong>乱码</strong> 的问题（比如在C++文件中会把 &lt;&lt; 转换掉 )</li><li><strong>WP Editor.md</strong><br>markdown编辑器插件，我使用这几天感觉还不错！</li></ul><a id="more"></a><h1 id="使用体验"><a href="#使用体验" class="headerlink" title="使用体验"></a>使用体验</h1><ul><li><strong>可实时在编辑框右侧看到文章的排版布局;</strong><br><img src="https://res.cloudinary.com/dn6fdfasw/image/upload/v1544521834/2018-12-11_17-48-28_%E7%9A%84%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE.png" alt></li><li><strong>效率极高</strong><br>这得益于markdown的语法，不过让人头疼的是要背一些语法，不过很简单！<br><a href="http://xianbai.me/learn-md/article/about/readme.html" target="_blank" rel="noopener">语法学习一个网站</a><br><a href="https://www.jianshu.com/p/45faddb1526d" target="_blank" rel="noopener">语法学习一个博客</a></li><li><strong>注重文章本身的书写</strong><br>不用去按鼠标即可操作。可以随时随地完成文章的书写和排版，排版只要在文章中插入语法即可。比如我在记事本里面写好这个，复制粘帖到编辑器里面，然后检查是否有排版写错了的地方，即可发表;</li><li><strong>功能强大</strong><br>按语法可以在文章中甘特图，流程图，表格等等:<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">graph TD</span><br><span class="line">A[NO.1]--&gt;B(No.2)</span><br><span class="line">B --&gt; C&#123;think&#125;</span><br><span class="line">C --&gt;|是| C1[No.3]</span><br><span class="line">C --&gt;|否| C2[No.4]</span><br><span class="line">C --&gt;|随机|D[No.4]</span><br></pre></td></tr></table></figure></li></ul><table><thead><tr><th>序号</th><th>Value</th><th>Qty</th></tr></thead><tbody><tr><td>1</td><td>PDF阅读器</td><td>正版</td></tr><tr><td>2</td><td>有道云笔记</td><td>正版</td></tr><tr><td>3</td><td>百度网盘</td><td>正版</td></tr><tr><td>4</td><td>MS office</td><td>盗版</td></tr></tbody></table><ul><li><p><strong>可全屏编辑文章</strong></p></li><li><p><strong>支持代码高亮</strong><br><a href="https://emperinter.tk/2018/10/17/%e7%94%a8-c-%e5%92%8c%e6%a0%88%e5%ae%9e%e7%8e%b0%e6%95%b0%e5%88%b6%e8%bd%ac%e6%8d%a2%e5%92%8c%e8%bf%9b%e5%88%b6%e8%bd%ac%e6%8d%a2/" target="_blank" rel="noopener">我的文章示例</a><br><em>应该还可以加入什么代码高亮插件支持copy，之前有过，后来不小心删了就搞忘了</em><br><img src="https://res.cloudinary.com/dn6fdfasw/image/upload/v1544522348/2018-12-11_17-58-41_%E7%9A%84%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE.png" alt></p></li><li><p><strong>可使用tab键</strong><br>程序员常用</p></li><li><p><strong>添加图片方便</strong><br>插入图片只要网址即可，比如google一个图片,按格式 <strong>![图片地址]</strong> 即可;</p></li></ul><p>建议注册一个 <a href="cloudinary">cloudinary</a> 来存放自己的图片后，获取地址来添加的blog（可优化主机内存，加快访问速度）;<br>示例如下：<br><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Tor-logo-2011-flat.svg/1200px-Tor-logo-2011-flat.svg.png" alt></p><h4 id="更多功能和体验欢迎大家继续去探索和发现，如有什么值得高兴的欢迎和我交流！"><a href="#更多功能和体验欢迎大家继续去探索和发现，如有什么值得高兴的欢迎和我交流！" class="headerlink" title="更多功能和体验欢迎大家继续去探索和发现，如有什么值得高兴的欢迎和我交流！"></a>更多功能和体验欢迎大家继续去探索和发现，如有什么值得高兴的欢迎和我交流！</h4>]]></content>
     
     <summary type="html">
     
@@ -383,7 +409,7 @@
     <published>2019-01-22T22:06:06.000Z</published>
     <updated>2019-02-23T02:08:24.821Z</updated>
     
-    <content type="html"><![CDATA[<h2>缘由：</h2><p><strong>1.个人php版本过低（5.5）且有听说Wordpress不再支持php7.2以下版本；2.个人安装的是Centos6版本，之前安装一些功能不支持（Eg：V2ray）；</strong></p><h2>工具：</h2><ul><br><li>git + GIthub</li><br><li>phpMyAdmin</li><br></ul><h2>步骤：</h2><p><strong>1.数据库备份下载（phpMyAdmin）</strong><br>登陆个人服务器ip地址，进入phpMyadmin，登陆数据库。把整个数据库备份下来；</p><p><strong>2.网站整个文件夹备份</strong><br>登陆ssh进入vps，用<a href="https://emperinter.tk/?p=124">git命令行</a>把整个网站文件夹备份到GIthub里面。<br>现在Github私库不要钱了，如果不考虑隐私，倒是一个很好的“云盘”</p><a id="more"></a><p><strong>3.重新搭建wordpress需要的lnmp和php等等</strong><br>这个没什么说的，老样子;</p><p><strong>4.新数据库完全删除</strong><br>进入phpMyAdmin,删除自动安装的数据库；</p><p><strong>5.导入备份数据库（phpMyAdmin上传有50M以下限制)</strong></p><p><strong>6.网站文件夹下载</strong><br>登陆服务器，覆盖新安装的；</p><p>注意权限的重新赋予</p><pre><code>chmod -R 755 /home/wwwroot && chown -R www /home/wwwroot</code></pre><p><strong>7.wp-config 数据库信息更改（若新数据库的用户名等等更改了，未改则跳过）</strong></p><pre><code>vi /home/wwwroot/emperinter.tk/wp-config.php</code></pre><p>( 注意替换成自己的安装目录)</p><p><strong>8.DNS解析设置</strong></p><h1>坑</h1><h3>WordPress您当前正在编辑显示最新文章的页面</h3><p><img src="https://www.softwen.com/wp-content/uploads/image/20180921/1537541209565552.jpg" alt></p><h3>解决方法：</h3><p>1.进入phpMyAdmin</p><p>2.找到wp_posts(文章储存的地方）</p><p>3.点击结构</p><p>4.找到Id</p><p><img src="https://res.cloudinary.com/dn6fdfasw/image/upload/v1549035472/%E6%96%B0%E5%BB%BA%E4%BD%8D%E5%9B%BE%E5%9B%BE%E5%83%8F.bmp" alt></p><p>5.点击“更多”</p><p>6.点击“主键”</p><p>7.若提示失败则点击“修改”，后勾选”A_I”，点击保存，后返回再次点击“主键”；</p><p>8.若再次提示失败则单独导出wp_posts;</p><p>9.删除数据库里面的wp_posts;</p><p>10.重新导入wp_posts &amp; <strong>注意再次导入时取消勾选“不要给零值使用自增 (AUTO_INCREMENT)”</strong><br><img src="https://res.cloudinary.com/dn6fdfasw/image/upload/v1549036305/%E6%8D%95%E8%8E%B71.png" alt></p><p>11.再次重复步骤1-7即可；</p>]]></content>
+    <content type="html"><![CDATA[<h2>缘由：</h2><p><strong>1.个人php版本过低（5.5）且有听说Wordpress不再支持php7.2以下版本；2.个人安装的是Centos6版本，之前安装一些功能不支持（Eg：V2ray）；</strong></p><h2>工具：</h2><ul><br><li>git + GIthub</li><br><li>phpMyAdmin</li><br></ul><h2>步骤：</h2><p><strong>1.数据库备份下载（phpMyAdmin）</strong><br>登陆个人服务器ip地址，进入phpMyadmin，登陆数据库。把整个数据库备份下来；</p><p><strong>2.网站整个文件夹备份</strong><br>登陆ssh进入vps，用<a href="https://emperinter.tk/?p=124" target="_blank" rel="noopener">git命令行</a>把整个网站文件夹备份到GIthub里面。<br>现在Github私库不要钱了，如果不考虑隐私，倒是一个很好的“云盘”</p><a id="more"></a><p><strong>3.重新搭建wordpress需要的lnmp和php等等</strong><br>这个没什么说的，老样子;</p><p><strong>4.新数据库完全删除</strong><br>进入phpMyAdmin,删除自动安装的数据库；</p><p><strong>5.导入备份数据库（phpMyAdmin上传有50M以下限制)</strong></p><p><strong>6.网站文件夹下载</strong><br>登陆服务器，覆盖新安装的；</p><p>注意权限的重新赋予</p><pre><code>chmod -R 755 /home/wwwroot && chown -R www /home/wwwroot</code></pre><p><strong>7.wp-config 数据库信息更改（若新数据库的用户名等等更改了，未改则跳过）</strong></p><pre><code>vi /home/wwwroot/emperinter.tk/wp-config.php</code></pre><p>( 注意替换成自己的安装目录)</p><p><strong>8.DNS解析设置</strong></p><h1>坑</h1><h3>WordPress您当前正在编辑显示最新文章的页面</h3><p><img src="https://www.softwen.com/wp-content/uploads/image/20180921/1537541209565552.jpg" alt></p><h3>解决方法：</h3><p>1.进入phpMyAdmin</p><p>2.找到wp_posts(文章储存的地方）</p><p>3.点击结构</p><p>4.找到Id</p><p><img src="https://res.cloudinary.com/dn6fdfasw/image/upload/v1549035472/%E6%96%B0%E5%BB%BA%E4%BD%8D%E5%9B%BE%E5%9B%BE%E5%83%8F.bmp" alt></p><p>5.点击“更多”</p><p>6.点击“主键”</p><p>7.若提示失败则点击“修改”，后勾选”A_I”，点击保存，后返回再次点击“主键”；</p><p>8.若再次提示失败则单独导出wp_posts;</p><p>9.删除数据库里面的wp_posts;</p><p>10.重新导入wp_posts &amp; <strong>注意再次导入时取消勾选“不要给零值使用自增 (AUTO_INCREMENT)”</strong><br><img src="https://res.cloudinary.com/dn6fdfasw/image/upload/v1549036305/%E6%8D%95%E8%8E%B71.png" alt></p><p>11.再次重复步骤1-7即可；</p>]]></content>
     
     <summary type="html">
     
@@ -397,7 +423,7 @@
 &lt;h2&gt;步骤：&lt;/h2&gt;
 
 &lt;p&gt;&lt;strong&gt;1.数据库备份下载（phpMyAdmin）&lt;/strong&gt;&lt;br&gt;登陆个人服务器ip地址，进入phpMyadmin，登陆数据库。把整个数据库备份下来；&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;2.网站整个文件夹备份&lt;/strong&gt;&lt;br&gt;登陆ssh进入vps，用&lt;a href=&quot;https://emperinter.tk/?p=124&quot;&gt;git命令行&lt;/a&gt;把整个网站文件夹备份到GIthub里面。&lt;br&gt;现在Github私库不要钱了，如果不考虑隐私，倒是一个很好的“云盘”&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;2.网站整个文件夹备份&lt;/strong&gt;&lt;br&gt;登陆ssh进入vps，用&lt;a href=&quot;https://emperinter.tk/?p=124&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;git命令行&lt;/a&gt;把整个网站文件夹备份到GIthub里面。&lt;br&gt;现在Github私库不要钱了，如果不考虑隐私，倒是一个很好的“云盘”&lt;/p&gt;
     
     </summary>
     
@@ -496,32 +522,6 @@
     
       &lt;p&gt;如果允许他们追随当下快乐的刺激，他们很快就会演变成他们最害怕的痛苦的追随者；反过来如果令他们接受一些眼前不喜欢的，结果就会为他们带来所要的快乐。&lt;/p&gt;
 &lt;p&gt;没有湖水平静得可以毫无波纹,&lt;br&gt;没有圆圈可以那么圆而没有一点模糊不清。&lt;br&gt;如果我能够的话，我会为你改变一切；&lt;br&gt;因为我不能，你就必须照他们那样来接受它们。&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="闲杂" scheme="http://emperinter.github.io/categories/%E9%97%B2%E6%9D%82/"/>
-    
-    
-      <category term="读书笔记" scheme="http://emperinter.github.io/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>奢侈态度</title>
-    <link href="http://emperinter.github.io/2018/11/23/%E5%A5%A2%E4%BE%88%E6%80%81%E5%BA%A6/"/>
-    <id>http://emperinter.github.io/2018/11/23/奢侈态度/</id>
-    <published>2018-11-22T22:06:06.000Z</published>
-    <updated>2019-02-23T02:19:28.462Z</updated>
-    
-    <content type="html"><![CDATA[<p>一切手工技艺，皆由口传心授；</p><p>由俭入奢易，由奢入俭难；</p><p>放弃与否便是划分是否是奢侈品的一个界限；</p><p>1.我们需要控制速度，不能因发展过快而伤及我们的基本价值观—工艺精湛、材质优良和创意无限。过去我们就曾为保住核心价值观而抑制发展速度，如果你注重的是价值观，增长就不再是唯一的选项；<br>2.我们不跟同行比速度，我们要的是良性增长，而不是快速扩张；<br>                                                                            ———爱马仕：托马斯</p><p>上台靠机会，下台靠智慧；———官场名言</p><a id="more"></a><p>魔鬼都在细节里；</p><p>运通百夫卡———全球公认的富人身份象征</p><p>凡是口红大卖的年份，都是经济景气气度最差的年份————针对成熟市场才有意义（如中国市场并不成熟）；</p><p>中东人、巴林人、巴林投资</p><p>有人说这是阴谋，我们说，不，这是阳谋</p><p>YKK</p><p>瑞士莲</p><p>《全金属外壳》《断背山》———电影</p><p>全球最古老的家族企业榜  ———胡润</p>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;一切手工技艺，皆由口传心授；&lt;/p&gt;
-&lt;p&gt;由俭入奢易，由奢入俭难；&lt;/p&gt;
-&lt;p&gt;放弃与否便是划分是否是奢侈品的一个界限；&lt;/p&gt;
-&lt;p&gt;1.我们需要控制速度，不能因发展过快而伤及我们的基本价值观—工艺精湛、材质优良和创意无限。过去我们就曾为保住核心价值观而抑制发展速度，如果你注重的是价值观，增长就不再是唯一的选项；&lt;br&gt;2.我们不跟同行比速度，我们要的是良性增长，而不是快速扩张；&lt;br&gt;                                                                            ———爱马仕：托马斯&lt;/p&gt;
-&lt;p&gt;上台靠机会，下台靠智慧；———官场名言&lt;/p&gt;
     
     </summary>
     
